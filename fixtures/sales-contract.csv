@@ -1,0 +1,15 @@
+rule,column,value,extra
+name,*,sales-contract,
+min_score,*,95,
+max_parse_issues,*,0,
+max_quality_issues,*,0,
+min_rows,*,3,
+required,order_id,,
+required,region,,
+required,amount,,
+required,paid,,
+type,amount,float,required
+type,paid,boolean,required
+min,amount,0,
+allowed,region,east|west,required
+unique,order_id,,

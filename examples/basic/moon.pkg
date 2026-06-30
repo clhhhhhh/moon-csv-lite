@@ -1,0 +1,7 @@
+import {
+  "clhhhhhh/moon-csv-lite" @csv,
+}
+
+options(
+  "is-main": true,
+)

@@ -1,0 +1,4 @@
+name,age,active,city
+Alice,18,true,Shenzhen
+Bob,,false,Shanghai
+Cara,22,true,

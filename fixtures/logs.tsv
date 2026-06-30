@@ -1,0 +1,4 @@
+timestamp	level	status	latency_ms
+2026-06-26T09:00:00Z	INFO	ok	12
+2026-06-26T09:01:00Z	WARN	retry	45
+2026-06-26T09:02:00Z	INFO	ok	9

@@ -1,0 +1,8 @@
+import {
+  "clhhhhhh/moon-csv-lite" @csv,
+  "moonbitlang/core/string",
+}
+
+options(
+  "is-main": true,
+)

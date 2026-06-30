@@ -1,0 +1,4 @@
+order_id;region;amount;paid
+SO-1001;east;120.5;true
+SO-1002;west;88.0;false
+SO-1003;east;130.0;true
