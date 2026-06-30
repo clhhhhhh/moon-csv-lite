@@ -1,9 +1,10 @@
 $ErrorActionPreference = "Stop"
 
 $root = Resolve-Path (Join-Path $PSScriptRoot "..")
-$source = Join-Path $root "_build\js\debug\build\web\web.js"
-$target = Join-Path $root "playground\moon-csv-lite-engine.js"
-$oldTargetMap = Join-Path $root "playground\moon-csv-lite-engine.js.map"
+$source = Join-Path (Join-Path (Join-Path (Join-Path (Join-Path $root "_build") "js") "debug") "build") "web"
+$source = Join-Path $source "web.js"
+$target = Join-Path (Join-Path $root "playground") "moon-csv-lite-engine.js"
+$oldTargetMap = Join-Path (Join-Path $root "playground") "moon-csv-lite-engine.js.map"
 
 Push-Location $root
 try {

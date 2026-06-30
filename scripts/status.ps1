@@ -1,13 +1,10 @@
 $ErrorActionPreference = "Stop"
 
-$root = Resolve-Path (Join-Path $PSScriptRoot "..")
+. (Join-Path $PSScriptRoot "common.ps1")
+Add-MoonBinToPath
 
-$moonPath = Join-Path $env:USERPROFILE ".moon\bin"
-if (Test-Path $moonPath) {
-  $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" +
-    [Environment]::GetEnvironmentVariable("Path", "User") + ";" +
-    $moonPath
-}
+$root = Resolve-Path (Join-Path $PSScriptRoot "..")
+$scriptsDir = Join-Path $root "scripts"
 
 function Invoke-Capture {
   param(
@@ -28,7 +25,7 @@ try {
   Write-Host ""
 
   $mbtFiles = Get-ChildItem -Recurse -File -Include *.mbt |
-    Where-Object { $_.FullName -notmatch "\\_build\\" }
+    Where-Object { $_.FullName -notmatch "[/\\]_build[/\\]" }
   $mbtLines = ($mbtFiles | ForEach-Object {
       (Get-Content -LiteralPath $_.FullName | Measure-Object -Line).Lines
     } | Measure-Object -Sum).Sum
@@ -40,7 +37,7 @@ try {
   Write-Host ""
   Invoke-Capture "moon test" { moon test }
   Write-Host ""
-  Invoke-Capture "fixture smoke tests" { .\scripts\test-fixtures.ps1 }
+  Invoke-Capture "fixture smoke tests" { & (Join-Path $scriptsDir "test-fixtures.ps1") }
   Write-Host ""
 
   Write-Host "==> mooncakes account"

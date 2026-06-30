@@ -1,13 +1,11 @@
 $ErrorActionPreference = "Stop"
 
-$root = Resolve-Path (Join-Path $PSScriptRoot "..")
+. (Join-Path $PSScriptRoot "common.ps1")
+Add-MoonBinToPath
 
-$moonPath = Join-Path $env:USERPROFILE ".moon\bin"
-if (Test-Path $moonPath) {
-  $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" +
-    [Environment]::GetEnvironmentVariable("Path", "User") + ";" +
-    $moonPath
-}
+$root = Resolve-Path (Join-Path $PSScriptRoot "..")
+$scriptsDir = Join-Path $root "scripts"
+$fixturesDir = Join-Path $root "fixtures"
 
 function Write-Title {
   param([Parameter(Mandatory = $true)][string] $Text)
@@ -55,7 +53,7 @@ try {
   }
 
   Invoke-DemoStep "Audit a CSV file path" {
-    .\scripts\audit-file.ps1 .\fixtures\quality-issues.csv
+    & (Join-Path $scriptsDir "audit-file.ps1") (Join-Path $fixturesDir "quality-issues.csv")
   }
 
   Invoke-DemoStep "Dialect detection" {
@@ -67,7 +65,7 @@ try {
   }
 
   Invoke-DemoStep "Fixture smoke tests" {
-    .\scripts\test-fixtures.ps1
+    & (Join-Path $scriptsDir "test-fixtures.ps1")
   }
 
   Write-Title "demo complete"

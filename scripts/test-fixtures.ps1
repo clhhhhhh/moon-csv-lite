@@ -1,13 +1,10 @@
 $ErrorActionPreference = "Stop"
 
-$root = Resolve-Path (Join-Path $PSScriptRoot "..")
+. (Join-Path $PSScriptRoot "common.ps1")
+Add-MoonBinToPath
 
-$moonPath = Join-Path $env:USERPROFILE ".moon\bin"
-if (Test-Path $moonPath) {
-  $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" +
-    [Environment]::GetEnvironmentVariable("Path", "User") + ";" +
-    $moonPath
-}
+$root = Resolve-Path (Join-Path $PSScriptRoot "..")
+$scriptsDir = Join-Path $root "scripts"
 
 function Read-Fixture {
   param([Parameter(Mandatory = $true)][string] $Name)
@@ -175,7 +172,7 @@ try {
 
   Invoke-FixtureStep "file audit wrapper" {
     $fixturePath = Join-Path (Join-Path $root "fixtures") "quality-issues.csv"
-    $output = & .\scripts\audit-file.ps1 $fixturePath 2>&1 | Out-String
+    $output = & (Join-Path $scriptsDir "audit-file.ps1") $fixturePath 2>&1 | Out-String
     if ($LASTEXITCODE -ne 0) {
       throw "file audit wrapper failed with exit code $LASTEXITCODE`n$output"
     }
@@ -190,7 +187,7 @@ try {
       $rows.Add("$i,$($i * 1.5),true")
     }
     [System.IO.File]::WriteAllLines($tempPath, $rows)
-    $output = & .\scripts\audit-file.ps1 $tempPath -MaxRows 3 -MaxChars 1000 2>&1 |
+    $output = & (Join-Path $scriptsDir "audit-file.ps1") $tempPath -MaxRows 3 -MaxChars 1000 2>&1 |
       Out-String
     if ($LASTEXITCODE -ne 0) {
       throw "sampled file audit wrapper failed with exit code $LASTEXITCODE`n$output"

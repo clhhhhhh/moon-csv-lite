@@ -1,11 +1,11 @@
 $ErrorActionPreference = "Stop"
 
-$moonPath = Join-Path $env:USERPROFILE ".moon\bin"
-if (Test-Path $moonPath) {
-  $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" +
-    [Environment]::GetEnvironmentVariable("Path", "User") + ";" +
-    $moonPath
-}
+. (Join-Path $PSScriptRoot "common.ps1")
+Add-MoonBinToPath
+
+$root = Resolve-Path (Join-Path $PSScriptRoot "..")
+$scriptsDir = Join-Path $root "scripts"
+$fixturesDir = Join-Path $root "fixtures"
 
 function Invoke-Step {
   param(
@@ -51,9 +51,11 @@ Invoke-Step "csvlite data passport json CLI" { moon run cmd/csvlite -- passport-
 Invoke-Step "csvlite markdown CLI" { moon run cmd/csvlite -- markdown "name,age\nAlice,18" }
 Invoke-Step "csvlite group-sum CLI" { moon run cmd/csvlite -- group-sum "team,score\nA,10\nB,20\nA,15" team score }
 Invoke-Step "csvlite check CLI" { moon run cmd/csvlite -- check "name,age\nAlice,18,extra" }
-Invoke-Step "csvlite file audit wrapper" { .\scripts\audit-file.ps1 .\fixtures\quality-issues.csv }
-Invoke-Step "fixture smoke tests" { .\scripts\test-fixtures.ps1 }
-Invoke-Step "generate example reports" { .\scripts\generate-example-reports.ps1 }
-Invoke-Step "build playground moonbit engine" { .\scripts\build-playground-engine.ps1 }
-Invoke-Step "playground check" { .\scripts\check-playground.ps1 }
+Invoke-Step "csvlite file audit wrapper" {
+  & (Join-Path $scriptsDir "audit-file.ps1") (Join-Path $fixturesDir "quality-issues.csv")
+}
+Invoke-Step "fixture smoke tests" { & (Join-Path $scriptsDir "test-fixtures.ps1") }
+Invoke-Step "generate example reports" { & (Join-Path $scriptsDir "generate-example-reports.ps1") }
+Invoke-Step "build playground moonbit engine" { & (Join-Path $scriptsDir "build-playground-engine.ps1") }
+Invoke-Step "playground check" { & (Join-Path $scriptsDir "check-playground.ps1") }
 Invoke-Step "package list" { moon package --list }

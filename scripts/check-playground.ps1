@@ -1,12 +1,13 @@
 $ErrorActionPreference = "Stop"
 
 $root = Resolve-Path (Join-Path $PSScriptRoot "..")
-$pagePath = (Resolve-Path (Join-Path $root "playground\index.html")).Path
-$enginePath = Join-Path $root "playground\moon-csv-lite-engine.js"
+$playgroundDir = Join-Path $root "playground"
+$pagePath = (Resolve-Path (Join-Path $playgroundDir "index.html")).Path
+$enginePath = Join-Path $playgroundDir "moon-csv-lite-engine.js"
 $page = [System.Uri]::new($pagePath).AbsoluteUri + "?sample=quality"
 
 if (-not (Test-Path $enginePath)) {
-  throw "MoonBit playground engine bundle is missing; run scripts\build-playground-engine.ps1"
+  throw "MoonBit playground engine bundle is missing; run scripts/build-playground-engine.ps1"
 }
 
 $engineText = Get-Content -LiteralPath $enginePath -Raw -Encoding UTF8

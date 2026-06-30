@@ -14,16 +14,12 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+. (Join-Path $PSScriptRoot "common.ps1")
+Add-MoonBinToPath
+
 $root = Resolve-Path (Join-Path $PSScriptRoot "..")
 $csvPath = Resolve-Path -LiteralPath $Path
 $csvItem = Get-Item -LiteralPath $csvPath
-
-$moonPath = Join-Path $env:USERPROFILE ".moon\bin"
-if (Test-Path $moonPath) {
-  $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" +
-    [Environment]::GetEnvironmentVariable("Path", "User") + ";" +
-    $moonPath
-}
 
 function ConvertTo-CsvArgument {
   param([Parameter(Mandatory = $true)][string] $Content)

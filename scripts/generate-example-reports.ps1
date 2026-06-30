@@ -1,14 +1,10 @@
 $ErrorActionPreference = "Stop"
 
-$root = Resolve-Path (Join-Path $PSScriptRoot "..")
-$examplesDir = Join-Path $root "docs\examples"
+. (Join-Path $PSScriptRoot "common.ps1")
+Add-MoonBinToPath
 
-$moonPath = Join-Path $env:USERPROFILE ".moon\bin"
-if (Test-Path $moonPath) {
-  $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" +
-    [Environment]::GetEnvironmentVariable("Path", "User") + ";" +
-    $moonPath
-}
+$root = Resolve-Path (Join-Path $PSScriptRoot "..")
+$examplesDir = Join-Path (Join-Path $root "docs") "examples"
 
 function Read-Fixture {
   param([Parameter(Mandatory = $true)][string] $Name)
