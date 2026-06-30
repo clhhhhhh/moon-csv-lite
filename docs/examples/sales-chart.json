@@ -1,0 +1,1 @@
+{"kind":"bar","title":"sum of amount by region","label_column":"region","value_column":"amount","measure":"sum","skipped_rows":0,"points":[{"label":"east","value":250.5,"count":2},{"label":"west","value":88,"count":1}],"warnings":[]}

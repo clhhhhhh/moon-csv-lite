@@ -1,0 +1,15 @@
+rule,column,value,extra
+name,*,inferred-contract,
+min_score,*,100,
+max_parse_issues,*,0,
+max_quality_issues,*,0,
+min_rows,*,3,
+required,order_id,,
+type,order_id,text,required
+required,region,,
+type,region,text,required
+required,amount,,
+type,amount,float,required
+required,paid,,
+type,paid,boolean,required
+unique,order_id,,
