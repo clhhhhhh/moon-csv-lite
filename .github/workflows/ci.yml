@@ -1,0 +1,110 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install MoonBit
+        run: |
+          curl -fsSL https://cli.moonbitlang.com/install/unix.sh | bash
+          echo "$HOME/.moon/bin" >> "$GITHUB_PATH"
+
+      - name: Show MoonBit version
+        run: moon version
+
+      - name: Format check
+        run: moon fmt --check
+
+      - name: Check
+        run: moon check
+
+      - name: Test
+        run: moon test
+
+      - name: Run main demo
+        run: moon run cmd/main
+
+      - name: Run basic example
+        run: moon run examples/basic
+
+      - name: Run data audit example
+        run: moon run examples/data-audit
+
+      - name: Run quality report example
+        run: moon run examples/quality-report
+
+      - name: Run RF measurement example
+        run: moon run examples/rf-measurement
+
+      - name: Run csvlite audit CLI
+        run: moon run cmd/csvlite -- audit "name,age\nAlice,18\nBob,"
+
+      - name: Run csvlite audit HTML CLI
+        run: moon run cmd/csvlite -- audit-html "name,age\nAlice,18"
+
+      - name: Run csvlite audit JSON CLI
+        run: moon run cmd/csvlite -- audit-json "name,age\nAlice,18\nBob,"
+
+      - name: Run csvlite sniff CLI
+        run: moon run cmd/csvlite -- sniff "name;age\nAlice;18"
+
+      - name: Run csvlite schema CLI
+        run: moon run cmd/csvlite -- schema "name,age\nAlice,18\nBob,20"
+
+      - name: Run csvlite score CLI
+        run: moon run cmd/csvlite -- score "name,age\nAlice,18\nBob,"
+
+      - name: Run csvlite drift CLI
+        run: moon run cmd/csvlite -- drift "name,age\nAlice,18\nBob,20" "name,age\nAlice,18\nBob,"
+
+      - name: Run csvlite drift JSON CLI
+        run: moon run cmd/csvlite -- drift-json "name,age\nAlice,18\nBob,20" "name,age\nAlice,18\nBob,"
+
+      - name: Run csvlite gate CLI
+        run: moon run cmd/csvlite -- gate "name,age\nAlice,18\nBob,20" "name,age\nAlice,18\nBob,"
+
+      - name: Run csvlite gate JSON CLI
+        run: moon run cmd/csvlite -- gate-json "name,age\nAlice,18\nBob,20" "name,age\nAlice,18\nBob,"
+
+      - name: Run csvlite data passport CLI
+        run: moon run cmd/csvlite -- passport "id,amount,paid\nA,10,true\nB,20,false" release-dataset
+
+      - name: Run csvlite data passport JSON CLI
+        run: moon run cmd/csvlite -- passport-json "id,amount,paid\nA,10,true\nB,20,false" release-dataset
+
+      - name: Run csvlite markdown CLI
+        run: moon run cmd/csvlite -- markdown "name,age\nAlice,18"
+
+      - name: Run csvlite group-sum CLI
+        run: moon run cmd/csvlite -- group-sum "team,score\nA,10\nB,20\nA,15" team score
+
+      - name: Run csvlite check CLI
+        run: moon run cmd/csvlite -- check "name,age\nAlice,18,extra"
+
+      - name: Run fixture smoke tests
+        shell: pwsh
+        run: ./scripts/test-fixtures.ps1
+
+      - name: Generate example reports
+        shell: pwsh
+        run: ./scripts/generate-example-reports.ps1
+
+      - name: Build MoonBit playground engine
+        shell: pwsh
+        run: ./scripts/build-playground-engine.ps1
+
+      - name: Run playground smoke test
+        shell: pwsh
+        run: ./scripts/check-playground.ps1
+
+      - name: Package list
+        run: moon package --list
