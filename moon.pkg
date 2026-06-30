@@ -1,0 +1,7 @@
+import {
+  "moonbitlang/core/string",
+}
+
+import {
+  "clhhhhhh/moon-csv-lite" @csv,
+} for "test"
