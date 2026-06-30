@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>moon-csv-lite 数据审计工作台</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">moon-csv-lite 可视化工具</p>
+        <h1>CSV 数据审计工作台</h1>
+      </div>
+      <div class="topbar-actions">
+        <div id="engine-status" class="engine-status" aria-live="polite">MoonBit 引擎加载中</div>
+        <button id="copy-json" class="icon-button" type="button" title="复制 JSON 报告" aria-label="复制 JSON 报告">
+          <span aria-hidden="true">JSON</span>
+        </button>
+        <button id="download-html" class="icon-button" type="button" title="下载 HTML 报告" aria-label="下载 HTML 报告">
+          <span aria-hidden="true">HTML</span>
+        </button>
+        <button id="download-chart-html" class="icon-button" type="button" title="下载图表 HTML" aria-label="下载图表 HTML">
+          <span aria-hidden="true">图表</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="input-pane" aria-labelledby="input-title">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">输入数据</p>
+            <h2 id="input-title">CSV 文本</h2>
+          </div>
+          <button id="run-audit" class="primary-button" type="button">运行审计</button>
+        </div>
+
+        <div class="sample-row" aria-label="示例数据">
+          <button type="button" class="sample-button active" data-sample="quality">质量问题</button>
+          <button type="button" class="sample-button" data-sample="sales">分号销售表</button>
+          <button type="button" class="sample-button" data-sample="logs">TSV 日志</button>
+          <button type="button" class="sample-button" data-sample="clean">干净 CSV</button>
+        </div>
+
+        <div class="upload-zone">
+          <label class="file-button" for="csv-file">上传 CSV 文件</label>
+          <input id="csv-file" class="file-input" type="file" accept=".csv,.tsv,.txt,text/csv,text/tab-separated-values,text/plain">
+          <div id="file-status" class="file-status" aria-live="polite">尚未上传文件</div>
+        </div>
+
+        <textarea id="csv-input" spellcheck="false" aria-label="CSV 文本输入"></textarea>
+
+        <div class="input-footer">
+          <div id="input-stats" class="muted"></div>
+          <div class="hint">支持 CSV、TSV、分号或竖线分隔文本。</div>
+        </div>
+      </section>
+
+      <section class="results-pane" aria-label="审计结果">
+        <div class="summary-grid" id="summary-grid"></div>
+
+        <section class="panel score-panel" aria-labelledby="score-title">
+          <div class="panel-title">
+            <h2 id="score-title">质量评分</h2>
+            <span id="score-grade" class="count-pill">A</span>
+          </div>
+          <div id="score-body" class="score-body"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="quality-title">
+          <div class="panel-title">
+            <h2 id="quality-title">质量问题</h2>
+            <span id="quality-count" class="count-pill">0</span>
+          </div>
+          <div id="quality-list" class="issue-list"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="schema-title">
+          <div class="panel-title">
+            <h2 id="schema-title">推断 Schema</h2>
+            <span id="schema-count" class="count-pill">0</span>
+          </div>
+          <div class="table-scroll">
+            <table id="schema-table"></table>
+          </div>
+        </section>
+
+        <section class="split-panels">
+          <section class="panel" aria-labelledby="missing-title">
+            <div class="panel-title">
+              <h2 id="missing-title">缺失值</h2>
+            </div>
+            <div id="missing-bars" class="bar-list"></div>
+          </section>
+
+          <section class="panel" aria-labelledby="profile-title">
+            <div class="panel-title">
+              <h2 id="profile-title">列画像</h2>
+            </div>
+            <div id="profile-bars" class="bar-list"></div>
+          </section>
+        </section>
+
+        <section class="panel chart-panel" aria-labelledby="chart-title">
+          <div class="panel-title">
+            <h2 id="chart-title">图表预览</h2>
+            <div class="segmented-control" aria-label="图表类型">
+              <button type="button" class="chart-kind-button active" data-chart-kind="bar">柱状</button>
+              <button type="button" class="chart-kind-button" data-chart-kind="line">折线</button>
+              <button type="button" class="chart-kind-button" data-chart-kind="pie">占比</button>
+            </div>
+          </div>
+          <div id="chart-meta" class="item-meta"></div>
+          <div id="chart-svg-output" class="chart-stage" aria-live="polite"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="recommend-title">
+          <div class="panel-title">
+            <h2 id="recommend-title">处理建议</h2>
+          </div>
+          <div id="recommendations" class="recommend-list"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="preview-title">
+          <div class="panel-title">
+            <h2 id="preview-title">数据预览</h2>
+          </div>
+          <div class="table-scroll">
+            <table id="preview-table"></table>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="json-title">
+          <div class="panel-title">
+            <h2 id="json-title">JSON 报告</h2>
+          </div>
+          <pre id="json-output"></pre>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="./moon-csv-lite-engine.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

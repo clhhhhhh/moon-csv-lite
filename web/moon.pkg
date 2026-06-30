@@ -1,0 +1,28 @@
+import {
+  "clhhhhhh/moon-csv-lite" @csv,
+}
+
+options(
+  link: {
+    "js": {
+      "exports": [
+        "engine_name:engineName",
+        "audit_csv_json:auditCsvJson",
+        "audit_csv_html:auditCsvHtml",
+        "csv_data_passport_markdown:csvDataPassportMarkdown",
+        "csv_data_passport_json:csvDataPassportJson",
+        "audit_drift_json:auditDriftJson",
+        "audit_drift_markdown:auditDriftMarkdown",
+        "audit_quality_gate_json:auditQualityGateJson",
+        "audit_quality_gate_markdown:auditQualityGateMarkdown",
+        "quality_contract_infer_csv:qualityContractInferCsv",
+        "audit_quality_contract_json:auditQualityContractJson",
+        "audit_quality_contract_markdown:auditQualityContractMarkdown",
+        "chart_csv_json:chartCsvJson",
+        "chart_csv_svg:chartCsvSvg",
+        "chart_csv_html:chartCsvHtml",
+      ],
+      "format": "iife",
+    },
+  },
+)
