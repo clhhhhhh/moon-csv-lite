@@ -3,5 +3,5 @@ import {
 }
 
 import {
-  "clhhhhhh/moon-csv-lite" @csv,
+  "clhhhhh/moon-csv-lite" @csv,
 } for "test"

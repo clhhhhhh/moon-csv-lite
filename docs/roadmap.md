@@ -21,8 +21,8 @@ signals.
   stable identity, schema, quality score, and recommendation summary.
 - Keep GitHub Actions aligned with the full local verification workflow,
   including examples, CLI smoke tests, and fixture smoke tests.
-- Publish to mooncakes.io after account login is available, then add the package
-  URL to README and the application material.
+- Keep the mooncakes.io package page, README, and application material aligned
+  for each release.
 
 ## Middle Term
 

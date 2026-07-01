@@ -187,12 +187,12 @@
     this._0 = param0;
   }
   _M0DTPC16option6OptionGdE4Some.prototype.$tag = 1;
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(param0, param1, param2) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(param0, param1, param2) {
     this.row = param0;
     this.column = param1;
     this.message = param2;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvDuplicateKeyError(param0, param1, param2) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvDuplicateKeyError(param0, param1, param2) {
     this.first_row = param0;
     this.duplicate_row = param1;
     this.key = param2;
@@ -206,7 +206,7 @@
   function _M0TPB8MutLocalGOdE(param0) {
     this.val = param0;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite13ColumnProfile(param0, param1, param2, param3, param4, param5, param6, param7, param8) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite13ColumnProfile(param0, param1, param2, param3, param4, param5, param6, param7, param8) {
     this.name = param0;
     this.total = param1;
     this.empty = param2;
@@ -217,7 +217,7 @@
     this.max = param7;
     this.average = param8;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite21CsvInferredColumnRule(param0, param1, param2, param3, param4, param5, param6) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite21CsvInferredColumnRule(param0, param1, param2, param3, param4, param5, param6) {
     this.name = param0;
     this.kind = param1;
     this.required = param2;
@@ -229,19 +229,19 @@
   function _M0TPB8MutLocalGRPB5ArrayGsEE(param0) {
     this.val = param0;
   }
-  function _M0TPB8MutLocalGRP28clhhhhhh17moon_2dcsv_2dlite10ParseStateE(param0) {
+  function _M0TPB8MutLocalGRP27clhhhhh17moon_2dcsv_2dlite10ParseStateE(param0) {
     this.val = param0;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite8CsvTable(param0, param1) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite8CsvTable(param0, param1) {
     this.headers = param0;
     this.rows = param1;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite10CsvDialect(param0, param1, param2) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite10CsvDialect(param0, param1, param2) {
     this.delimiter = param0;
     this.newline = param1;
     this.skip_empty_lines = param2;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvDialectCandidate(param0, param1, param2, param3, param4, param5, param6) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvDialectCandidate(param0, param1, param2, param3, param4, param5, param6) {
     this.name = param0;
     this.delimiter = param1;
     this.rows = param2;
@@ -250,10 +250,10 @@
     this.empty_cells = param5;
     this.score = param6;
   }
-  function _M0TPB8MutLocalGRP28clhhhhhh17moon_2dcsv_2dlite19CsvDialectCandidateE(param0) {
+  function _M0TPB8MutLocalGRP27clhhhhh17moon_2dcsv_2dlite19CsvDialectCandidateE(param0) {
     this.val = param0;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite21CsvQualityGateOptions(param0, param1, param2, param3, param4, param5, param6) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite21CsvQualityGateOptions(param0, param1, param2, param3, param4, param5, param6) {
     this.min_score = param0;
     this.max_score_drop = param1;
     this.max_quality_issues = param2;
@@ -262,26 +262,26 @@
     this.allow_type_changes = param5;
     this.allow_missing_increase = param6;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue(param0, param1, param2, param3) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue(param0, param1, param2, param3) {
     this.severity = param0;
     this.row = param1;
     this.column = param2;
     this.message = param3;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvParseError(param0, param1, param2) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvParseError(param0, param1, param2) {
     this.message = param0;
     this.line = param1;
     this.column = param2;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite14CsvParseReport(param0, param1) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite14CsvParseReport(param0, param1) {
     this.rows = param0;
     this.issues = param1;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvTableParseReport(param0, param1) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvTableParseReport(param0, param1) {
     this.table = param0;
     this.issues = param1;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite14CsvAuditReport(param0, param1, param2, param3, param4, param5, param6) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite14CsvAuditReport(param0, param1, param2, param3, param4, param5, param6) {
     this.dialect = param0;
     this.table = param1;
     this.parse_issues = param2;
@@ -290,7 +290,7 @@
     this.missing_summary = param5;
     this.profiles = param6;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvAuditScore(param0, param1, param2, param3, param4, param5, param6, param7, param8, param9) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvAuditScore(param0, param1, param2, param3, param4, param5, param6, param7, param8, param9) {
     this.score = param0;
     this.grade = param1;
     this.risk = param2;
@@ -302,13 +302,13 @@
     this.missing_cells = param8;
     this.total_cells = param9;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue(param0, param1, param2, param3) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue(param0, param1, param2, param3) {
     this.severity = param0;
     this.category = param1;
     this.column = param2;
     this.message = param3;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite14CsvDriftReport(param0, param1, param2, param3, param4, param5, param6, param7) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite14CsvDriftReport(param0, param1, param2, param3, param4, param5, param6, param7) {
     this.baseline = param0;
     this.candidate = param1;
     this.baseline_score = param2;
@@ -318,13 +318,13 @@
     this.column_delta = param6;
     this.issues = param7;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue(param0, param1, param2, param3) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue(param0, param1, param2, param3) {
     this.severity = param0;
     this.rule = param1;
     this.column = param2;
     this.message = param3;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvQualityGateReport(param0, param1, param2, param3) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvQualityGateReport(param0, param1, param2, param3) {
     this.passed = param0;
     this.options = param1;
     this.drift = param2;
@@ -333,24 +333,24 @@
   function _M0TPB8MutLocalGsE(param0) {
     this.val = param0;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvColumnRule(param0, param1, param2) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvColumnRule(param0, param1, param2) {
     this.name = param0;
     this.kind = param1;
     this.required = param2;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite21CsvContractNumberRule(param0, param1) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite21CsvContractNumberRule(param0, param1) {
     this.column = param0;
     this.value = param1;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite28CsvContractAllowedValuesRule(param0, param1, param2) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite28CsvContractAllowedValuesRule(param0, param1, param2) {
     this.column = param0;
     this.allowed = param1;
     this.required = param2;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRule(param0) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRule(param0) {
     this.columns = param0;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvQualityContract(param0, param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvQualityContract(param0, param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11) {
     this.name = param0;
     this.min_score = param1;
     this.max_parse_issues = param2;
@@ -364,25 +364,25 @@
     this.allowed_values_rules = param10;
     this.unique_key_rules = param11;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite16CsvContractIssue(param0, param1, param2, param3, param4) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite16CsvContractIssue(param0, param1, param2, param3, param4) {
     this.severity = param0;
     this.rule = param1;
     this.row = param2;
     this.column = param3;
     this.message = param4;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite17CsvContractReport(param0, param1, param2, param3, param4) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite17CsvContractReport(param0, param1, param2, param3, param4) {
     this.passed = param0;
     this.contract = param1;
     this.audit = param2;
     this.score = param3;
     this.issues = param4;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation(param0, param1) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation(param0, param1) {
     this.severity = param0;
     this.message = param1;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite15CsvDataPassport(param0, param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12, param13, param14, param15, param16, param17) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite15CsvDataPassport(param0, param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12, param13, param14, param15, param16, param17) {
     this.name = param0;
     this.fingerprint = param1;
     this.dialect = param2;
@@ -402,12 +402,12 @@
     this.schema = param16;
     this.recommendations = param17;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvChartPoint(param0, param1, param2) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvChartPoint(param0, param1, param2) {
     this.label = param0;
     this.value = param1;
     this.count = param2;
   }
-  function _M0TP28clhhhhhh17moon_2dcsv_2dlite12CsvChartSpec(param0, param1, param2, param3, param4, param5, param6, param7) {
+  function _M0TP27clhhhhh17moon_2dcsv_2dlite12CsvChartSpec(param0, param1, param2, param3, param4, param5, param6, param7) {
     this.kind = param0;
     this.title = param1;
     this.label_column = param2;
@@ -579,8 +579,8 @@
   function _M0IP016_24default__implPB2Eq10not__equalGsE(x, y) {
     return !(x === y);
   }
-  function _M0IP016_24default__implPB2Eq10not__equalGRP28clhhhhhh17moon_2dcsv_2dlite13CsvColumnTypeE(x, y) {
-    return !_M0IP28clhhhhhh17moon_2dcsv_2dlite13CsvColumnTypePB2Eq5equal(x, y);
+  function _M0IP016_24default__implPB2Eq10not__equalGRP27clhhhhh17moon_2dcsv_2dlite13CsvColumnTypeE(x, y) {
+    return !_M0IP27clhhhhh17moon_2dcsv_2dlite13CsvColumnTypePB2Eq5equal(x, y);
   }
   function _M0IP016_24default__implPB2Eq10not__equalGRPC16string10StringViewE(x, y) {
     return !_M0IPC16string10StringViewPB2Eq5equal(x, y);
@@ -1000,7 +1000,7 @@
   function _M0MPC16string6String8find__by(self, pred) {
     return _M0MPC16string10StringView8find__by(new _M0TPC16string10StringView(self, 0, self.length), pred);
   }
-  function _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(capacity) {
+  function _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(capacity) {
     return [];
   }
   function _M0MPC15array5Array11new_2einnerGcE(capacity) {
@@ -1015,7 +1015,7 @@
   function _M0MPC15array5Array11new_2einnerGiE(capacity) {
     return [];
   }
-  function _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(self, value) {
+  function _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(self, value) {
     _M0MPB7JSArray4push(self, value);
   }
   function _M0MPC15array5Array4pushGcE(self, value) {
@@ -1190,7 +1190,7 @@
   function _M0IPC16double6DoublePB4Show10to__string(self) {
     return String(self);
   }
-  function _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(self, index) {
+  function _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(self, index) {
     const len = self.length;
     if (index >= 0 && index < len) {
       $bound_check(self, index);
@@ -3496,7 +3496,7 @@
       return _M0FPC28internal7strconv11syntax__errGdE();
     }
   }
-  function _M0IP28clhhhhhh17moon_2dcsv_2dlite13CsvColumnTypePB2Eq5equal(_x_1535, _x_1536) {
+  function _M0IP27clhhhhh17moon_2dcsv_2dlite13CsvColumnTypePB2Eq5equal(_x_1535, _x_1536) {
     switch (_x_1535) {
       case 0: {
         if (_x_1536 === 0) {
@@ -3528,14 +3528,14 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__column__index(headers, column) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__column__index(headers, column) {
     const _bind = 0;
     const _bind$2 = headers.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, i) === column) {
+        if (_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, i) === column) {
           return i;
         }
         _tmp = i + 1 | 0;
@@ -3546,17 +3546,17 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27validate__required__columns(table, columns) {
-    const errors = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27validate__required__columns(table, columns) {
+    const errors = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = columns.length;
     let _tmp = 0;
     while (true) {
       const _ = _tmp;
       if (_ < _bind) {
         const column = columns[_];
-        const _bind$2 = _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
+        const _bind$2 = _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
         if (_bind$2 === undefined) {
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, column, "missing required column"));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, column, "missing required column"));
         }
         _tmp = _ + 1 | 0;
         continue;
@@ -3566,10 +3566,10 @@
     }
     return errors;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16schema__cell__at(row, index) {
-    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16schema__cell__at(row, index) {
+    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__parse__double(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__parse__double(value) {
     let _try_err;
     _L: {
       const _bind = _M0FPC28internal7strconv13parse__double(new _M0TPC16string10StringView(value, 0, value.length));
@@ -3587,12 +3587,12 @@
     }
     return _M0DTPC16option6OptionGdE4None__;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21validate__min__number(table, column, minimum) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21validate__min__number(table, column, minimum) {
     let index;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
       if (_bind === undefined) {
-        return [new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, column, "missing column")];
+        return [new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, column, "missing column")];
       } else {
         const _Some = _bind;
         const _index = _Some;
@@ -3600,19 +3600,19 @@
         break _L;
       }
     }
-    const errors = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const errors = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = 0;
     const _bind$2 = table.rows.length;
     let _tmp = _bind;
     while (true) {
       const row_index = _tmp;
       if (row_index < _bind$2) {
-        const value = _M0FP28clhhhhhh17moon_2dcsv_2dlite16schema__cell__at(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), index);
+        const value = _M0FP27clhhhhh17moon_2dcsv_2dlite16schema__cell__at(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), index);
         if (!_M0MPC16string6String9is__empty(value)) {
           let number;
           _L$2: {
             _L$3: {
-              const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__parse__double(value);
+              const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__parse__double(value);
               if (_bind$3.$tag === 1) {
                 const _Some = _bind$3;
                 const _number = _Some._0;
@@ -3623,7 +3623,7 @@
                 const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(21);
                 _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "expected number, got ");
                 _M0MPB13StringBuilder13write__objectGsE(_string_builder, value);
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
               }
               break _L$2;
             }
@@ -3634,7 +3634,7 @@
               _M0MPB13StringBuilder13write__objectGdE(_string_builder, minimum);
               _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ", got ");
               _M0MPB13StringBuilder13write__objectGsE(_string_builder, value);
-              _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
+              _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
             }
           }
         }
@@ -3646,12 +3646,12 @@
     }
     return errors;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21validate__max__number(table, column, maximum) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21validate__max__number(table, column, maximum) {
     let index;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
       if (_bind === undefined) {
-        return [new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, column, "missing column")];
+        return [new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, column, "missing column")];
       } else {
         const _Some = _bind;
         const _index = _Some;
@@ -3659,19 +3659,19 @@
         break _L;
       }
     }
-    const errors = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const errors = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = 0;
     const _bind$2 = table.rows.length;
     let _tmp = _bind;
     while (true) {
       const row_index = _tmp;
       if (row_index < _bind$2) {
-        const value = _M0FP28clhhhhhh17moon_2dcsv_2dlite16schema__cell__at(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), index);
+        const value = _M0FP27clhhhhh17moon_2dcsv_2dlite16schema__cell__at(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), index);
         if (!_M0MPC16string6String9is__empty(value)) {
           let number;
           _L$2: {
             _L$3: {
-              const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__parse__double(value);
+              const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__parse__double(value);
               if (_bind$3.$tag === 1) {
                 const _Some = _bind$3;
                 const _number = _Some._0;
@@ -3682,7 +3682,7 @@
                 const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(21);
                 _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "expected number, got ");
                 _M0MPB13StringBuilder13write__objectGsE(_string_builder, value);
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
               }
               break _L$2;
             }
@@ -3693,7 +3693,7 @@
               _M0MPB13StringBuilder13write__objectGdE(_string_builder, maximum);
               _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ", got ");
               _M0MPB13StringBuilder13write__objectGsE(_string_builder, value);
-              _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
+              _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
             }
           }
         }
@@ -3705,7 +3705,7 @@
     }
     return errors;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16schema__contains(values, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16schema__contains(values, value) {
     const _bind = values.length;
     let _tmp = 0;
     while (true) {
@@ -3723,12 +3723,12 @@
     }
     return false;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25validate__allowed__values(table, column, allowed, required) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25validate__allowed__values(table, column, allowed, required) {
     let index;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
       if (_bind === undefined) {
-        return [new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, column, "missing column")];
+        return [new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, column, "missing column")];
       } else {
         const _Some = _bind;
         const _index = _Some;
@@ -3736,25 +3736,25 @@
         break _L;
       }
     }
-    const errors = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const errors = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = 0;
     const _bind$2 = table.rows.length;
     let _tmp = _bind;
     while (true) {
       const row_index = _tmp;
       if (row_index < _bind$2) {
-        const value = _M0FP28clhhhhhh17moon_2dcsv_2dlite16schema__cell__at(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), index);
+        const value = _M0FP27clhhhhh17moon_2dcsv_2dlite16schema__cell__at(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), index);
         if (_M0MPC16string6String9is__empty(value)) {
           if (required) {
-            _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(row_index + 2 | 0, column, "required value is empty"));
+            _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(row_index + 2 | 0, column, "required value is empty"));
           }
         } else {
-          if (!_M0FP28clhhhhhh17moon_2dcsv_2dlite16schema__contains(allowed, value)) {
+          if (!_M0FP27clhhhhh17moon_2dcsv_2dlite16schema__contains(allowed, value)) {
             const _tmp$2 = row_index + 2 | 0;
             const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(17);
             _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "unexpected value ");
             _M0MPB13StringBuilder13write__objectGsE(_string_builder, value);
-            _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
+            _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$2, column, _M0MPB13StringBuilder10to__string(_string_builder)));
           }
         }
         _tmp = row_index + 1 | 0;
@@ -3765,14 +3765,14 @@
     }
     return errors;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17schema__index__of(values, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17schema__index__of(values, value) {
     const _bind = 0;
     const _bind$2 = values.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i) === value) {
+        if (_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i) === value) {
           return i;
         }
         _tmp = i + 1 | 0;
@@ -3783,7 +3783,7 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite11schema__key(row, indices) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite11schema__key(row, indices) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     const _bind = 0;
     const _bind$2 = indices.length;
@@ -3794,7 +3794,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 124);
         }
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite16schema__cell__at(row, _M0MPC15array5Array2atGiE(indices, i)));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite16schema__cell__at(row, _M0MPC15array5Array2atGiE(indices, i)));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -3803,7 +3803,7 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21validate__unique__key(table, columns) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21validate__unique__key(table, columns) {
     const indices = _M0MPC15array5Array11new_2einnerGiE(0);
     const _bind = columns.length;
     let _tmp = 0;
@@ -3814,7 +3814,7 @@
         let index;
         _L: {
           _L$2: {
-            const _bind$2 = _M0FP28clhhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
+            const _bind$2 = _M0FP27clhhhhh17moon_2dcsv_2dlite21schema__column__index(table.headers, column);
             if (_bind$2 === undefined) {
             } else {
               const _Some = _bind$2;
@@ -3835,22 +3835,22 @@
     if (indices.length !== columns.length) {
       return [];
     }
-    const keys = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const keys = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const first_rows = _M0MPC15array5Array11new_2einnerGiE(0);
-    const errors = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const errors = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind$2 = 0;
     const _bind$3 = table.rows.length;
     let _tmp$2 = _bind$2;
     while (true) {
       const row_index = _tmp$2;
       if (row_index < _bind$3) {
-        const key = _M0FP28clhhhhhh17moon_2dcsv_2dlite11schema__key(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), indices);
+        const key = _M0FP27clhhhhh17moon_2dcsv_2dlite11schema__key(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), indices);
         let existing;
         _L: {
           _L$2: {
-            const _bind$4 = _M0FP28clhhhhhh17moon_2dcsv_2dlite17schema__index__of(keys, key);
+            const _bind$4 = _M0FP27clhhhhh17moon_2dcsv_2dlite17schema__index__of(keys, key);
             if (_bind$4 === undefined) {
-              _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(keys, key);
+              _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(keys, key);
               _M0MPC15array5Array4pushGiE(first_rows, row_index + 2 | 0);
             } else {
               const _Some = _bind$4;
@@ -3860,7 +3860,7 @@
             }
             break _L;
           }
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvDuplicateKeyError(_M0MPC15array5Array2atGiE(first_rows, existing), row_index + 2 | 0, key));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvDuplicateKeyError(_M0MPC15array5Array2atGiE(first_rows, existing), row_index + 2 | 0, key));
         }
         _tmp$2 = row_index + 1 | 0;
         continue;
@@ -3870,7 +3870,7 @@
     }
     return errors;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15is__bool__value(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15is__bool__value(value) {
     const _bind = _M0MPC16string6String9to__lower(value);
     switch (_bind) {
       case "true": {
@@ -3902,7 +3902,7 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite14is__int__value(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite14is__int__value(value) {
     let _try_err;
     _L: {
       const _bind = _M0FPC28internal7strconv20parse__int64_2einner(new _M0TPC16string10StringView(value, 0, value.length), 0);
@@ -3919,7 +3919,7 @@
     }
     return false;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21parse__double__option(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21parse__double__option(value) {
     let _try_err;
     _L: {
       const _bind = _M0FPC28internal7strconv13parse__double(new _M0TPC16string10StringView(value, 0, value.length));
@@ -3937,7 +3937,7 @@
     }
     return _M0DTPC16option6OptionGdE4None__;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16values__contains(values, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16values__contains(values, value) {
     const _bind = values.length;
     let _tmp = 0;
     while (true) {
@@ -3955,15 +3955,15 @@
     }
     return false;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite14profile__table(table) {
-    const profiles = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite14profile__table(table) {
+    const profiles = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = 0;
     const _bind$2 = table.headers.length;
     let _tmp = _bind;
     while (true) {
       const column = _tmp;
       if (column < _bind$2) {
-        const values = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+        const values = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
         const empty = new _M0TPB8MutLocalGiE(0);
         const non_empty = new _M0TPB8MutLocalGiE(0);
         const all_int = new _M0TPB8MutLocalGbE(true);
@@ -3980,23 +3980,23 @@
           const _ = _tmp$2;
           if (_ < _bind$4) {
             const row = _bind$3[_];
-            const value = column < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, column) : "";
+            const value = column < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, column) : "";
             if (_M0MPC16string6String9is__empty(value)) {
               empty.val = empty.val + 1 | 0;
             } else {
               non_empty.val = non_empty.val + 1 | 0;
-              if (!_M0FP28clhhhhhh17moon_2dcsv_2dlite16values__contains(values, value)) {
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(values, value);
+              if (!_M0FP27clhhhhh17moon_2dcsv_2dlite16values__contains(values, value)) {
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(values, value);
               }
-              const is_int = _M0FP28clhhhhhh17moon_2dcsv_2dlite14is__int__value(value);
-              const parsed = _M0FP28clhhhhhh17moon_2dcsv_2dlite21parse__double__option(value);
+              const is_int = _M0FP27clhhhhh17moon_2dcsv_2dlite14is__int__value(value);
+              const parsed = _M0FP27clhhhhh17moon_2dcsv_2dlite21parse__double__option(value);
               let is_float;
               if (parsed.$tag === 1) {
                 is_float = true;
               } else {
                 is_float = false;
               }
-              const is_bool = _M0FP28clhhhhhh17moon_2dcsv_2dlite15is__bool__value(value);
+              const is_bool = _M0FP27clhhhhh17moon_2dcsv_2dlite15is__bool__value(value);
               if (!is_int) {
                 all_int.val = false;
               }
@@ -4065,7 +4065,7 @@
         }
         const inferred = non_empty.val === 0 ? 0 : all_bool.val ? 3 : all_int.val ? 1 : all_float.val ? 2 : 4;
         const average = numeric_count.val > 0 ? new _M0DTPC16option6OptionGdE4Some(sum.val / (numeric_count.val + 0)) : _M0DTPC16option6OptionGdE4None__;
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(profiles, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13ColumnProfile(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, column), table.rows.length, empty.val, non_empty.val, values.length, inferred, min.val, max.val, average));
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(profiles, new _M0TP27clhhhhh17moon_2dcsv_2dlite13ColumnProfile(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, column), table.rows.length, empty.val, non_empty.val, values.length, inferred, min.val, max.val, average));
         _tmp = column + 1 | 0;
         continue;
       } else {
@@ -4074,10 +4074,10 @@
     }
     return profiles;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23schema__infer__cell__at(row, index) {
-    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23schema__infer__cell__at(row, index) {
+    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23schema__infer__contains(values, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23schema__infer__contains(values, value) {
     const _bind = values.length;
     let _tmp = 0;
     while (true) {
@@ -4095,8 +4095,8 @@
     }
     return false;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27schema__infer__examples__at(table, index, limit) {
-    const examples = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27schema__infer__examples__at(table, index, limit) {
+    const examples = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     if (limit <= 0) {
       return examples;
     }
@@ -4107,9 +4107,9 @@
       const _ = _tmp;
       if (_ < _bind$2) {
         const row = _bind[_];
-        const value = _M0FP28clhhhhhh17moon_2dcsv_2dlite23schema__infer__cell__at(row, index);
-        if (!_M0MPC16string6String9is__empty(value) && !_M0FP28clhhhhhh17moon_2dcsv_2dlite23schema__infer__contains(examples, value)) {
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(examples, value);
+        const value = _M0FP27clhhhhh17moon_2dcsv_2dlite23schema__infer__cell__at(row, index);
+        if (!_M0MPC16string6String9is__empty(value) && !_M0FP27clhhhhh17moon_2dcsv_2dlite23schema__infer__contains(examples, value)) {
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(examples, value);
           if (examples.length >= limit) {
             return examples;
           }
@@ -4122,7 +4122,7 @@
     }
     return examples;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19schema__infer__kind(kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19schema__infer__kind(kind) {
     switch (kind) {
       case 0: {
         return 0;
@@ -4141,17 +4141,17 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite13infer__schema(table) {
-    const profiles = _M0FP28clhhhhhh17moon_2dcsv_2dlite14profile__table(table);
-    const rules = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite13infer__schema(table) {
+    const profiles = _M0FP27clhhhhh17moon_2dcsv_2dlite14profile__table(table);
+    const rules = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = 0;
     const _bind$2 = profiles.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        const profile = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(profiles, i);
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(rules, new _M0TP28clhhhhhh17moon_2dcsv_2dlite21CsvInferredColumnRule(profile.name, _M0FP28clhhhhhh17moon_2dcsv_2dlite19schema__infer__kind(profile.inferred), profile.total > 0 && profile.empty === 0, profile.total, profile.empty, profile.unique, _M0FP28clhhhhhh17moon_2dcsv_2dlite27schema__infer__examples__at(table, i, 3)));
+        const profile = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(profiles, i);
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(rules, new _M0TP27clhhhhh17moon_2dcsv_2dlite21CsvInferredColumnRule(profile.name, _M0FP27clhhhhh17moon_2dcsv_2dlite19schema__infer__kind(profile.inferred), profile.total > 0 && profile.empty === 0, profile.total, profile.empty, profile.unique, _M0FP27clhhhhh17moon_2dcsv_2dlite27schema__infer__examples__at(table, i, 3)));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -4160,14 +4160,14 @@
     }
     return rules;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite13column__index(headers, column) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite13column__index(headers, column) {
     const _bind = 0;
     const _bind$2 = headers.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, i) === column) {
+        if (_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, i) === column) {
           return i;
         }
         _tmp = i + 1 | 0;
@@ -4178,7 +4178,7 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18column__type__name(kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18column__type__name(kind) {
     switch (kind) {
       case 0: {
         return "text";
@@ -4194,16 +4194,16 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21matches__column__type(value, kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21matches__column__type(value, kind) {
     switch (kind) {
       case 0: {
         return true;
       }
       case 1: {
-        return _M0FP28clhhhhhh17moon_2dcsv_2dlite14is__int__value(value);
+        return _M0FP27clhhhhh17moon_2dcsv_2dlite14is__int__value(value);
       }
       case 2: {
-        const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite21parse__double__option(value);
+        const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite21parse__double__option(value);
         if (_bind.$tag === 1) {
           return true;
         } else {
@@ -4211,12 +4211,12 @@
         }
       }
       default: {
-        return _M0FP28clhhhhhh17moon_2dcsv_2dlite15is__bool__value(value);
+        return _M0FP27clhhhhh17moon_2dcsv_2dlite15is__bool__value(value);
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15validate__table(table, rules) {
-    const errors = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15validate__table(table, rules) {
+    const errors = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = rules.length;
     let _tmp = 0;
     while (true) {
@@ -4226,9 +4226,9 @@
         let index;
         _L: {
           _L$2: {
-            const _bind$2 = _M0FP28clhhhhhh17moon_2dcsv_2dlite13column__index(table.headers, rule.name);
+            const _bind$2 = _M0FP27clhhhhh17moon_2dcsv_2dlite13column__index(table.headers, rule.name);
             if (_bind$2 === undefined) {
-              _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, rule.name, "missing column"));
+              _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(1, rule.name, "missing column"));
             } else {
               const _Some = _bind$2;
               const _index = _Some;
@@ -4243,17 +4243,17 @@
           while (true) {
             const row_index = _tmp$2;
             if (row_index < _bind$3) {
-              const value = index < _M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index).length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), index) : "";
+              const value = index < _M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index).length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index), index) : "";
               if (rule.required && _M0MPC16string6String9is__empty(value)) {
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(row_index + 2 | 0, rule.name, "required value is empty"));
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(row_index + 2 | 0, rule.name, "required value is empty"));
               } else {
-                if (!_M0MPC16string6String9is__empty(value) && !_M0FP28clhhhhhh17moon_2dcsv_2dlite21matches__column__type(value, rule.kind)) {
+                if (!_M0MPC16string6String9is__empty(value) && !_M0FP27clhhhhh17moon_2dcsv_2dlite21matches__column__type(value, rule.kind)) {
                   const _tmp$3 = row_index + 2 | 0;
                   const _tmp$4 = rule.name;
                   const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(9);
                   _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "expected ");
-                  _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP28clhhhhhh17moon_2dcsv_2dlite18column__type__name(rule.kind));
-                  _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$3, _tmp$4, _M0MPB13StringBuilder10to__string(_string_builder)));
+                  _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP27clhhhhh17moon_2dcsv_2dlite18column__type__name(rule.kind));
+                  _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(errors, new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvValidationError(_tmp$3, _tmp$4, _M0MPB13StringBuilder10to__string(_string_builder)));
                 }
               }
               _tmp$2 = row_index + 1 | 0;
@@ -4271,14 +4271,14 @@
     }
     return errors;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite20parse__with__dialect(input, dialect) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite20parse__with__dialect(input, dialect) {
     if (_M0MPC16string6String9is__empty(input)) {
       return [];
     }
     const rows = _M0MPC15array5Array11new_2einnerGRPB5ArrayGsEE(0);
-    const row = new _M0TPB8MutLocalGRPB5ArrayGsEE(_M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0));
+    const row = new _M0TPB8MutLocalGRPB5ArrayGsEE(_M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0));
     const field = _M0MPB13StringBuilder21StringBuilder_2einner(0);
-    const state = new _M0TPB8MutLocalGRP28clhhhhhh17moon_2dcsv_2dlite10ParseStateE(0);
+    const state = new _M0TPB8MutLocalGRP27clhhhhh17moon_2dcsv_2dlite10ParseStateE(0);
     const skip_lf = new _M0TPB8MutLocalGbE(false);
     const ended_with_row = new _M0TPB8MutLocalGbE(false);
     const _it = _M0MPC16string6String4iter(input);
@@ -4308,27 +4308,27 @@
             state.val = 2;
           } else {
             if (ch === dialect.delimiter) {
-              _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, _M0MPB13StringBuilder10to__string(field));
+              _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, _M0MPB13StringBuilder10to__string(field));
               _M0MPB13StringBuilder5reset(field);
             } else {
               if (ch === 10) {
                 const value = _M0MPB13StringBuilder10to__string(field);
                 if (!(dialect.skip_empty_lines && (row.val.length === 0 && _M0MPC16string6String9is__empty(value)))) {
-                  _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
+                  _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
                   _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, row.val);
                 }
                 _M0MPB13StringBuilder5reset(field);
-                row.val = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+                row.val = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
                 ended_with_row.val = true;
               } else {
                 if (ch === 13) {
                   const value = _M0MPB13StringBuilder10to__string(field);
                   if (!(dialect.skip_empty_lines && (row.val.length === 0 && _M0MPC16string6String9is__empty(value)))) {
-                    _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
+                    _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
                     _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, row.val);
                   }
                   _M0MPB13StringBuilder5reset(field);
-                  row.val = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+                  row.val = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
                   skip_lf.val = true;
                   ended_with_row.val = true;
                 } else {
@@ -4342,29 +4342,29 @@
         }
         case 1: {
           if (ch === dialect.delimiter) {
-            _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, _M0MPB13StringBuilder10to__string(field));
+            _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, _M0MPB13StringBuilder10to__string(field));
             _M0MPB13StringBuilder5reset(field);
             state.val = 0;
           } else {
             if (ch === 10) {
               const value = _M0MPB13StringBuilder10to__string(field);
               if (!(dialect.skip_empty_lines && (row.val.length === 0 && _M0MPC16string6String9is__empty(value)))) {
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
                 _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, row.val);
               }
               _M0MPB13StringBuilder5reset(field);
-              row.val = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+              row.val = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
               state.val = 0;
               ended_with_row.val = true;
             } else {
               if (ch === 13) {
                 const value = _M0MPB13StringBuilder10to__string(field);
                 if (!(dialect.skip_empty_lines && (row.val.length === 0 && _M0MPC16string6String9is__empty(value)))) {
-                  _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
+                  _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
                   _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, row.val);
                 }
                 _M0MPB13StringBuilder5reset(field);
-                row.val = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+                row.val = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
                 state.val = 0;
                 skip_lf.val = true;
                 ended_with_row.val = true;
@@ -4389,29 +4389,29 @@
             state.val = 2;
           } else {
             if (ch === dialect.delimiter) {
-              _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, _M0MPB13StringBuilder10to__string(field));
+              _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, _M0MPB13StringBuilder10to__string(field));
               _M0MPB13StringBuilder5reset(field);
               state.val = 0;
             } else {
               if (ch === 10) {
                 const value = _M0MPB13StringBuilder10to__string(field);
                 if (!(dialect.skip_empty_lines && (row.val.length === 0 && _M0MPC16string6String9is__empty(value)))) {
-                  _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
+                  _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
                   _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, row.val);
                 }
                 _M0MPB13StringBuilder5reset(field);
-                row.val = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+                row.val = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
                 state.val = 0;
                 ended_with_row.val = true;
               } else {
                 if (ch === 13) {
                   const value = _M0MPB13StringBuilder10to__string(field);
                   if (!(dialect.skip_empty_lines && (row.val.length === 0 && _M0MPC16string6String9is__empty(value)))) {
-                    _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
+                    _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
                     _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, row.val);
                   }
                   _M0MPB13StringBuilder5reset(field);
-                  row.val = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+                  row.val = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
                   state.val = 0;
                   skip_lf.val = true;
                   ended_with_row.val = true;
@@ -4429,16 +4429,16 @@
     if (!ended_with_row.val) {
       const value = _M0MPB13StringBuilder10to__string(field);
       if (!(dialect.skip_empty_lines && (row.val.length === 0 && _M0MPC16string6String9is__empty(value)))) {
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(row.val, value);
         _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, row.val);
       }
     }
     return rows;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27parse__table__with__dialect(input, dialect) {
-    const rows = _M0FP28clhhhhhh17moon_2dcsv_2dlite20parse__with__dialect(input, dialect);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27parse__table__with__dialect(input, dialect) {
+    const rows = _M0FP27clhhhhh17moon_2dcsv_2dlite20parse__with__dialect(input, dialect);
     if (rows.length === 0) {
-      return new _M0TP28clhhhhhh17moon_2dcsv_2dlite8CsvTable([], []);
+      return new _M0TP27clhhhhh17moon_2dcsv_2dlite8CsvTable([], []);
     }
     const body = _M0MPC15array5Array11new_2einnerGRPB5ArrayGsEE(0);
     const _bind = 1;
@@ -4454,15 +4454,15 @@
         break;
       }
     }
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite8CsvTable(_M0MPC15array5Array2atGRPB5ArrayGsEE(rows, 0), body);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite8CsvTable(_M0MPC15array5Array2atGRPB5ArrayGsEE(rows, 0), body);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16default__dialect() {
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite10CsvDialect(44, "\n", false);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16default__dialect() {
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite10CsvDialect(44, "\n", false);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19dialect__preference(delimiter) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19dialect__preference(delimiter) {
     return delimiter === 44 ? 0 : delimiter === 9 ? 1 : delimiter === 59 ? 2 : delimiter === 124 ? 3 : 9;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26dialect__candidate__better(candidate, current) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26dialect__candidate__better(candidate, current) {
     if (candidate.score !== current.score) {
       return candidate.score > current.score;
     }
@@ -4472,9 +4472,9 @@
     if (candidate.consistent_rows !== current.consistent_rows) {
       return candidate.consistent_rows > current.consistent_rows;
     }
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite19dialect__preference(candidate.delimiter) < _M0FP28clhhhhhh17moon_2dcsv_2dlite19dialect__preference(current.delimiter);
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite19dialect__preference(candidate.delimiter) < _M0FP27clhhhhh17moon_2dcsv_2dlite19dialect__preference(current.delimiter);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23dialect__sniff__newline(input) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23dialect__sniff__newline(input) {
     const previous_cr = new _M0TPB8MutLocalGbE(false);
     const _it = _M0MPC16string6String4iter(input);
     while (true) {
@@ -4501,7 +4501,7 @@
     }
     return "\n";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26dialect__count__delimiters(input, delimiter) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26dialect__count__delimiters(input, delimiter) {
     const count = new _M0TPB8MutLocalGiE(0);
     const in_quotes = new _M0TPB8MutLocalGbE(false);
     const after_quote = new _M0TPB8MutLocalGbE(false);
@@ -4543,7 +4543,7 @@
     }
     return count.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite24dialect__width__variance(rows, expected) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite24dialect__width__variance(rows, expected) {
     const variance = new _M0TPB8MutLocalGiE(0);
     const _bind = rows.length;
     let _tmp = 0;
@@ -4565,13 +4565,13 @@
     }
     return variance.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, name, delimiter) {
-    const dialect = new _M0TP28clhhhhhh17moon_2dcsv_2dlite10CsvDialect(delimiter, _M0FP28clhhhhhh17moon_2dcsv_2dlite23dialect__sniff__newline(input), true);
-    const rows = _M0FP28clhhhhhh17moon_2dcsv_2dlite20parse__with__dialect(input, dialect);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, name, delimiter) {
+    const dialect = new _M0TP27clhhhhh17moon_2dcsv_2dlite10CsvDialect(delimiter, _M0FP27clhhhhh17moon_2dcsv_2dlite23dialect__sniff__newline(input), true);
+    const rows = _M0FP27clhhhhh17moon_2dcsv_2dlite20parse__with__dialect(input, dialect);
     const columns = rows.length === 0 ? 0 : _M0MPC15array5Array2atGRPB5ArrayGsEE(rows, 0).length;
     const consistent_rows = new _M0TPB8MutLocalGiE(0);
     const empty_cells = new _M0TPB8MutLocalGiE(0);
-    const delimiter_count = _M0FP28clhhhhhh17moon_2dcsv_2dlite26dialect__count__delimiters(input, delimiter);
+    const delimiter_count = _M0FP27clhhhhh17moon_2dcsv_2dlite26dialect__count__delimiters(input, delimiter);
     const _bind = rows.length;
     let _tmp = 0;
     while (true) {
@@ -4607,26 +4607,26 @@
     const row_bonus = Math.imul(rows.length, 5) | 0;
     const delimiter_bonus = Math.imul(delimiter_count, 50) | 0;
     const single_column_penalty = columns <= 1 && delimiter_count === 0 ? 200 : 0;
-    const penalty = (Math.imul(empty_cells.val, 2) | 0) + (Math.imul(_M0FP28clhhhhhh17moon_2dcsv_2dlite24dialect__width__variance(rows, columns), 25) | 0) | 0;
+    const penalty = (Math.imul(empty_cells.val, 2) | 0) + (Math.imul(_M0FP27clhhhhh17moon_2dcsv_2dlite24dialect__width__variance(rows, columns), 25) | 0) | 0;
     const score = ((((consistency_bonus + width_bonus | 0) + row_bonus | 0) + delimiter_bonus | 0) - penalty | 0) - single_column_penalty | 0;
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvDialectCandidate(name, delimiter, rows.length, columns, consistent_rows.val, empty_cells.val, score);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvDialectCandidate(name, delimiter, rows.length, columns, consistent_rows.val, empty_cells.val, score);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22sniff__dialect__report(input) {
-    return [_M0FP28clhhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, "comma", 44), _M0FP28clhhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, "tab", 9), _M0FP28clhhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, "semicolon", 59), _M0FP28clhhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, "pipe", 124)];
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22sniff__dialect__report(input) {
+    return [_M0FP27clhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, "comma", 44), _M0FP27clhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, "tab", 9), _M0FP27clhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, "semicolon", 59), _M0FP27clhhhhh17moon_2dcsv_2dlite25dialect__score__candidate(input, "pipe", 124)];
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite14sniff__dialect(input) {
-    const report = _M0FP28clhhhhhh17moon_2dcsv_2dlite22sniff__dialect__report(input);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite14sniff__dialect(input) {
+    const report = _M0FP27clhhhhh17moon_2dcsv_2dlite22sniff__dialect__report(input);
     if (report.length === 0) {
-      return _M0FP28clhhhhhh17moon_2dcsv_2dlite16default__dialect();
+      return _M0FP27clhhhhh17moon_2dcsv_2dlite16default__dialect();
     }
-    const best = new _M0TPB8MutLocalGRP28clhhhhhh17moon_2dcsv_2dlite19CsvDialectCandidateE(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(report, 0));
+    const best = new _M0TPB8MutLocalGRP27clhhhhh17moon_2dcsv_2dlite19CsvDialectCandidateE(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(report, 0));
     const _bind = report.length;
     let _tmp = 0;
     while (true) {
       const _ = _tmp;
       if (_ < _bind) {
         const candidate = report[_];
-        if (_M0FP28clhhhhhh17moon_2dcsv_2dlite26dialect__candidate__better(candidate, best.val)) {
+        if (_M0FP27clhhhhh17moon_2dcsv_2dlite26dialect__candidate__better(candidate, best.val)) {
           best.val = candidate;
         }
         _tmp = _ + 1 | 0;
@@ -4635,22 +4635,22 @@
         break;
       }
     }
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite10CsvDialect(best.val.delimiter, _M0FP28clhhhhhh17moon_2dcsv_2dlite23dialect__sniff__newline(input), false);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite10CsvDialect(best.val.delimiter, _M0FP27clhhhhh17moon_2dcsv_2dlite23dialect__sniff__newline(input), false);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18parse__table__auto(input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite27parse__table__with__dialect(input, _M0FP28clhhhhhh17moon_2dcsv_2dlite14sniff__dialect(input));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18parse__table__auto(input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite27parse__table__with__dialect(input, _M0FP27clhhhhh17moon_2dcsv_2dlite14sniff__dialect(input));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite31quality__gate__default__options() {
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite21CsvQualityGateOptions(80, 10, 5, true, false, false, false);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite31quality__gate__default__options() {
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite21CsvQualityGateOptions(80, 10, 5, true, false, false, false);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16audit__index__of(values, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16audit__index__of(values, value) {
     const _bind = 0;
     const _bind$2 = values.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i) === value) {
+        if (_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i) === value) {
           return i;
         }
         _tmp = i + 1 | 0;
@@ -4661,10 +4661,10 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, index) {
-    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, index) {
+    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__row__key(row, width) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15audit__row__key(row, width) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     const limit = row.length > width ? row.length : width;
     const _bind = 0;
@@ -4675,7 +4675,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 31);
         }
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, i));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, i));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -4684,8 +4684,8 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite38audit__collect__duplicate__row__issues(issues, table) {
-    const keys = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite38audit__collect__duplicate__row__issues(issues, table) {
+    const keys = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const first_rows = _M0MPC15array5Array11new_2einnerGiE(0);
     const _bind = 0;
     const _bind$2 = table.rows.length;
@@ -4694,16 +4694,16 @@
       const i = _tmp;
       if (i < _bind$2) {
         _L: {
-          const key = _M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__row__key(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, i), table.headers.length);
+          const key = _M0FP27clhhhhh17moon_2dcsv_2dlite15audit__row__key(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, i), table.headers.length);
           if (_M0MPC16string6String9is__empty(key)) {
             break _L;
           }
           let existing;
           _L$2: {
             _L$3: {
-              const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite16audit__index__of(keys, key);
+              const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite16audit__index__of(keys, key);
               if (_bind$3 === undefined) {
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(keys, key);
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(keys, key);
                 _M0MPC15array5Array4pushGiE(first_rows, i + 2 | 0);
               } else {
                 const _Some = _bind$3;
@@ -4720,7 +4720,7 @@
             _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " duplicates row ");
             _M0MPB13StringBuilder13write__objectGiE(_string_builder, _M0MPC15array5Array2atGiE(first_rows, existing));
             _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "; deduplicate if rows should be unique.");
-            _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("info", _tmp$2, "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+            _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("info", _tmp$2, "*", _M0MPB13StringBuilder10to__string(_string_builder)));
           }
           break _L;
         }
@@ -4731,9 +4731,9 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite20audit__column__label(headers, index) {
-    if (index >= 0 && (index < headers.length && !_M0MPC16string6String9is__empty(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, index)))) {
-      return _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, index);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite20audit__column__label(headers, index) {
+    if (index >= 0 && (index < headers.length && !_M0MPC16string6String9is__empty(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, index)))) {
+      return _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, index);
     } else {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(1);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "#");
@@ -4741,7 +4741,7 @@
       return _M0MPB13StringBuilder10to__string(_string_builder);
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite37audit__collect__empty__column__issues(issues, table) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite37audit__collect__empty__column__issues(issues, table) {
     if (table.rows.length === 0) {
       return undefined;
     }
@@ -4759,7 +4759,7 @@
           const _ = _tmp$2;
           if (_ < _bind$4) {
             const row = _bind$3[_];
-            if (!_M0MPC16string6String9is__empty(_M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, i))) {
+            if (!_M0MPC16string6String9is__empty(_M0FP27clhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, i))) {
               empty.val = false;
               break;
             }
@@ -4770,12 +4770,12 @@
           }
         }
         if (empty.val) {
-          const column = _M0FP28clhhhhhh17moon_2dcsv_2dlite20audit__column__label(table.headers, i);
+          const column = _M0FP27clhhhhh17moon_2dcsv_2dlite20audit__column__label(table.headers, i);
           const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(74);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Column `");
           _M0MPB13StringBuilder13write__objectGsE(_string_builder, column);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` is empty in every row; consider dropping it or filling defaults.");
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("warning", 1, column, _M0MPB13StringBuilder10to__string(_string_builder)));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("warning", 1, column, _M0MPB13StringBuilder10to__string(_string_builder)));
         }
         _tmp = i + 1 | 0;
         continue;
@@ -4784,14 +4784,14 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17audit__row__empty(row, width) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17audit__row__empty(row, width) {
     const limit = row.length > width ? row.length : width;
     const _bind = 0;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < limit) {
-        if (!_M0MPC16string6String9is__empty(_M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, i))) {
+        if (!_M0MPC16string6String9is__empty(_M0FP27clhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, i))) {
           return false;
         }
         _tmp = i + 1 | 0;
@@ -4802,7 +4802,7 @@
     }
     return true;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite34audit__collect__empty__row__issues(issues, table) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite34audit__collect__empty__row__issues(issues, table) {
     const width = table.headers.length;
     const _bind = 0;
     const _bind$2 = table.rows.length;
@@ -4810,13 +4810,13 @@
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0FP28clhhhhhh17moon_2dcsv_2dlite17audit__row__empty(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, i), width)) {
+        if (_M0FP27clhhhhh17moon_2dcsv_2dlite17audit__row__empty(_M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, i), width)) {
           const _tmp$2 = i + 2 | 0;
           const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(61);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Row ");
           _M0MPB13StringBuilder13write__objectGiE(_string_builder, i + 2 | 0);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " is empty; consider dropping empty rows before profiling.");
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("warning", _tmp$2, "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("warning", _tmp$2, "*", _M0MPB13StringBuilder10to__string(_string_builder)));
         }
         _tmp = i + 1 | 0;
         continue;
@@ -4825,10 +4825,10 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23audit__is__ascii__space(ch) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23audit__is__ascii__space(ch) {
     return ch === 32 || (ch === 9 || (ch === 10 || ch === 13));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18audit__trim__ascii(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18audit__trim__ascii(value) {
     const chars = _M0MPC15array5Array11new_2einnerGcE(0);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -4850,7 +4850,7 @@
     const start = new _M0TPB8MutLocalGiE(0);
     const finish = new _M0TPB8MutLocalGiE(chars.length);
     while (true) {
-      if (start.val < finish.val && _M0FP28clhhhhhh17moon_2dcsv_2dlite23audit__is__ascii__space(_M0MPC15array5Array2atGcE(chars, start.val))) {
+      if (start.val < finish.val && _M0FP27clhhhhh17moon_2dcsv_2dlite23audit__is__ascii__space(_M0MPC15array5Array2atGcE(chars, start.val))) {
         start.val = start.val + 1 | 0;
         continue;
       } else {
@@ -4858,7 +4858,7 @@
       }
     }
     while (true) {
-      if (finish.val > start.val && _M0FP28clhhhhhh17moon_2dcsv_2dlite23audit__is__ascii__space(_M0MPC15array5Array2atGcE(chars, finish.val - 1 | 0))) {
+      if (finish.val > start.val && _M0FP27clhhhhh17moon_2dcsv_2dlite23audit__is__ascii__space(_M0MPC15array5Array2atGcE(chars, finish.val - 1 | 0))) {
         finish.val = finish.val - 1 | 0;
         continue;
       } else {
@@ -4881,14 +4881,14 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__collect__header__issues(issues, table) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__collect__header__issues(issues, table) {
     const _bind = 0;
     const _bind$2 = table.headers.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        const header = _M0FP28clhhhhhh17moon_2dcsv_2dlite18audit__trim__ascii(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, i));
+        const header = _M0FP27clhhhhh17moon_2dcsv_2dlite18audit__trim__ascii(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, i));
         if (_M0MPC16string6String9is__empty(header)) {
           const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(1);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "#");
@@ -4898,19 +4898,19 @@
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "Header column #");
           _M0MPB13StringBuilder13write__objectGiE(_string_builder$2, i + 1 | 0);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, " is empty; give it a stable name before validation or export.");
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("warning", 1, _tmp$2, _M0MPB13StringBuilder10to__string(_string_builder$2)));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("warning", 1, _tmp$2, _M0MPB13StringBuilder10to__string(_string_builder$2)));
         } else {
           const _bind$3 = 0;
           let _tmp$2 = _bind$3;
           while (true) {
             const j = _tmp$2;
             if (j < i) {
-              if (_M0FP28clhhhhhh17moon_2dcsv_2dlite18audit__trim__ascii(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, j)) === header) {
+              if (_M0FP27clhhhhh17moon_2dcsv_2dlite18audit__trim__ascii(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, j)) === header) {
                 const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(82);
                 _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Header `");
                 _M0MPB13StringBuilder13write__objectGsE(_string_builder, header);
                 _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` is duplicated; rename columns before joining, selecting, or JSON export.");
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("warning", 1, header, _M0MPB13StringBuilder10to__string(_string_builder)));
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvAuditQualityIssue("warning", 1, header, _M0MPB13StringBuilder10to__string(_string_builder)));
                 break;
               }
               _tmp$2 = j + 1 | 0;
@@ -4927,15 +4927,15 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22audit__quality__issues(table) {
-    const issues = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__collect__header__issues(issues, table);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite34audit__collect__empty__row__issues(issues, table);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite37audit__collect__empty__column__issues(issues, table);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite38audit__collect__duplicate__row__issues(issues, table);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22audit__quality__issues(table) {
+    const issues = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__collect__header__issues(issues, table);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite34audit__collect__empty__row__issues(issues, table);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite37audit__collect__empty__column__issues(issues, table);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite38audit__collect__duplicate__row__issues(issues, table);
     return issues;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite32parse__unclosed__quote__position(input) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite32parse__unclosed__quote__position(input) {
     const in_quotes = new _M0TPB8MutLocalGbE(false);
     const after_quote = new _M0TPB8MutLocalGbE(false);
     const line = new _M0TPB8MutLocalGiE(1);
@@ -4985,8 +4985,8 @@
     }
     return in_quotes.val && !after_quote.val ? { _0: quote_line.val, _1: quote_column.val } : undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite20parse__width__issues(rows) {
-    const issues = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite20parse__width__issues(rows) {
+    const issues = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     if (rows.length === 0) {
       return issues;
     }
@@ -5004,7 +5004,7 @@
           _M0MPB13StringBuilder13write__objectGiE(_string_builder, expected);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " fields, got ");
           _M0MPB13StringBuilder13write__objectGiE(_string_builder, actual);
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvParseError(_M0MPB13StringBuilder10to__string(_string_builder), i + 1 | 0, 1));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvParseError(_M0MPB13StringBuilder10to__string(_string_builder), i + 1 | 0, 1));
         }
         _tmp = i + 1 | 0;
         continue;
@@ -5014,14 +5014,14 @@
     }
     return issues;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29parse__checked__with__dialect(input, dialect) {
-    const rows = _M0FP28clhhhhhh17moon_2dcsv_2dlite20parse__with__dialect(input, dialect);
-    const issues = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29parse__checked__with__dialect(input, dialect) {
+    const rows = _M0FP27clhhhhh17moon_2dcsv_2dlite20parse__with__dialect(input, dialect);
+    const issues = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     let line;
     let column;
     _L: {
       _L$2: {
-        const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite32parse__unclosed__quote__position(input);
+        const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite32parse__unclosed__quote__position(input);
         if (_bind === undefined) {
         } else {
           const _Some = _bind;
@@ -5034,29 +5034,29 @@
         }
         break _L;
       }
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvParseError("unclosed quoted field", line, column));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvParseError("unclosed quoted field", line, column));
     }
-    const width_issues = _M0FP28clhhhhhh17moon_2dcsv_2dlite20parse__width__issues(rows);
+    const width_issues = _M0FP27clhhhhh17moon_2dcsv_2dlite20parse__width__issues(rows);
     const _bind = width_issues.length;
     let _tmp = 0;
     while (true) {
       const _ = _tmp;
       if (_ < _bind) {
         const issue = width_issues[_];
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, issue);
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, issue);
         _tmp = _ + 1 | 0;
         continue;
       } else {
         break;
       }
     }
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite14CsvParseReport(rows, issues);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite14CsvParseReport(rows, issues);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite36parse__table__checked__with__dialect(input, dialect) {
-    const report = _M0FP28clhhhhhh17moon_2dcsv_2dlite29parse__checked__with__dialect(input, dialect);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite36parse__table__checked__with__dialect(input, dialect) {
+    const report = _M0FP27clhhhhh17moon_2dcsv_2dlite29parse__checked__with__dialect(input, dialect);
     let table;
     if (report.rows.length === 0) {
-      table = new _M0TP28clhhhhhh17moon_2dcsv_2dlite8CsvTable([], []);
+      table = new _M0TP27clhhhhh17moon_2dcsv_2dlite8CsvTable([], []);
     } else {
       const rows = _M0MPC15array5Array11new_2einnerGRPB5ArrayGsEE(0);
       const _bind = 1;
@@ -5072,14 +5072,14 @@
           break;
         }
       }
-      table = new _M0TP28clhhhhhh17moon_2dcsv_2dlite8CsvTable(_M0MPC15array5Array2atGRPB5ArrayGsEE(report.rows, 0), rows);
+      table = new _M0TP27clhhhhh17moon_2dcsv_2dlite8CsvTable(_M0MPC15array5Array2atGRPB5ArrayGsEE(report.rows, 0), rows);
     }
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvTableParseReport(table, report.issues);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvTableParseReport(table, report.issues);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18cleaning__cell__at(row, index) {
-    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18cleaning__cell__at(row, index) {
+    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23table__missing__summary(table) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23table__missing__summary(table) {
     const rows = _M0MPC15array5Array11new_2einnerGRPB5ArrayGsEE(0);
     const _bind = 0;
     const _bind$2 = table.headers.length;
@@ -5096,7 +5096,7 @@
           const _ = _tmp$2;
           if (_ < _bind$4) {
             const row = _bind$3[_];
-            if (_M0MPC16string6String9is__empty(_M0FP28clhhhhhh17moon_2dcsv_2dlite18cleaning__cell__at(row, index))) {
+            if (_M0MPC16string6String9is__empty(_M0FP27clhhhhh17moon_2dcsv_2dlite18cleaning__cell__at(row, index))) {
               missing.val = missing.val + 1 | 0;
             } else {
               present.val = present.val + 1 | 0;
@@ -5107,28 +5107,28 @@
             break;
           }
         }
-        _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, [_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, index), _M0MPC13int3Int18to__string_2einner(missing.val, 10), _M0MPC13int3Int18to__string_2einner(present.val, 10)]);
+        _M0MPC15array5Array4pushGRPB5ArrayGsEE(rows, [_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, index), _M0MPC13int3Int18to__string_2einner(missing.val, 10), _M0MPC13int3Int18to__string_2einner(present.val, 10)]);
         _tmp = index + 1 | 0;
         continue;
       } else {
         break;
       }
     }
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite8CsvTable(["column", "missing", "present"], rows);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite8CsvTable(["column", "missing", "present"], rows);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__csv__with__dialect(input, dialect) {
-    const parsed = _M0FP28clhhhhhh17moon_2dcsv_2dlite36parse__table__checked__with__dialect(input, dialect);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__csv__with__dialect(input, dialect) {
+    const parsed = _M0FP27clhhhhh17moon_2dcsv_2dlite36parse__table__checked__with__dialect(input, dialect);
     const table = parsed.table;
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite14CsvAuditReport(dialect, table, parsed.issues, _M0FP28clhhhhhh17moon_2dcsv_2dlite22audit__quality__issues(table), _M0FP28clhhhhhh17moon_2dcsv_2dlite13infer__schema(table), _M0FP28clhhhhhh17moon_2dcsv_2dlite23table__missing__summary(table), _M0FP28clhhhhhh17moon_2dcsv_2dlite14profile__table(table));
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite14CsvAuditReport(dialect, table, parsed.issues, _M0FP27clhhhhh17moon_2dcsv_2dlite22audit__quality__issues(table), _M0FP27clhhhhh17moon_2dcsv_2dlite13infer__schema(table), _M0FP27clhhhhh17moon_2dcsv_2dlite23table__missing__summary(table), _M0FP27clhhhhh17moon_2dcsv_2dlite14profile__table(table));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite10audit__csv(input) {
-    const dialect = _M0FP28clhhhhhh17moon_2dcsv_2dlite14sniff__dialect(input);
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__csv__with__dialect(input, dialect);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite10audit__csv(input) {
+    const dialect = _M0FP27clhhhhh17moon_2dcsv_2dlite14sniff__dialect(input);
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__csv__with__dialect(input, dialect);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__clamp__score(score) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__clamp__score(score) {
     return score < 0 ? 0 : score > 100 ? 100 : score;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__consistency__penalty(issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__consistency__penalty(issues) {
     const penalty = new _M0TPB8MutLocalGiE(0);
     const _bind = issues.length;
     let _tmp = 0;
@@ -5155,7 +5155,7 @@
     }
     return penalty.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28audit__duplicate__row__count(issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28audit__duplicate__row__count(issues) {
     const count = new _M0TPB8MutLocalGiE(0);
     const _bind = issues.length;
     let _tmp = 0;
@@ -5174,10 +5174,10 @@
     }
     return count.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite24audit__grade__for__score(score) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite24audit__grade__for__score(score) {
     return score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : score >= 60 ? "D" : "F";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__issue__penalty(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__issue__penalty(report) {
     const penalty = new _M0TPB8MutLocalGiE(Math.imul(report.parse_issues.length, 20) | 0);
     const _bind = report.quality_issues;
     const _bind$2 = _bind.length;
@@ -5203,7 +5203,7 @@
     }
     return penalty.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__missing__cells(profiles) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__missing__cells(profiles) {
     const total = new _M0TPB8MutLocalGiE(0);
     const _bind = profiles.length;
     let _tmp = 0;
@@ -5220,10 +5220,10 @@
     }
     return total.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23audit__risk__for__score(score) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23audit__risk__for__score(score) {
     return score >= 85 ? "low" : score >= 70 ? "medium" : "high";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__total__cells(profiles) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__total__cells(profiles) {
     const total = new _M0TPB8MutLocalGiE(0);
     const _bind = profiles.length;
     let _tmp = 0;
@@ -5240,10 +5240,10 @@
     }
     return total.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__quality__score(report) {
-    const structure_score = _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__clamp__score(100 - (Math.imul(report.parse_issues.length, 35) | 0) | 0);
-    const missing_cells = _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__missing__cells(report.profiles);
-    const total_cells = _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__total__cells(report.profiles);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__quality__score(report) {
+    const structure_score = _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__clamp__score(100 - (Math.imul(report.parse_issues.length, 35) | 0) | 0);
+    const missing_cells = _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__missing__cells(report.profiles);
+    const total_cells = _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__total__cells(report.profiles);
     let completeness_score;
     if (total_cells === 0) {
       completeness_score = 100;
@@ -5251,11 +5251,11 @@
       if (total_cells === 0) {
         $panic();
       }
-      completeness_score = _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__clamp__score(100 - ((Math.imul(missing_cells, 100) | 0) / total_cells | 0) | 0);
+      completeness_score = _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__clamp__score(100 - ((Math.imul(missing_cells, 100) | 0) / total_cells | 0) | 0);
     }
-    const consistency_score = _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__clamp__score(100 - _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__consistency__penalty(report.quality_issues) | 0);
-    const uniqueness_score = _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__clamp__score(100 - (Math.imul(_M0FP28clhhhhhh17moon_2dcsv_2dlite28audit__duplicate__row__count(report.quality_issues), 12) | 0) | 0);
-    const issue_penalty = _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__issue__penalty(report);
+    const consistency_score = _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__clamp__score(100 - _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__consistency__penalty(report.quality_issues) | 0);
+    const uniqueness_score = _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__clamp__score(100 - (Math.imul(_M0FP27clhhhhh17moon_2dcsv_2dlite28audit__duplicate__row__count(report.quality_issues), 12) | 0) | 0);
+    const issue_penalty = _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__issue__penalty(report);
     if (100 === 0) {
       $panic();
     }
@@ -5263,10 +5263,10 @@
     if (5 === 0) {
       $panic();
     }
-    const score = _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__clamp__score(weighted - (issue_penalty / 5 | 0) | 0);
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvAuditScore(score, _M0FP28clhhhhhh17moon_2dcsv_2dlite24audit__grade__for__score(score), _M0FP28clhhhhhh17moon_2dcsv_2dlite23audit__risk__for__score(score), structure_score, completeness_score, consistency_score, uniqueness_score, issue_penalty, missing_cells, total_cells);
+    const score = _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__clamp__score(weighted - (issue_penalty / 5 | 0) | 0);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvAuditScore(score, _M0FP27clhhhhh17moon_2dcsv_2dlite24audit__grade__for__score(score), _M0FP27clhhhhh17moon_2dcsv_2dlite23audit__risk__for__score(score), structure_score, completeness_score, consistency_score, uniqueness_score, issue_penalty, missing_cells, total_cells);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25drift__column__type__name(kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25drift__column__type__name(kind) {
     switch (kind) {
       case 0: {
         return "text";
@@ -5282,7 +5282,7 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17drift__find__rule(rules, column) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17drift__find__rule(rules, column) {
     const _bind = rules.length;
     let _tmp = 0;
     while (true) {
@@ -5301,12 +5301,12 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite38drift__collect__common__column__issues(issues, baseline, candidate, column) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite38drift__collect__common__column__issues(issues, baseline, candidate, column) {
     let base_rule;
     let next_rule;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite17drift__find__rule(baseline.inferred_schema, column);
-      const _bind$2 = _M0FP28clhhhhhh17moon_2dcsv_2dlite17drift__find__rule(candidate.inferred_schema, column);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite17drift__find__rule(baseline.inferred_schema, column);
+      const _bind$2 = _M0FP27clhhhhh17moon_2dcsv_2dlite17drift__find__rule(candidate.inferred_schema, column);
       if (_bind === undefined) {
         return;
       } else {
@@ -5323,16 +5323,16 @@
         }
       }
     }
-    if (_M0IP016_24default__implPB2Eq10not__equalGRP28clhhhhhh17moon_2dcsv_2dlite13CsvColumnTypeE(base_rule.kind, next_rule.kind)) {
+    if (_M0IP016_24default__implPB2Eq10not__equalGRP27clhhhhh17moon_2dcsv_2dlite13CsvColumnTypeE(base_rule.kind, next_rule.kind)) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(33);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Column `");
       _M0MPB13StringBuilder13write__objectGsE(_string_builder, column);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` type changed from ");
-      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP28clhhhhhh17moon_2dcsv_2dlite25drift__column__type__name(base_rule.kind));
+      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP27clhhhhh17moon_2dcsv_2dlite25drift__column__type__name(base_rule.kind));
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " to ");
-      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP28clhhhhhh17moon_2dcsv_2dlite25drift__column__type__name(next_rule.kind));
+      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP27clhhhhh17moon_2dcsv_2dlite25drift__column__type__name(next_rule.kind));
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ".");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("warning", "type", column, _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("warning", "type", column, _M0MPB13StringBuilder10to__string(_string_builder)));
     }
     if (next_rule.empty > base_rule.empty) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(45);
@@ -5343,7 +5343,7 @@
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " to ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, next_rule.empty);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ".");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("warning", "missing", column, _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("warning", "missing", column, _M0MPB13StringBuilder10to__string(_string_builder)));
       return;
     } else {
       if (base_rule.empty > 0 && next_rule.empty === 0) {
@@ -5351,14 +5351,14 @@
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Column `");
         _M0MPB13StringBuilder13write__objectGsE(_string_builder, column);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` no longer has missing values.");
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("info", "missing", column, _M0MPB13StringBuilder10to__string(_string_builder)));
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("info", "missing", column, _M0MPB13StringBuilder10to__string(_string_builder)));
         return;
       } else {
         return;
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15drift__contains(values, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15drift__contains(values, value) {
     const _bind = values.length;
     let _tmp = 0;
     while (true) {
@@ -5376,8 +5376,8 @@
     }
     return false;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22drift__unique__headers(headers) {
-    const values = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22drift__unique__headers(headers) {
+    const values = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = headers.length;
     let _tmp = 0;
     while (true) {
@@ -5385,8 +5385,8 @@
       if (_ < _bind) {
         const header = headers[_];
         const label = _M0MPC16string6String9is__empty(header) ? "#empty" : header;
-        if (!_M0FP28clhhhhhh17moon_2dcsv_2dlite15drift__contains(values, label)) {
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(values, label);
+        if (!_M0FP27clhhhhh17moon_2dcsv_2dlite15drift__contains(values, label)) {
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(values, label);
         }
         _tmp = _ + 1 | 0;
         continue;
@@ -5396,21 +5396,21 @@
     }
     return values;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite30drift__collect__column__issues(issues, baseline, candidate) {
-    const baseline_headers = _M0FP28clhhhhhh17moon_2dcsv_2dlite22drift__unique__headers(baseline.table.headers);
-    const candidate_headers = _M0FP28clhhhhhh17moon_2dcsv_2dlite22drift__unique__headers(candidate.table.headers);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite30drift__collect__column__issues(issues, baseline, candidate) {
+    const baseline_headers = _M0FP27clhhhhh17moon_2dcsv_2dlite22drift__unique__headers(baseline.table.headers);
+    const candidate_headers = _M0FP27clhhhhh17moon_2dcsv_2dlite22drift__unique__headers(candidate.table.headers);
     const _bind = baseline_headers.length;
     let _tmp = 0;
     while (true) {
       const _ = _tmp;
       if (_ < _bind) {
         const column = baseline_headers[_];
-        if (!_M0FP28clhhhhhh17moon_2dcsv_2dlite15drift__contains(candidate_headers, column)) {
+        if (!_M0FP27clhhhhh17moon_2dcsv_2dlite15drift__contains(candidate_headers, column)) {
           const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(46);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Column `");
           _M0MPB13StringBuilder13write__objectGsE(_string_builder, column);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` was removed from the candidate data.");
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("error", "schema", column, _M0MPB13StringBuilder10to__string(_string_builder)));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("error", "schema", column, _M0MPB13StringBuilder10to__string(_string_builder)));
         }
         _tmp = _ + 1 | 0;
         continue;
@@ -5424,12 +5424,12 @@
       const _ = _tmp$2;
       if (_ < _bind$2) {
         const column = candidate_headers[_];
-        if (!_M0FP28clhhhhhh17moon_2dcsv_2dlite15drift__contains(baseline_headers, column)) {
+        if (!_M0FP27clhhhhh17moon_2dcsv_2dlite15drift__contains(baseline_headers, column)) {
           const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(42);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Column `");
           _M0MPB13StringBuilder13write__objectGsE(_string_builder, column);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` was added in the candidate data.");
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("info", "schema", column, _M0MPB13StringBuilder10to__string(_string_builder)));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("info", "schema", column, _M0MPB13StringBuilder10to__string(_string_builder)));
         }
         _tmp$2 = _ + 1 | 0;
         continue;
@@ -5443,8 +5443,8 @@
       const _ = _tmp$3;
       if (_ < _bind$3) {
         const column = baseline_headers[_];
-        if (_M0FP28clhhhhhh17moon_2dcsv_2dlite15drift__contains(candidate_headers, column)) {
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite38drift__collect__common__column__issues(issues, baseline, candidate, column);
+        if (_M0FP27clhhhhh17moon_2dcsv_2dlite15drift__contains(candidate_headers, column)) {
+          _M0FP27clhhhhh17moon_2dcsv_2dlite38drift__collect__common__column__issues(issues, baseline, candidate, column);
         }
         _tmp$3 = _ + 1 | 0;
         continue;
@@ -5453,7 +5453,7 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29drift__collect__score__issues(issues, baseline_score, candidate_score) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29drift__collect__score__issues(issues, baseline_score, candidate_score) {
     const delta = candidate_score.score - baseline_score.score | 0;
     if (delta <= -25) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(46);
@@ -5464,7 +5464,7 @@
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " to ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, candidate_score.score);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ".");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("error", "score", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("error", "score", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
       return;
     } else {
       if (delta <= -8) {
@@ -5476,7 +5476,7 @@
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " to ");
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, candidate_score.score);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ".");
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("warning", "score", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("warning", "score", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
         return;
       } else {
         if (delta >= 8) {
@@ -5488,7 +5488,7 @@
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " to ");
           _M0MPB13StringBuilder13write__objectGiE(_string_builder, candidate_score.score);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ".");
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("info", "score", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("info", "score", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
           return;
         } else {
           return;
@@ -5496,20 +5496,20 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite10drift__abs(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite10drift__abs(value) {
     return value < 0 ? 0 - value | 0 : value;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27drift__percent__change__abs(delta, baseline) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27drift__percent__change__abs(delta, baseline) {
     if (baseline === 0) {
       return delta === 0 ? 0 : 100;
     } else {
       if (baseline === 0) {
         $panic();
       }
-      return (Math.imul(_M0FP28clhhhhhh17moon_2dcsv_2dlite10drift__abs(delta), 100) | 0) / baseline | 0;
+      return (Math.imul(_M0FP27clhhhhh17moon_2dcsv_2dlite10drift__abs(delta), 100) | 0) / baseline | 0;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18drift__signed__int(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18drift__signed__int(value) {
     if (value > 0) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(1);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "+");
@@ -5519,19 +5519,19 @@
       return _M0MPC13int3Int18to__string_2einner(value, 10);
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29drift__collect__shape__issues(issues, baseline, candidate) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29drift__collect__shape__issues(issues, baseline, candidate) {
     const row_delta = candidate.table.rows.length - baseline.table.rows.length | 0;
     if (row_delta !== 0) {
-      const severity = _M0FP28clhhhhhh17moon_2dcsv_2dlite27drift__percent__change__abs(row_delta, baseline.table.rows.length) >= 50 ? "warning" : "info";
+      const severity = _M0FP27clhhhhh17moon_2dcsv_2dlite27drift__percent__change__abs(row_delta, baseline.table.rows.length) >= 50 ? "warning" : "info";
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(31);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Row count changed from ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, baseline.table.rows.length);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " to ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, candidate.table.rows.length);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " (");
-      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP28clhhhhhh17moon_2dcsv_2dlite18drift__signed__int(row_delta));
+      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP27clhhhhh17moon_2dcsv_2dlite18drift__signed__int(row_delta));
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ").");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue(severity, "shape", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue(severity, "shape", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
     }
     const column_delta = candidate.table.headers.length - baseline.table.headers.length | 0;
     if (column_delta !== 0) {
@@ -5541,32 +5541,32 @@
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " to ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, candidate.table.headers.length);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " (");
-      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP28clhhhhhh17moon_2dcsv_2dlite18drift__signed__int(column_delta));
+      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP27clhhhhh17moon_2dcsv_2dlite18drift__signed__int(column_delta));
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ").");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("warning", "shape", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssue("warning", "shape", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
       return;
     } else {
       return;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite12audit__drift(baseline_input, candidate_input) {
-    const baseline = _M0FP28clhhhhhh17moon_2dcsv_2dlite10audit__csv(baseline_input);
-    const candidate = _M0FP28clhhhhhh17moon_2dcsv_2dlite10audit__csv(candidate_input);
-    const baseline_score = _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__quality__score(baseline);
-    const candidate_score = _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__quality__score(candidate);
-    const issues = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29drift__collect__score__issues(issues, baseline_score, candidate_score);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29drift__collect__shape__issues(issues, baseline, candidate);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite30drift__collect__column__issues(issues, baseline, candidate);
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite14CsvDriftReport(baseline, candidate, baseline_score, candidate_score, candidate_score.score - baseline_score.score | 0, candidate.table.rows.length - baseline.table.rows.length | 0, candidate.table.headers.length - baseline.table.headers.length | 0, issues);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite12audit__drift(baseline_input, candidate_input) {
+    const baseline = _M0FP27clhhhhh17moon_2dcsv_2dlite10audit__csv(baseline_input);
+    const candidate = _M0FP27clhhhhh17moon_2dcsv_2dlite10audit__csv(candidate_input);
+    const baseline_score = _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__quality__score(baseline);
+    const candidate_score = _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__quality__score(candidate);
+    const issues = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29drift__collect__score__issues(issues, baseline_score, candidate_score);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29drift__collect__shape__issues(issues, baseline, candidate);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite30drift__collect__column__issues(issues, baseline, candidate);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite14CsvDriftReport(baseline, candidate, baseline_score, candidate_score, candidate_score.score - baseline_score.score | 0, candidate.table.rows.length - baseline.table.rows.length | 0, candidate.table.headers.length - baseline.table.headers.length | 0, issues);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite32gate__collect__candidate__issues(issues, drift, options) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite32gate__collect__candidate__issues(issues, drift, options) {
     if (drift.candidate.parse_issues.length > 0) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(72);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Candidate CSV has ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, drift.candidate.parse_issues.length);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " parse issue(s); fix structural issues before release.");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue("error", "parse_issues", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue("error", "parse_issues", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
     }
     if (drift.candidate.quality_issues.length > options.max_quality_issues) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(68);
@@ -5575,16 +5575,16 @@
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " quality issue(s), exceeding the allowed maximum ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, options.max_quality_issues);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ".");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue("error", "max_quality_issues", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue("error", "max_quality_issues", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
       return;
     } else {
       return;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, severity, rule, issue) {
-    _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue(severity, rule, issue.column, issue.message));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, severity, rule, issue) {
+    _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue(severity, rule, issue.column, issue.message));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28gate__collect__drift__issues(issues, drift, options) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28gate__collect__drift__issues(issues, drift, options) {
     const _bind = drift.issues;
     const _bind$2 = _bind.length;
     let _tmp = 0;
@@ -5602,7 +5602,7 @@
             _tmp$2 = false;
           }
           if (_tmp$2) {
-            _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, "error", "no_removed_columns", issue);
+            _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, "error", "no_removed_columns", issue);
           } else {
             let _tmp$4;
             const _tmp$5 = issue.message;
@@ -5613,12 +5613,12 @@
               _tmp$4 = false;
             }
             if (_tmp$4) {
-              _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, "error", "no_new_columns", issue);
+              _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, "error", "no_new_columns", issue);
             }
           }
         } else {
           if (issue.category === "type" && !options.allow_type_changes) {
-            _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, "error", "no_type_changes", issue);
+            _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, "error", "no_type_changes", issue);
           } else {
             let _tmp$2;
             if (issue.category === "missing") {
@@ -5635,7 +5635,7 @@
               _tmp$2 = false;
             }
             if (_tmp$2) {
-              _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, "error", "no_missing_increase", issue);
+              _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__push__from__drift(issues, "error", "no_missing_increase", issue);
             }
           }
         }
@@ -5646,7 +5646,7 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28gate__collect__score__issues(issues, drift, options) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28gate__collect__score__issues(issues, drift, options) {
     if (drift.candidate_score.score < options.min_score) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(56);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Candidate quality score ");
@@ -5654,7 +5654,7 @@
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " is below the required minimum ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, options.min_score);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ".");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue("error", "min_score", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue("error", "min_score", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
     }
     if (drift.score_delta < (0 - options.max_score_drop | 0)) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(77);
@@ -5663,13 +5663,13 @@
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " point(s), exceeding the allowed drop of ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, options.max_score_drop);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ".");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue("error", "max_score_drop", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite19CsvQualityGateIssue("error", "max_score_drop", "*", _M0MPB13StringBuilder10to__string(_string_builder)));
       return;
     } else {
       return;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite12gate__passed(issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite12gate__passed(issues) {
     const _bind = issues.length;
     let _tmp = 0;
     while (true) {
@@ -5687,21 +5687,21 @@
     }
     return true;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite20audit__quality__gate(baseline_input, candidate_input, options) {
-    const drift = _M0FP28clhhhhhh17moon_2dcsv_2dlite12audit__drift(baseline_input, candidate_input);
-    const issues = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite28gate__collect__score__issues(issues, drift, options);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite32gate__collect__candidate__issues(issues, drift, options);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite28gate__collect__drift__issues(issues, drift, options);
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite20CsvQualityGateReport(_M0FP28clhhhhhh17moon_2dcsv_2dlite12gate__passed(issues), options, drift, issues);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite20audit__quality__gate(baseline_input, candidate_input, options) {
+    const drift = _M0FP27clhhhhh17moon_2dcsv_2dlite12audit__drift(baseline_input, candidate_input);
+    const issues = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite28gate__collect__score__issues(issues, drift, options);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite32gate__collect__candidate__issues(issues, drift, options);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite28gate__collect__drift__issues(issues, drift, options);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite20CsvQualityGateReport(_M0FP27clhhhhh17moon_2dcsv_2dlite12gate__passed(issues), options, drift, issues);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29audit__quality__gate__default(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite20audit__quality__gate(baseline_input, candidate_input, _M0FP28clhhhhhh17moon_2dcsv_2dlite31quality__gate__default__options());
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29audit__quality__gate__default(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite20audit__quality__gate(baseline_input, candidate_input, _M0FP27clhhhhh17moon_2dcsv_2dlite31quality__gate__default__options());
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16gate__bool__text(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16gate__bool__text(value) {
     return value ? "yes" : "no";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17gate__signed__int(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17gate__signed__int(value) {
     if (value > 0) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(1);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "+");
@@ -5711,7 +5711,7 @@
       return _M0MPC13int3Int18to__string_2einner(value, 10);
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -5738,7 +5738,7 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite38audit__quality__gate__report__markdown(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite38audit__quality__gate__report__markdown(report) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "# CSV Quality Gate Report\n\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "## Summary\n\n");
@@ -5761,7 +5761,7 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$2));
     const _string_builder$3 = _M0MPB13StringBuilder21StringBuilder_2einner(16);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "- Score delta: ");
-    _M0MPB13StringBuilder13write__objectGsE(_string_builder$3, _M0FP28clhhhhhh17moon_2dcsv_2dlite17gate__signed__int(report.drift.score_delta));
+    _M0MPB13StringBuilder13write__objectGsE(_string_builder$3, _M0FP27clhhhhh17moon_2dcsv_2dlite17gate__signed__int(report.drift.score_delta));
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
     const _string_builder$4 = _M0MPB13StringBuilder21StringBuilder_2einner(16);
@@ -5787,22 +5787,22 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$7));
     const _string_builder$8 = _M0MPB13StringBuilder21StringBuilder_2einner(22);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$8, "- Allow new columns: ");
-    _M0MPB13StringBuilder13write__objectGsE(_string_builder$8, _M0FP28clhhhhhh17moon_2dcsv_2dlite16gate__bool__text(report.options.allow_new_columns));
+    _M0MPB13StringBuilder13write__objectGsE(_string_builder$8, _M0FP27clhhhhh17moon_2dcsv_2dlite16gate__bool__text(report.options.allow_new_columns));
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$8, "\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$8));
     const _string_builder$9 = _M0MPB13StringBuilder21StringBuilder_2einner(26);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$9, "- Allow removed columns: ");
-    _M0MPB13StringBuilder13write__objectGsE(_string_builder$9, _M0FP28clhhhhhh17moon_2dcsv_2dlite16gate__bool__text(report.options.allow_removed_columns));
+    _M0MPB13StringBuilder13write__objectGsE(_string_builder$9, _M0FP27clhhhhh17moon_2dcsv_2dlite16gate__bool__text(report.options.allow_removed_columns));
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$9, "\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$9));
     const _string_builder$10 = _M0MPB13StringBuilder21StringBuilder_2einner(23);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$10, "- Allow type changes: ");
-    _M0MPB13StringBuilder13write__objectGsE(_string_builder$10, _M0FP28clhhhhhh17moon_2dcsv_2dlite16gate__bool__text(report.options.allow_type_changes));
+    _M0MPB13StringBuilder13write__objectGsE(_string_builder$10, _M0FP27clhhhhh17moon_2dcsv_2dlite16gate__bool__text(report.options.allow_type_changes));
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$10, "\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$10));
     const _string_builder$11 = _M0MPB13StringBuilder21StringBuilder_2einner(34);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$11, "- Allow missing-value increases: ");
-    _M0MPB13StringBuilder13write__objectGsE(_string_builder$11, _M0FP28clhhhhhh17moon_2dcsv_2dlite16gate__bool__text(report.options.allow_missing_increase));
+    _M0MPB13StringBuilder13write__objectGsE(_string_builder$11, _M0FP27clhhhhh17moon_2dcsv_2dlite16gate__bool__text(report.options.allow_missing_increase));
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$11, "\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$11));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\n## Gate Issues\n\n");
@@ -5819,13 +5819,13 @@
         if (_ < _bind$2) {
           const issue = _bind[_];
           _M0IPB13StringBuilderPB6Logger13write__string(out, "| ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, issue.severity);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, issue.severity);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, issue.rule);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, issue.rule);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, issue.column);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, issue.column);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, issue.message);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27gate__write__markdown__cell(out, issue.message);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " |\n");
           _tmp = _ + 1 | 0;
           continue;
@@ -5836,10 +5836,10 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__quality__gate__markdown(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite38audit__quality__gate__report__markdown(_M0FP28clhhhhhh17moon_2dcsv_2dlite29audit__quality__gate__default(baseline_input, candidate_input));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__quality__gate__markdown(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite38audit__quality__gate__report__markdown(_M0FP27clhhhhh17moon_2dcsv_2dlite29audit__quality__gate__default(baseline_input, candidate_input));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, value) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -5880,7 +5880,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25gate__write__issues__json(out, issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25gate__write__issues__json(out, issues) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = issues.length;
@@ -5891,16 +5891,16 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const issue = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
+        const issue = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"severity\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, issue.severity);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, issue.severity);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"rule\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, issue.rule);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, issue.rule);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, issue.column);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, issue.column);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"message\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, issue.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite25gate__write__json__string(out, issue.message);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -5910,10 +5910,10 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, value) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, value ? "true" : "false");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26gate__write__options__json(out, options) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26gate__write__options__json(out, options) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(12);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\"min_score\":");
@@ -5928,20 +5928,20 @@
     _M0MPB13StringBuilder13write__objectGiE(_string_builder$3, options.max_quality_issues);
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"allow_new_columns\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, options.allow_new_columns);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, options.allow_new_columns);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"allow_removed_columns\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, options.allow_removed_columns);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, options.allow_removed_columns);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"allow_type_changes\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, options.allow_type_changes);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, options.allow_type_changes);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"allow_missing_increase\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, options.allow_missing_increase);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, options.allow_missing_increase);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite34audit__quality__gate__report__json(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite34audit__quality__gate__report__json(report) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\"passed\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, report.passed);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite23gate__write__json__bool(out, report.passed);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"summary\":{");
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(17);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\"baseline_score\":");
@@ -5985,9 +5985,9 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$10));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"options\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26gate__write__options__json(out, report.options);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26gate__write__options__json(out, report.options);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"issues\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite25gate__write__issues__json(out, report.issues);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite25gate__write__issues__json(out, report.issues);
     const _string_builder$11 = _M0MPB13StringBuilder21StringBuilder_2einner(21);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$11, ",\"drift_issue_count\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder$11, report.drift.issues.length);
@@ -5995,13 +5995,13 @@
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__quality__gate__json(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite34audit__quality__gate__report__json(_M0FP28clhhhhhh17moon_2dcsv_2dlite29audit__quality__gate__default(baseline_input, candidate_input));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__quality__gate__json(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite34audit__quality__gate__report__json(_M0FP27clhhhhh17moon_2dcsv_2dlite29audit__quality__gate__default(baseline_input, candidate_input));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26contract__is__ascii__space(ch) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26contract__is__ascii__space(ch) {
     return ch === 32 || (ch === 9 || (ch === 10 || ch === 13));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value) {
     const chars = _M0MPC15array5Array11new_2einnerGcE(0);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -6023,7 +6023,7 @@
     const start = new _M0TPB8MutLocalGiE(0);
     const finish = new _M0TPB8MutLocalGiE(chars.length);
     while (true) {
-      if (start.val < finish.val && _M0FP28clhhhhhh17moon_2dcsv_2dlite26contract__is__ascii__space(_M0MPC15array5Array2atGcE(chars, start.val))) {
+      if (start.val < finish.val && _M0FP27clhhhhh17moon_2dcsv_2dlite26contract__is__ascii__space(_M0MPC15array5Array2atGcE(chars, start.val))) {
         start.val = start.val + 1 | 0;
         continue;
       } else {
@@ -6031,7 +6031,7 @@
       }
     }
     while (true) {
-      if (finish.val > start.val && _M0FP28clhhhhhh17moon_2dcsv_2dlite26contract__is__ascii__space(_M0MPC15array5Array2atGcE(chars, finish.val - 1 | 0))) {
+      if (finish.val > start.val && _M0FP27clhhhhh17moon_2dcsv_2dlite26contract__is__ascii__space(_M0MPC15array5Array2atGcE(chars, finish.val - 1 | 0))) {
         finish.val = finish.val - 1 | 0;
         continue;
       } else {
@@ -6054,15 +6054,15 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19contract__normalize(value) {
-    return _M0MPC16string6String9to__lower(_M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19contract__normalize(value) {
+    return _M0MPC16string6String9to__lower(_M0FP27clhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__parse__column__type(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__parse__column__type(value) {
     _L: {
       _L$2: {
         _L$3: {
           _L$4: {
-            const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite19contract__normalize(value);
+            const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite19contract__normalize(value);
             switch (_bind) {
               case "text": {
                 break _L$4;
@@ -6104,10 +6104,10 @@
     }
     return 3;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23contract__parse__double(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23contract__parse__double(value) {
     let _try_err;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value);
       const _bind$2 = _M0FPC28internal7strconv13parse__double(new _M0TPC16string10StringView(_bind, 0, _bind.length));
       let _bind$3;
       if (_bind$2.$tag === 1) {
@@ -6123,10 +6123,10 @@
     }
     return _M0DTPC16option6OptionGdE4None__;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, fallback) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, fallback) {
     let _try_err;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value);
       const _bind$2 = _M0FPC28internal7strconv18parse__int_2einner(new _M0TPC16string10StringView(_bind, 0, _bind.length), 0);
       if (_bind$2.$tag === 1) {
         const _ok = _bind$2;
@@ -6139,8 +6139,8 @@
     }
     return fallback;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22contract__push__unique(values, value) {
-    const trimmed = _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22contract__push__unique(values, value) {
+    const trimmed = _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(value);
     if (_M0MPC16string6String9is__empty(trimmed) || trimmed === "*") {
       return undefined;
     }
@@ -6159,10 +6159,10 @@
         break;
       }
     }
-    _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(values, trimmed);
+    _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(values, trimmed);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__split__pipe(value) {
-    const result = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__split__pipe(value) {
+    const result = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const field = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -6179,28 +6179,28 @@
         }
       }
       if (ch === 124) {
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite22contract__push__unique(result, _M0MPB13StringBuilder10to__string(field));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite22contract__push__unique(result, _M0MPB13StringBuilder10to__string(field));
         _M0MPB13StringBuilder5reset(field);
       } else {
         _M0IPB13StringBuilderPB6Logger11write__char(field, ch);
       }
       continue;
     }
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite22contract__push__unique(result, _M0MPB13StringBuilder10to__string(field));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite22contract__push__unique(result, _M0MPB13StringBuilder10to__string(field));
     return result;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23contract__push__columns(columns, column, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23contract__push__columns(columns, column, value) {
     if (!_M0MPC16string6String9is__empty(column) && _M0IP016_24default__implPB2Eq10not__equalGsE(column, "*")) {
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite22contract__push__unique(columns, column);
+      _M0FP27clhhhhh17moon_2dcsv_2dlite22contract__push__unique(columns, column);
     }
-    const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__split__pipe(value);
+    const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__split__pipe(value);
     const _bind$2 = _bind.length;
     let _tmp = 0;
     while (true) {
       const _ = _tmp;
       if (_ < _bind$2) {
         const item = _bind[_];
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite22contract__push__unique(columns, item);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite22contract__push__unique(columns, item);
         _tmp = _ + 1 | 0;
         continue;
       } else {
@@ -6208,8 +6208,8 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16contract__truthy(value) {
-    const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite19contract__normalize(value);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16contract__truthy(value) {
+    const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite19contract__normalize(value);
     switch (_bind) {
       case "required": {
         return true;
@@ -6231,17 +6231,17 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18contract__cell__at(row, index) {
-    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18contract__cell__at(row, index) {
+    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23contract__column__index(headers, column) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23contract__column__index(headers, column) {
     const _bind = 0;
     const _bind$2 = headers.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0FP28clhhhhhh17moon_2dcsv_2dlite19contract__normalize(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, i)) === _M0FP28clhhhhhh17moon_2dcsv_2dlite19contract__normalize(column)) {
+        if (_M0FP27clhhhhh17moon_2dcsv_2dlite19contract__normalize(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, i)) === _M0FP27clhhhhh17moon_2dcsv_2dlite19contract__normalize(column)) {
           return i;
         }
         _tmp = i + 1 | 0;
@@ -6252,10 +6252,10 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, column) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, column) {
     let index;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite23contract__column__index(table.headers, column);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite23contract__column__index(table.headers, column);
       if (_bind === undefined) {
         return "";
       } else {
@@ -6265,22 +6265,22 @@
         break _L;
       }
     }
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite18contract__cell__at(row, index);
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite18contract__cell__at(row, index);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28quality__contract__from__csv(input) {
-    const table = _M0FP28clhhhhhh17moon_2dcsv_2dlite18parse__table__auto(input);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28quality__contract__from__csv(input) {
+    const table = _M0FP27clhhhhh17moon_2dcsv_2dlite18parse__table__auto(input);
     const name = new _M0TPB8MutLocalGsE("csv-contract");
     const min_score = new _M0TPB8MutLocalGiE(0);
     const max_parse_issues = new _M0TPB8MutLocalGiE(0);
     const max_quality_issues = new _M0TPB8MutLocalGiE(999999);
     const min_rows = new _M0TPB8MutLocalGiE(-1);
     const max_rows = new _M0TPB8MutLocalGiE(-1);
-    const required_columns = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    const column_rules = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    const min_number_rules = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    const max_number_rules = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    const allowed_values_rules = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    const unique_key_rules = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const required_columns = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const column_rules = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const min_number_rules = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const max_number_rules = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const allowed_values_rules = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const unique_key_rules = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const _bind = table.rows;
     const _bind$2 = _bind.length;
     let _tmp = 0;
@@ -6288,10 +6288,10 @@
       const _ = _tmp;
       if (_ < _bind$2) {
         const row = _bind[_];
-        const rule = _M0FP28clhhhhhh17moon_2dcsv_2dlite19contract__normalize(_M0FP28clhhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, "rule"));
-        const column = _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(_M0FP28clhhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, "column"));
-        const value = _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(_M0FP28clhhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, "value"));
-        const extra = _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(_M0FP28clhhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, "extra"));
+        const rule = _M0FP27clhhhhh17moon_2dcsv_2dlite19contract__normalize(_M0FP27clhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, "rule"));
+        const column = _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(_M0FP27clhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, "column"));
+        const value = _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(_M0FP27clhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, "value"));
+        const extra = _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__trim__ascii(_M0FP27clhhhhh17moon_2dcsv_2dlite23quality__contract__cell(table, row, "extra"));
         _L: {
           _L$2: {
             _L$3: {
@@ -6364,7 +6364,7 @@
                                                         let kind;
                                                         _L$23: {
                                                           _L$24: {
-                                                            const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__parse__column__type(value);
+                                                            const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__parse__column__type(value);
                                                             if (_bind$3 === undefined) {
                                                             } else {
                                                               const _Some = _bind$3;
@@ -6375,7 +6375,7 @@
                                                             break _L$23;
                                                           }
                                                           if (!_M0MPC16string6String9is__empty(column) && _M0IP016_24default__implPB2Eq10not__equalGsE(column, "*")) {
-                                                            _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(column_rules, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvColumnRule(column, kind, _M0FP28clhhhhhh17moon_2dcsv_2dlite16contract__truthy(extra)));
+                                                            _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(column_rules, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvColumnRule(column, kind, _M0FP27clhhhhh17moon_2dcsv_2dlite16contract__truthy(extra)));
                                                           }
                                                         }
                                                         break;
@@ -6420,34 +6420,34 @@
                                                 }
                                                 break _L$19;
                                               }
-                                              min_score.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, min_score.val);
+                                              min_score.val = _M0FP27clhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, min_score.val);
                                             }
                                             break _L$17;
                                           }
-                                          max_parse_issues.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, max_parse_issues.val);
+                                          max_parse_issues.val = _M0FP27clhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, max_parse_issues.val);
                                         }
                                         break _L$15;
                                       }
-                                      max_quality_issues.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, max_quality_issues.val);
+                                      max_quality_issues.val = _M0FP27clhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, max_quality_issues.val);
                                     }
                                     break _L$13;
                                   }
-                                  min_rows.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, min_rows.val);
+                                  min_rows.val = _M0FP27clhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, min_rows.val);
                                 }
                                 break _L$11;
                               }
-                              max_rows.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, max_rows.val);
+                              max_rows.val = _M0FP27clhhhhh17moon_2dcsv_2dlite20contract__parse__int(value, max_rows.val);
                             }
                             break _L$9;
                           }
-                          _M0FP28clhhhhhh17moon_2dcsv_2dlite23contract__push__columns(required_columns, column, value);
+                          _M0FP27clhhhhh17moon_2dcsv_2dlite23contract__push__columns(required_columns, column, value);
                         }
                         break _L$7;
                       }
                       let number;
                       _L$9: {
                         _L$10: {
-                          const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite23contract__parse__double(value);
+                          const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite23contract__parse__double(value);
                           if (_bind$3.$tag === 1) {
                             const _Some = _bind$3;
                             const _number = _Some._0;
@@ -6457,7 +6457,7 @@
                           break _L$9;
                         }
                         if (!_M0MPC16string6String9is__empty(column) && _M0IP016_24default__implPB2Eq10not__equalGsE(column, "*")) {
-                          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(min_number_rules, new _M0TP28clhhhhhh17moon_2dcsv_2dlite21CsvContractNumberRule(column, number));
+                          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(min_number_rules, new _M0TP27clhhhhh17moon_2dcsv_2dlite21CsvContractNumberRule(column, number));
                         }
                       }
                     }
@@ -6466,7 +6466,7 @@
                   let number;
                   _L$7: {
                     _L$8: {
-                      const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite23contract__parse__double(value);
+                      const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite23contract__parse__double(value);
                       if (_bind$3.$tag === 1) {
                         const _Some = _bind$3;
                         const _number = _Some._0;
@@ -6476,21 +6476,21 @@
                       break _L$7;
                     }
                     if (!_M0MPC16string6String9is__empty(column) && _M0IP016_24default__implPB2Eq10not__equalGsE(column, "*")) {
-                      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(max_number_rules, new _M0TP28clhhhhhh17moon_2dcsv_2dlite21CsvContractNumberRule(column, number));
+                      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(max_number_rules, new _M0TP27clhhhhh17moon_2dcsv_2dlite21CsvContractNumberRule(column, number));
                     }
                   }
                 }
                 break _L$3;
               }
               if (!_M0MPC16string6String9is__empty(column) && _M0IP016_24default__implPB2Eq10not__equalGsE(column, "*")) {
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(allowed_values_rules, new _M0TP28clhhhhhh17moon_2dcsv_2dlite28CsvContractAllowedValuesRule(column, _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__split__pipe(value), _M0FP28clhhhhhh17moon_2dcsv_2dlite16contract__truthy(extra)));
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(allowed_values_rules, new _M0TP27clhhhhh17moon_2dcsv_2dlite28CsvContractAllowedValuesRule(column, _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__split__pipe(value), _M0FP27clhhhhh17moon_2dcsv_2dlite16contract__truthy(extra)));
               }
             }
             break _L;
           }
-          const columns = !_M0MPC16string6String9is__empty(value) ? _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__split__pipe(value) : _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__split__pipe(column);
+          const columns = !_M0MPC16string6String9is__empty(value) ? _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__split__pipe(value) : _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__split__pipe(column);
           if (columns.length > 0) {
-            _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(unique_key_rules, new _M0TP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRule(columns));
+            _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(unique_key_rules, new _M0TP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRule(columns));
           }
         }
         _tmp = _ + 1 | 0;
@@ -6499,9 +6499,9 @@
         break;
       }
     }
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite18CsvQualityContract(name.val, min_score.val, max_parse_issues.val, max_quality_issues.val, min_rows.val, max_rows.val, required_columns, column_rules, min_number_rules, max_number_rules, allowed_values_rules, unique_key_rules);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite18CsvQualityContract(name.val, min_score.val, max_parse_issues.val, max_quality_issues.val, min_rows.val, max_rows.val, required_columns, column_rules, min_number_rules, max_number_rules, allowed_values_rules, unique_key_rules);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28contract__column__type__name(kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28contract__column__type__name(kind) {
     switch (kind) {
       case 0: {
         return "text";
@@ -6517,8 +6517,8 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite32contract__name__looks__like__key(name) {
-    const normalized = _M0FP28clhhhhhh17moon_2dcsv_2dlite19contract__normalize(name);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite32contract__name__looks__like__key(name) {
+    const normalized = _M0FP27clhhhhh17moon_2dcsv_2dlite19contract__normalize(name);
     if (normalized === "id") {
       return true;
     } else {
@@ -6553,7 +6553,7 @@
       return _tmp;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, value) {
     const needs_quotes = new _M0TPB8MutLocalGbE(false);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -6604,12 +6604,12 @@
       return;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite32quality__contract__infer__report(audit, name) {
-    const score = _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__quality__score(audit);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite32quality__contract__infer__report(audit, name) {
+    const score = _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__quality__score(audit);
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "rule,column,value,extra\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "name,*,");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, name);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, name);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\n");
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(14);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "min_score,*,");
@@ -6639,12 +6639,12 @@
       if (_ < _bind$2) {
         const rule = _bind[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "required,");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, rule.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, rule.name);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",,\n");
         _M0IPB13StringBuilderPB6Logger13write__string(out, "type,");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, rule.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, rule.name);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite28contract__column__type__name(rule.kind));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite28contract__column__type__name(rule.kind));
         _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         _M0IPB13StringBuilderPB6Logger13write__string(out, rule.required ? "required" : "optional");
         _M0IPB13StringBuilderPB6Logger11write__char(out, 10);
@@ -6661,9 +6661,9 @@
       const _ = _tmp$2;
       if (_ < _bind$4) {
         const profile = _bind$3[_];
-        if (profile.total > 0 && (profile.unique === profile.total && _M0FP28clhhhhhh17moon_2dcsv_2dlite32contract__name__looks__like__key(profile.name))) {
+        if (profile.total > 0 && (profile.unique === profile.total && _M0FP27clhhhhh17moon_2dcsv_2dlite32contract__name__looks__like__key(profile.name))) {
           _M0IPB13StringBuilderPB6Logger13write__string(out, "unique,");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, profile.name);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27contract__write__csv__field(out, profile.name);
           _M0IPB13StringBuilderPB6Logger13write__string(out, ",,\n");
         }
         _tmp$2 = _ + 1 | 0;
@@ -6674,20 +6674,20 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29quality__contract__infer__csv(input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite32quality__contract__infer__report(_M0FP28clhhhhhh17moon_2dcsv_2dlite10audit__csv(input), "inferred-contract");
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29quality__contract__infer__csv(input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite32quality__contract__infer__report(_M0FP27clhhhhh17moon_2dcsv_2dlite10audit__csv(input), "inferred-contract");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, severity, rule, row, column, message) {
-    _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP28clhhhhhh17moon_2dcsv_2dlite16CsvContractIssue(severity, rule, row, column, message));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, severity, rule, row, column, message) {
+    _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(issues, new _M0TP27clhhhhh17moon_2dcsv_2dlite16CsvContractIssue(severity, rule, row, column, message));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite32contract__collect__audit__issues(issues, audit, score, contract) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite32contract__collect__audit__issues(issues, audit, score, contract) {
     if (score.score < contract.min_score) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(41);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "quality score ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, score.score);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " is below contract minimum ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, contract.min_score);
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "min_score", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
+      _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "min_score", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
     }
     if (audit.parse_issues.length > contract.max_parse_issues) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(44);
@@ -6695,7 +6695,7 @@
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, audit.parse_issues.length);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " exceeds contract maximum ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, contract.max_parse_issues);
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "max_parse_issues", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
+      _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "max_parse_issues", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
     }
     if (audit.quality_issues.length > contract.max_quality_issues) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(46);
@@ -6703,7 +6703,7 @@
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, audit.quality_issues.length);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " exceeds contract maximum ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, contract.max_quality_issues);
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "max_quality_issues", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
+      _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "max_quality_issues", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
     }
     if (contract.min_rows >= 0 && audit.table.rows.length < contract.min_rows) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(37);
@@ -6711,7 +6711,7 @@
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, audit.table.rows.length);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " is below contract minimum ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, contract.min_rows);
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "min_rows", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
+      _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "min_rows", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
     }
     if (contract.max_rows >= 0 && audit.table.rows.length > contract.max_rows) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(36);
@@ -6719,20 +6719,20 @@
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, audit.table.rows.length);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " exceeds contract maximum ");
       _M0MPB13StringBuilder13write__objectGiE(_string_builder, contract.max_rows);
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "max_rows", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
+      _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "max_rows", 0, "*", _M0MPB13StringBuilder10to__string(_string_builder));
       return;
     } else {
       return;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, rule, errors) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, rule, errors) {
     const _bind = errors.length;
     let _tmp = 0;
     while (true) {
       const _ = _tmp;
       if (_ < _bind) {
         const error = errors[_];
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", rule, error.row, error.column, error.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", rule, error.row, error.column, error.message);
         _tmp = _ + 1 | 0;
         continue;
       } else {
@@ -6740,9 +6740,9 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite33contract__collect__schema__issues(issues, table, contract) {
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "required", _M0FP28clhhhhhh17moon_2dcsv_2dlite27validate__required__columns(table, contract.required_columns));
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "type", _M0FP28clhhhhhh17moon_2dcsv_2dlite15validate__table(table, contract.column_rules));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite33contract__collect__schema__issues(issues, table, contract) {
+    _M0FP27clhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "required", _M0FP27clhhhhh17moon_2dcsv_2dlite27validate__required__columns(table, contract.required_columns));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "type", _M0FP27clhhhhh17moon_2dcsv_2dlite15validate__table(table, contract.column_rules));
     const _bind = contract.min_number_rules;
     const _bind$2 = _bind.length;
     let _tmp = 0;
@@ -6750,7 +6750,7 @@
       const _ = _tmp;
       if (_ < _bind$2) {
         const rule = _bind[_];
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "min", _M0FP28clhhhhhh17moon_2dcsv_2dlite21validate__min__number(table, rule.column, rule.value));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "min", _M0FP27clhhhhh17moon_2dcsv_2dlite21validate__min__number(table, rule.column, rule.value));
         _tmp = _ + 1 | 0;
         continue;
       } else {
@@ -6764,7 +6764,7 @@
       const _ = _tmp$2;
       if (_ < _bind$4) {
         const rule = _bind$3[_];
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "max", _M0FP28clhhhhhh17moon_2dcsv_2dlite21validate__max__number(table, rule.column, rule.value));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "max", _M0FP27clhhhhh17moon_2dcsv_2dlite21validate__max__number(table, rule.column, rule.value));
         _tmp$2 = _ + 1 | 0;
         continue;
       } else {
@@ -6778,7 +6778,7 @@
       const _ = _tmp$3;
       if (_ < _bind$6) {
         const rule = _bind$5[_];
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "allowed", _M0FP28clhhhhhh17moon_2dcsv_2dlite25validate__allowed__values(table, rule.column, rule.allowed, rule.required));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite34contract__push__validation__errors(issues, "allowed", _M0FP27clhhhhh17moon_2dcsv_2dlite25validate__allowed__values(table, rule.column, rule.allowed, rule.required));
         _tmp$3 = _ + 1 | 0;
         continue;
       } else {
@@ -6786,7 +6786,7 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite14contract__join(values, separator) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite14contract__join(values, separator) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     const _bind = 0;
     const _bind$2 = values.length;
@@ -6797,7 +6797,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger13write__string(out, separator);
         }
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -6806,7 +6806,7 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite33contract__collect__unique__issues(issues, table, contract) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite33contract__collect__unique__issues(issues, table, contract) {
     const _bind = contract.unique_key_rules;
     const _bind$2 = _bind.length;
     let _tmp = 0;
@@ -6814,7 +6814,7 @@
       const _ = _tmp;
       if (_ < _bind$2) {
         const rule = _bind[_];
-        const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite21validate__unique__key(table, rule.columns);
+        const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite21validate__unique__key(table, rule.columns);
         const _bind$4 = _bind$3.length;
         let _tmp$2 = 0;
         while (true) {
@@ -6822,7 +6822,7 @@
           if (_$2 < _bind$4) {
             const duplicate = _bind$3[_$2];
             const _tmp$3 = duplicate.duplicate_row;
-            const _tmp$4 = _M0FP28clhhhhhh17moon_2dcsv_2dlite14contract__join(rule.columns, "+");
+            const _tmp$4 = _M0FP27clhhhhh17moon_2dcsv_2dlite14contract__join(rule.columns, "+");
             const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(22);
             _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "row ");
             _M0MPB13StringBuilder13write__objectGiE(_string_builder, duplicate.duplicate_row);
@@ -6830,7 +6830,7 @@
             _M0MPB13StringBuilder13write__objectGiE(_string_builder, duplicate.first_row);
             _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ": ");
             _M0MPB13StringBuilder13write__objectGsE(_string_builder, duplicate.key);
-            _M0FP28clhhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "unique", _tmp$3, _tmp$4, _M0MPB13StringBuilder10to__string(_string_builder));
+            _M0FP27clhhhhh17moon_2dcsv_2dlite21contract__push__issue(issues, "error", "unique", _tmp$3, _tmp$4, _M0MPB13StringBuilder10to__string(_string_builder));
             _tmp$2 = _$2 + 1 | 0;
             continue;
           } else {
@@ -6844,7 +6844,7 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16contract__passed(issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16contract__passed(issues) {
     const _bind = issues.length;
     let _tmp = 0;
     while (true) {
@@ -6862,19 +6862,19 @@
     }
     return true;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite32audit__quality__contract__report(audit, contract) {
-    const score = _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__quality__score(audit);
-    const issues = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite32contract__collect__audit__issues(issues, audit, score, contract);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite33contract__collect__schema__issues(issues, audit.table, contract);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite33contract__collect__unique__issues(issues, audit.table, contract);
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite17CsvContractReport(_M0FP28clhhhhhh17moon_2dcsv_2dlite16contract__passed(issues), contract, audit, score, issues);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite32audit__quality__contract__report(audit, contract) {
+    const score = _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__quality__score(audit);
+    const issues = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite32contract__collect__audit__issues(issues, audit, score, contract);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite33contract__collect__schema__issues(issues, audit.table, contract);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite33contract__collect__unique__issues(issues, audit.table, contract);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite17CsvContractReport(_M0FP27clhhhhh17moon_2dcsv_2dlite16contract__passed(issues), contract, audit, score, issues);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite24audit__quality__contract(input, contract) {
-    const audit = _M0FP28clhhhhhh17moon_2dcsv_2dlite10audit__csv(input);
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite32audit__quality__contract__report(audit, contract);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite24audit__quality__contract(input, contract) {
+    const audit = _M0FP27clhhhhh17moon_2dcsv_2dlite10audit__csv(input);
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite32audit__quality__contract__report(audit, contract);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -6901,12 +6901,12 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite42audit__quality__contract__report__markdown(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite42audit__quality__contract__report__markdown(report) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "# CSV Quality Contract Report\n\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "## Summary\n\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "- Contract: ");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, report.contract.name);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, report.contract.name);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 10);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "- Status: ");
     _M0IPB13StringBuilderPB6Logger13write__string(out, report.passed ? "pass" : "fail");
@@ -6976,17 +6976,17 @@
         if (_ < _bind$2) {
           const issue = _bind[_];
           _M0IPB13StringBuilderPB6Logger13write__string(out, "| ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, issue.severity);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, issue.severity);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, issue.rule);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, issue.rule);
           const _string_builder$7 = _M0MPB13StringBuilder21StringBuilder_2einner(6);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$7, " | ");
           _M0MPB13StringBuilder13write__objectGiE(_string_builder$7, issue.row);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$7, " | ");
           _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$7));
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, issue.column);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, issue.column);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, issue.message);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite31contract__write__markdown__cell(out, issue.message);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " |\n");
           _tmp = _ + 1 | 0;
           continue;
@@ -6997,13 +6997,13 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite34audit__quality__contract__markdown(input, contract_csv) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite42audit__quality__contract__report__markdown(_M0FP28clhhhhhh17moon_2dcsv_2dlite24audit__quality__contract(input, _M0FP28clhhhhhh17moon_2dcsv_2dlite28quality__contract__from__csv(contract_csv)));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite34audit__quality__contract__markdown(input, contract_csv) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite42audit__quality__contract__report__markdown(_M0FP27clhhhhh17moon_2dcsv_2dlite24audit__quality__contract(input, _M0FP27clhhhhh17moon_2dcsv_2dlite28quality__contract__from__csv(contract_csv)));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27contract__write__json__bool(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27contract__write__json__bool(out, value) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, value ? "true" : "false");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, value) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -7044,7 +7044,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite36contract__write__column__rules__json(out, rules) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite36contract__write__column__rules__json(out, rules) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = rules.length;
@@ -7055,14 +7055,14 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const rule = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(rules, i);
+        const rule = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(rules, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, rule.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, rule.name);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"type\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite28contract__column__type__name(rule.kind));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite28contract__column__type__name(rule.kind));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"required\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27contract__write__json__bool(out, rule.required);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27contract__write__json__bool(out, rule.required);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -7072,7 +7072,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite36contract__write__string__array__json(out, values) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite36contract__write__string__array__json(out, values) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = values.length;
@@ -7083,7 +7083,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -7092,7 +7092,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite36contract__write__unique__rules__json(out, rules) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite36contract__write__unique__rules__json(out, rules) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = rules.length;
@@ -7104,7 +7104,7 @@
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
         _M0IPB13StringBuilderPB6Logger13write__string(out, "{\"columns\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite36contract__write__string__array__json(out, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(rules, i).columns);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite36contract__write__string__array__json(out, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(rules, i).columns);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -7114,10 +7114,10 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite31contract__write__contract__json(out, contract) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite31contract__write__contract__json(out, contract) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\"name\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, contract.name);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, contract.name);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(13);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ",\"min_score\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder, contract.min_score);
@@ -7139,14 +7139,14 @@
     _M0MPB13StringBuilder13write__objectGiE(_string_builder$5, contract.max_rows);
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$5));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"required_columns\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite36contract__write__string__array__json(out, contract.required_columns);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite36contract__write__string__array__json(out, contract.required_columns);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"column_rules\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite36contract__write__column__rules__json(out, contract.column_rules);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite36contract__write__column__rules__json(out, contract.column_rules);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"unique_key_rules\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite36contract__write__unique__rules__json(out, contract.unique_key_rules);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite36contract__write__unique__rules__json(out, contract.unique_key_rules);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__issues__json(out, issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__issues__json(out, issues) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = issues.length;
@@ -7157,20 +7157,20 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const issue = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
+        const issue = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"severity\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, issue.severity);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, issue.severity);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"rule\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, issue.rule);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, issue.rule);
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(7);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ",\"row\":");
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, issue.row);
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, issue.column);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, issue.column);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"message\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, issue.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, issue.message);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -7180,22 +7180,22 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite38audit__quality__contract__report__json(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite38audit__quality__contract__report__json(report) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\"passed\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27contract__write__json__bool(out, report.passed);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27contract__write__json__bool(out, report.passed);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"contract\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite31contract__write__contract__json(out, report.contract);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite31contract__write__contract__json(out, report.contract);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"summary\":{");
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(8);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\"score\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder, report.score.score);
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"grade\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, report.score.grade);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, report.score.grade);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"risk\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, report.score.risk);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__json__string(out, report.score.risk);
     const _string_builder$2 = _M0MPB13StringBuilder21StringBuilder_2einner(8);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, ",\"rows\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder$2, report.audit.table.rows.length);
@@ -7218,14 +7218,14 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$6));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"issues\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29contract__write__issues__json(out, report.issues);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29contract__write__issues__json(out, report.issues);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__quality__contract__json(input, contract_csv) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite38audit__quality__contract__report__json(_M0FP28clhhhhhh17moon_2dcsv_2dlite24audit__quality__contract(input, _M0FP28clhhhhhh17moon_2dcsv_2dlite28quality__contract__from__csv(contract_csv)));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__quality__contract__json(input, contract_csv) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite38audit__quality__contract__report__json(_M0FP27clhhhhh17moon_2dcsv_2dlite24audit__quality__contract(input, _M0FP27clhhhhh17moon_2dcsv_2dlite28quality__contract__from__csv(contract_csv)));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite20inferred__type__name(kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite20inferred__type__name(kind) {
     switch (kind) {
       case 0: {
         return "empty";
@@ -7244,10 +7244,10 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22html__export__cell__at(row, index) {
-    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22html__export__cell__at(row, index) {
+    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28html__export__write__escaped(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28html__export__write__escaped(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -7286,7 +7286,7 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15table__to__html(table) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15table__to__html(table) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<table>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <thead>\n");
@@ -7299,7 +7299,7 @@
       if (_ < _bind$2) {
         const header = _bind[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "<th>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite28html__export__write__escaped(out, header);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite28html__export__write__escaped(out, header);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</th>");
         _tmp = _ + 1 | 0;
         continue;
@@ -7325,7 +7325,7 @@
           const i = _tmp$3;
           if (i < _bind$6) {
             _M0IPB13StringBuilderPB6Logger13write__string(out, "<td>");
-            _M0FP28clhhhhhh17moon_2dcsv_2dlite28html__export__write__escaped(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite22html__export__cell__at(row, i));
+            _M0FP27clhhhhh17moon_2dcsv_2dlite28html__export__write__escaped(out, _M0FP27clhhhhh17moon_2dcsv_2dlite22html__export__cell__at(row, i));
             _M0IPB13StringBuilderPB6Logger13write__string(out, "</td>");
             _tmp$3 = i + 1 | 0;
             continue;
@@ -7344,7 +7344,7 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</table>");
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -7371,7 +7371,7 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__drift__report__markdown(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__drift__report__markdown(report) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "# CSV Drift Report\n\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "## Summary\n\n");
@@ -7391,17 +7391,17 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$2));
     const _string_builder$3 = _M0MPB13StringBuilder21StringBuilder_2einner(16);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "- Score delta: ");
-    _M0MPB13StringBuilder13write__objectGsE(_string_builder$3, _M0FP28clhhhhhh17moon_2dcsv_2dlite18drift__signed__int(report.score_delta));
+    _M0MPB13StringBuilder13write__objectGsE(_string_builder$3, _M0FP27clhhhhh17moon_2dcsv_2dlite18drift__signed__int(report.score_delta));
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
     const _string_builder$4 = _M0MPB13StringBuilder21StringBuilder_2einner(14);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$4, "- Row delta: ");
-    _M0MPB13StringBuilder13write__objectGsE(_string_builder$4, _M0FP28clhhhhhh17moon_2dcsv_2dlite18drift__signed__int(report.row_delta));
+    _M0MPB13StringBuilder13write__objectGsE(_string_builder$4, _M0FP27clhhhhh17moon_2dcsv_2dlite18drift__signed__int(report.row_delta));
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$4, "\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
     const _string_builder$5 = _M0MPB13StringBuilder21StringBuilder_2einner(17);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$5, "- Column delta: ");
-    _M0MPB13StringBuilder13write__objectGsE(_string_builder$5, _M0FP28clhhhhhh17moon_2dcsv_2dlite18drift__signed__int(report.column_delta));
+    _M0MPB13StringBuilder13write__objectGsE(_string_builder$5, _M0FP27clhhhhh17moon_2dcsv_2dlite18drift__signed__int(report.column_delta));
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$5, "\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$5));
     const _string_builder$6 = _M0MPB13StringBuilder21StringBuilder_2einner(17);
@@ -7423,13 +7423,13 @@
         if (_ < _bind$2) {
           const issue = _bind[_];
           _M0IPB13StringBuilderPB6Logger13write__string(out, "| ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, issue.severity);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, issue.severity);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, issue.category);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, issue.category);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, issue.column);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, issue.column);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, issue.message);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite28drift__write__markdown__cell(out, issue.message);
           _M0IPB13StringBuilderPB6Logger13write__string(out, " |\n");
           _tmp = _ + 1 | 0;
           continue;
@@ -7440,10 +7440,10 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22audit__drift__markdown(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__drift__report__markdown(_M0FP28clhhhhhh17moon_2dcsv_2dlite12audit__drift(baseline_input, candidate_input));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22audit__drift__markdown(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__drift__report__markdown(_M0FP27clhhhhh17moon_2dcsv_2dlite12audit__drift(baseline_input, candidate_input));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, value) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -7484,7 +7484,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26drift__write__issues__json(out, issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26drift__write__issues__json(out, issues) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = issues.length;
@@ -7495,16 +7495,16 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const issue = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
+        const issue = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"severity\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, issue.severity);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, issue.severity);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"category\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, issue.category);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, issue.category);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, issue.column);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, issue.column);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"message\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, issue.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26drift__write__json__string(out, issue.message);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -7514,7 +7514,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__drift__report__json(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__drift__report__json(report) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\"summary\":{");
@@ -7560,20 +7560,20 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$10));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"issues\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26drift__write__issues__json(out, report.issues);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26drift__write__issues__json(out, report.issues);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18audit__drift__json(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__drift__report__json(_M0FP28clhhhhhh17moon_2dcsv_2dlite12audit__drift(baseline_input, candidate_input));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18audit__drift__json(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__drift__report__json(_M0FP27clhhhhh17moon_2dcsv_2dlite12audit__drift(baseline_input, candidate_input));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite13dialect__name(dialect) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite13dialect__name(dialect) {
     return dialect.delimiter === 44 ? "comma" : dialect.delimiter === 9 ? "tab" : dialect.delimiter === 59 ? "semicolon" : dialect.delimiter === 124 ? "pipe" : "custom";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22audit__recommendations(report) {
-    const recommendations = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22audit__recommendations(report) {
+    const recommendations = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     if (report.parse_issues.length > 0) {
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP28clhhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("error", "Fix structural parse issues before trusting schema or profile output."));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP27clhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("error", "Fix structural parse issues before trusting schema or profile output."));
     }
     const _bind = report.quality_issues;
     const _bind$2 = _bind.length;
@@ -7582,19 +7582,19 @@
       const _ = _tmp;
       if (_ < _bind$2) {
         const issue = _bind[_];
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP28clhhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation(issue.severity, issue.message));
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP27clhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation(issue.severity, issue.message));
         _tmp = _ + 1 | 0;
         continue;
       } else {
         break;
       }
     }
-    if (_M0IP016_24default__implPB2Eq10not__equalGsE(_M0FP28clhhhhhh17moon_2dcsv_2dlite13dialect__name(report.dialect), "comma")) {
+    if (_M0IP016_24default__implPB2Eq10not__equalGsE(_M0FP27clhhhhh17moon_2dcsv_2dlite13dialect__name(report.dialect), "comma")) {
       const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(89);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Detected ");
-      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP28clhhhhhh17moon_2dcsv_2dlite13dialect__name(report.dialect));
+      _M0MPB13StringBuilder13write__objectGsE(_string_builder, _M0FP27clhhhhh17moon_2dcsv_2dlite13dialect__name(report.dialect));
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " dialect; use parse_table_auto or the detected dialect when parsing this source.");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP28clhhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("info", _M0MPB13StringBuilder10to__string(_string_builder)));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP27clhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("info", _M0MPB13StringBuilder10to__string(_string_builder)));
     }
     const _bind$3 = report.inferred_schema;
     const _bind$4 = _bind$3.length;
@@ -7610,7 +7610,7 @@
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` has ");
           _M0MPB13StringBuilder13write__objectGiE(_string_builder, rule.empty);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " missing value(s); keep it optional or fill defaults before strict validation.");
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP28clhhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("warning", _M0MPB13StringBuilder10to__string(_string_builder)));
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP27clhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("warning", _M0MPB13StringBuilder10to__string(_string_builder)));
         }
         _tmp$2 = _ + 1 | 0;
         continue;
@@ -7643,7 +7643,7 @@
             _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Column `");
             _M0MPB13StringBuilder13write__objectGsE(_string_builder, profile.name);
             _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` looks numeric and can be used for aggregation or range validation.");
-            _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP28clhhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("info", _M0MPB13StringBuilder10to__string(_string_builder)));
+            _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP27clhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("info", _M0MPB13StringBuilder10to__string(_string_builder)));
           }
         }
         _tmp$3 = _ + 1 | 0;
@@ -7653,11 +7653,11 @@
       }
     }
     if (recommendations.length === 0) {
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP28clhhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("info", "No immediate data-quality issues were found in this sample."));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(recommendations, new _M0TP27clhhhhh17moon_2dcsv_2dlite22CsvAuditRecommendation("info", "No immediate data-quality issues were found in this sample."));
     }
     return recommendations;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26passport__boolean__columns(schema) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26passport__boolean__columns(schema) {
     const count = new _M0TPB8MutLocalGiE(0);
     const _bind = schema.length;
     let _tmp = 0;
@@ -7677,16 +7677,16 @@
     }
     return count.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18passport__cell__at(row, index) {
-    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18passport__cell__at(row, index) {
+    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__roll(seed, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite14passport__roll(seed, value) {
     if (1000003 === 0) {
       $panic();
     }
     return (((Math.imul(seed, 131) | 0) + value | 0) + 17 | 0) % 1000003 | 0;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite24passport__string__length(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite24passport__string__length(value) {
     const count = new _M0TPB8MutLocalGiE(0);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -7700,26 +7700,26 @@
     }
     return count.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__roll__string__shape(seed, value, salt) {
-    const next = new _M0TPB8MutLocalGiE(_M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__roll(seed, _M0FP28clhhhhhh17moon_2dcsv_2dlite24passport__string__length(value) + salt | 0));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__roll__string__shape(seed, value, salt) {
+    const next = new _M0TPB8MutLocalGiE(_M0FP27clhhhhh17moon_2dcsv_2dlite14passport__roll(seed, _M0FP27clhhhhh17moon_2dcsv_2dlite24passport__string__length(value) + salt | 0));
     if (_M0MPC16string6String9is__empty(value)) {
-      next.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__roll(next.val, 1);
+      next.val = _M0FP27clhhhhh17moon_2dcsv_2dlite14passport__roll(next.val, 1);
     } else {
-      next.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__roll(next.val, 7);
+      next.val = _M0FP27clhhhhh17moon_2dcsv_2dlite14passport__roll(next.val, 7);
     }
     return next.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite21passport__fingerprint(table) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite21passport__fingerprint(table) {
     const checksum = new _M0TPB8MutLocalGiE(17);
-    checksum.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__roll(checksum.val, table.headers.length);
-    checksum.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__roll(checksum.val, table.rows.length);
+    checksum.val = _M0FP27clhhhhh17moon_2dcsv_2dlite14passport__roll(checksum.val, table.headers.length);
+    checksum.val = _M0FP27clhhhhh17moon_2dcsv_2dlite14passport__roll(checksum.val, table.rows.length);
     const _bind = 0;
     const _bind$2 = table.headers.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        checksum.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__roll__string__shape(checksum.val, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, i), i + 1 | 0);
+        checksum.val = _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__roll__string__shape(checksum.val, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, i), i + 1 | 0);
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -7733,14 +7733,14 @@
       const row_index = _tmp$2;
       if (row_index < _bind$4) {
         const row = _M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, row_index);
-        checksum.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__roll(checksum.val, (row.length + row_index | 0) + 1 | 0);
+        checksum.val = _M0FP27clhhhhh17moon_2dcsv_2dlite14passport__roll(checksum.val, (row.length + row_index | 0) + 1 | 0);
         const _bind$5 = 0;
         const _bind$6 = table.headers.length;
         let _tmp$3 = _bind$5;
         while (true) {
           const column_index = _tmp$3;
           if (column_index < _bind$6) {
-            checksum.val = _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__roll__string__shape(checksum.val, _M0FP28clhhhhhh17moon_2dcsv_2dlite18passport__cell__at(row, column_index), Math.imul(row_index + 1 | 0, column_index + 1 | 0) | 0);
+            checksum.val = _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__roll__string__shape(checksum.val, _M0FP27clhhhhh17moon_2dcsv_2dlite18passport__cell__at(row, column_index), Math.imul(row_index + 1 | 0, column_index + 1 | 0) | 0);
             _tmp$3 = column_index + 1 | 0;
             continue;
           } else {
@@ -7762,7 +7762,7 @@
     _M0MPB13StringBuilder13write__objectGiE(_string_builder, checksum.val);
     return _M0MPB13StringBuilder10to__string(_string_builder);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26passport__numeric__columns(schema) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26passport__numeric__columns(schema) {
     const count = new _M0TPB8MutLocalGiE(0);
     const _bind = schema.length;
     let _tmp = 0;
@@ -7793,7 +7793,7 @@
     }
     return count.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27passport__required__columns(schema) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27passport__required__columns(schema) {
     const count = new _M0TPB8MutLocalGiE(0);
     const _bind = schema.length;
     let _tmp = 0;
@@ -7812,10 +7812,10 @@
     }
     return count.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27passport__optional__columns(schema) {
-    return schema.length - _M0FP28clhhhhhh17moon_2dcsv_2dlite27passport__required__columns(schema) | 0;
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27passport__optional__columns(schema) {
+    return schema.length - _M0FP27clhhhhh17moon_2dcsv_2dlite27passport__required__columns(schema) | 0;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23passport__text__columns(schema) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23passport__text__columns(schema) {
     const count = new _M0TPB8MutLocalGiE(0);
     const _bind = schema.length;
     let _tmp = 0;
@@ -7835,7 +7835,7 @@
     }
     return count.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25passport__unique__columns(schema) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25passport__unique__columns(schema) {
     const count = new _M0TPB8MutLocalGiE(0);
     const _bind = schema.length;
     let _tmp = 0;
@@ -7854,15 +7854,15 @@
     }
     return count.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite32csv__data__passport__from__audit(audit, name) {
-    const score = _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__quality__score(audit);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite32csv__data__passport__from__audit(audit, name) {
+    const score = _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__quality__score(audit);
     const schema = audit.inferred_schema;
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite15CsvDataPassport(name, _M0FP28clhhhhhh17moon_2dcsv_2dlite21passport__fingerprint(audit.table), _M0FP28clhhhhhh17moon_2dcsv_2dlite13dialect__name(audit.dialect), audit.table.rows.length, audit.table.headers.length, Math.imul(audit.table.rows.length, audit.table.headers.length) | 0, score.missing_cells, audit.parse_issues.length, audit.quality_issues.length, _M0FP28clhhhhhh17moon_2dcsv_2dlite27passport__required__columns(schema), _M0FP28clhhhhhh17moon_2dcsv_2dlite27passport__optional__columns(schema), _M0FP28clhhhhhh17moon_2dcsv_2dlite26passport__numeric__columns(schema), _M0FP28clhhhhhh17moon_2dcsv_2dlite26passport__boolean__columns(schema), _M0FP28clhhhhhh17moon_2dcsv_2dlite23passport__text__columns(schema), _M0FP28clhhhhhh17moon_2dcsv_2dlite25passport__unique__columns(schema), score, schema, _M0FP28clhhhhhh17moon_2dcsv_2dlite22audit__recommendations(audit));
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite15CsvDataPassport(name, _M0FP27clhhhhh17moon_2dcsv_2dlite21passport__fingerprint(audit.table), _M0FP27clhhhhh17moon_2dcsv_2dlite13dialect__name(audit.dialect), audit.table.rows.length, audit.table.headers.length, Math.imul(audit.table.rows.length, audit.table.headers.length) | 0, score.missing_cells, audit.parse_issues.length, audit.quality_issues.length, _M0FP27clhhhhh17moon_2dcsv_2dlite27passport__required__columns(schema), _M0FP27clhhhhh17moon_2dcsv_2dlite27passport__optional__columns(schema), _M0FP27clhhhhh17moon_2dcsv_2dlite26passport__numeric__columns(schema), _M0FP27clhhhhh17moon_2dcsv_2dlite26passport__boolean__columns(schema), _M0FP27clhhhhh17moon_2dcsv_2dlite23passport__text__columns(schema), _M0FP27clhhhhh17moon_2dcsv_2dlite25passport__unique__columns(schema), score, schema, _M0FP27clhhhhh17moon_2dcsv_2dlite22audit__recommendations(audit));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19csv__data__passport(input, name) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite32csv__data__passport__from__audit(_M0FP28clhhhhhh17moon_2dcsv_2dlite10audit__csv(input), name);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19csv__data__passport(input, name) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite32csv__data__passport__from__audit(_M0FP27clhhhhh17moon_2dcsv_2dlite10audit__csv(input), name);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -7889,7 +7889,7 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28passport__column__type__name(kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28passport__column__type__name(kind) {
     switch (kind) {
       case 0: {
         return "text";
@@ -7905,7 +7905,7 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__join(values, separator) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite14passport__join(values, separator) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     const _bind = 0;
     const _bind$2 = values.length;
@@ -7916,7 +7916,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger13write__string(out, separator);
         }
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -7925,7 +7925,7 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite33passport__write__schema__markdown(out, schema) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite33passport__write__schema__markdown(out, schema) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "| column | type | required | empty | unique | examples |\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "| --- | --- | --- | ---: | ---: | --- |\n");
     const _bind = schema.length;
@@ -7935,9 +7935,9 @@
       if (_ < _bind) {
         const rule = schema[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "| ");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, rule.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, rule.name);
         _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite28passport__column__type__name(rule.kind));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite28passport__column__type__name(rule.kind));
         _M0IPB13StringBuilderPB6Logger13write__string(out, " | ");
         _M0IPB13StringBuilderPB6Logger13write__string(out, rule.required ? "yes" : "no");
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(10);
@@ -7949,7 +7949,7 @@
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, rule.unique);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " | ");
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite14passport__join(rule.examples, ", "));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, _M0FP27clhhhhh17moon_2dcsv_2dlite14passport__join(rule.examples, ", "));
         _M0IPB13StringBuilderPB6Logger13write__string(out, " |\n");
         _tmp = _ + 1 | 0;
         continue;
@@ -7958,18 +7958,18 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite37csv__data__passport__report__markdown(passport) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite37csv__data__passport__report__markdown(passport) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "# CSV Data Passport\n\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "## Identity\n\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "- Name: ");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, passport.name);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, passport.name);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 10);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "- Fingerprint: `");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, passport.fingerprint);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, passport.fingerprint);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "`\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "- Dialect: ");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, passport.dialect);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, passport.dialect);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 10);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(9);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "- Rows: ");
@@ -8050,7 +8050,7 @@
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$14, " |\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$14));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\n## Columns\n\n");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite33passport__write__schema__markdown(out, passport.schema);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite33passport__write__schema__markdown(out, passport.schema);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\n## Recommendations\n\n");
     const _bind = passport.recommendations;
     const _bind$2 = _bind.length;
@@ -8060,9 +8060,9 @@
       if (_ < _bind$2) {
         const item = _bind[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "- **");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, item.severity);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, item.severity);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "**: ");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, item.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite31passport__write__markdown__cell(out, item.message);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 10);
         _tmp = _ + 1 | 0;
         continue;
@@ -8072,10 +8072,10 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29csv__data__passport__markdown(input, name) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite37csv__data__passport__report__markdown(_M0FP28clhhhhhh17moon_2dcsv_2dlite19csv__data__passport(input, name));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29csv__data__passport__markdown(input, name) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite37csv__data__passport__report__markdown(_M0FP27clhhhhh17moon_2dcsv_2dlite19csv__data__passport(input, name));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, value) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -8116,7 +8116,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite38passport__write__recommendations__json(out, recommendations) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite38passport__write__recommendations__json(out, recommendations) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = recommendations.length;
@@ -8127,12 +8127,12 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const item = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(recommendations, i);
+        const item = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(recommendations, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"severity\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, item.severity);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, item.severity);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"message\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, item.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, item.message);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -8142,10 +8142,10 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27passport__write__json__bool(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27passport__write__json__bool(out, value) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, value ? "true" : "false");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite36passport__write__string__array__json(out, values) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite36passport__write__string__array__json(out, values) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = values.length;
@@ -8156,7 +8156,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -8165,7 +8165,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__schema__json(out, schema) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__schema__json(out, schema) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = schema.length;
@@ -8176,14 +8176,14 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const rule = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(schema, i);
+        const rule = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(schema, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, rule.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, rule.name);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"type\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite28passport__column__type__name(rule.kind));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite28passport__column__type__name(rule.kind));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"required\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27passport__write__json__bool(out, rule.required);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27passport__write__json__bool(out, rule.required);
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(9);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ",\"total\":");
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, rule.total);
@@ -8197,7 +8197,7 @@
         _M0MPB13StringBuilder13write__objectGiE(_string_builder$3, rule.unique);
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"examples\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite36passport__write__string__array__json(out, rule.examples);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite36passport__write__string__array__json(out, rule.examples);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -8207,16 +8207,16 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28passport__write__score__json(out, score) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28passport__write__score__json(out, score) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(8);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\"score\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder, score.score);
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"grade\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, score.grade);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, score.grade);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"risk\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, score.risk);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, score.risk);
     const _string_builder$2 = _M0MPB13StringBuilder21StringBuilder_2einner(19);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, ",\"structure_score\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder$2, score.structure_score);
@@ -8247,15 +8247,15 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$8));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite33csv__data__passport__report__json(passport) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite33csv__data__passport__report__json(passport) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\"name\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, passport.name);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, passport.name);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"fingerprint\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, passport.fingerprint);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, passport.fingerprint);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"dialect\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, passport.dialect);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__json__string(out, passport.dialect);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"summary\":{");
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(7);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\"rows\":");
@@ -8283,7 +8283,7 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$6));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"score\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite28passport__write__score__json(out, passport.score);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite28passport__write__score__json(out, passport.score);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"schema_summary\":{");
     const _string_builder$7 = _M0MPB13StringBuilder21StringBuilder_2einner(19);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$7, "\"required_columns\":");
@@ -8311,26 +8311,26 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$12));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"schema\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite29passport__write__schema__json(out, passport.schema);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite29passport__write__schema__json(out, passport.schema);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"recommendations\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite38passport__write__recommendations__json(out, passport.recommendations);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite38passport__write__recommendations__json(out, passport.recommendations);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25csv__data__passport__json(input, name) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite33csv__data__passport__report__json(_M0FP28clhhhhhh17moon_2dcsv_2dlite19csv__data__passport(input, name));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25csv__data__passport__json(input, name) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite33csv__data__passport__report__json(_M0FP27clhhhhh17moon_2dcsv_2dlite19csv__data__passport(input, name));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__cell__at(row, index) {
-    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__cell__at(row, index) {
+    return index >= 0 && index < row.length ? _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(row, index) : "";
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite20chart__column__index(headers, column) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite20chart__column__index(headers, column) {
     const _bind = 0;
     const _bind$2 = headers.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, i) === column) {
+        if (_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(headers, i) === column) {
           return i;
         }
         _tmp = i + 1 | 0;
@@ -8341,14 +8341,14 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__index__of(values, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__index__of(values, value) {
     const _bind = 0;
     const _bind$2 = values.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i) === value) {
+        if (_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i) === value) {
           return i;
         }
         _tmp = i + 1 | 0;
@@ -8359,7 +8359,7 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__normalize__kind(kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__normalize__kind(kind) {
     const _bind = _M0MPC16string6String9to__lower(kind);
     switch (_bind) {
       case "line": {
@@ -8376,14 +8376,14 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__points__from__arrays(points, labels, values, counts, limit) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__points__from__arrays(points, labels, values, counts, limit) {
     const max_count = labels.length < limit ? labels.length : limit;
     const _bind = 0;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < max_count) {
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(points, new _M0TP28clhhhhhh17moon_2dcsv_2dlite13CsvChartPoint(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(labels, i), _M0MPC15array5Array2atGdE(values, i), _M0MPC15array5Array2atGiE(counts, i)));
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(points, new _M0TP27clhhhhh17moon_2dcsv_2dlite13CsvChartPoint(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(labels, i), _M0MPC15array5Array2atGdE(values, i), _M0MPC15array5Array2atGiE(counts, i)));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -8391,10 +8391,10 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23chart__is__ascii__space(ch) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23chart__is__ascii__space(ch) {
     return ch === 32 || (ch === 9 || (ch === 10 || ch === 13));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__trim__ascii(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__trim__ascii(value) {
     const chars = _M0MPC15array5Array11new_2einnerGcE(0);
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
@@ -8416,7 +8416,7 @@
     const start = new _M0TPB8MutLocalGiE(0);
     const finish = new _M0TPB8MutLocalGiE(chars.length);
     while (true) {
-      if (start.val < finish.val && _M0FP28clhhhhhh17moon_2dcsv_2dlite23chart__is__ascii__space(_M0MPC15array5Array2atGcE(chars, start.val))) {
+      if (start.val < finish.val && _M0FP27clhhhhh17moon_2dcsv_2dlite23chart__is__ascii__space(_M0MPC15array5Array2atGcE(chars, start.val))) {
         start.val = start.val + 1 | 0;
         continue;
       } else {
@@ -8424,7 +8424,7 @@
       }
     }
     while (true) {
-      if (finish.val > start.val && _M0FP28clhhhhhh17moon_2dcsv_2dlite23chart__is__ascii__space(_M0MPC15array5Array2atGcE(chars, finish.val - 1 | 0))) {
+      if (finish.val > start.val && _M0FP27clhhhhh17moon_2dcsv_2dlite23chart__is__ascii__space(_M0MPC15array5Array2atGcE(chars, finish.val - 1 | 0))) {
         finish.val = finish.val - 1 | 0;
         continue;
       } else {
@@ -8447,16 +8447,16 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__count__spec(table, kind, label_column) {
-    const normalized = _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__normalize__kind(kind);
-    const warnings = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    const points = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__count__spec(table, kind, label_column) {
+    const normalized = _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__normalize__kind(kind);
+    const warnings = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const points = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     let label_index;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite20chart__column__index(table.headers, label_column);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite20chart__column__index(table.headers, label_column);
       if (_bind === undefined) {
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, "No chartable columns were found.");
-        return new _M0TP28clhhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, "chart preview", label_column, "count", "count", points, table.rows.length, warnings);
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, "No chartable columns were found.");
+        return new _M0TP27clhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, "chart preview", label_column, "count", "count", points, table.rows.length, warnings);
       } else {
         const _Some = _bind;
         const _label_index = _Some;
@@ -8464,7 +8464,7 @@
         break _L;
       }
     }
-    const labels = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const labels = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const values = _M0MPC15array5Array11new_2einnerGdE(0);
     const counts = _M0MPC15array5Array11new_2einnerGiE(0);
     const _bind = table.rows;
@@ -8474,14 +8474,14 @@
       const _ = _tmp;
       if (_ < _bind$2) {
         const row = _bind[_];
-        const raw_label = _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__cell__at(row, label_index);
-        const label = _M0MPC16string6String9is__empty(_M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__trim__ascii(raw_label)) ? "(blank)" : raw_label;
+        const raw_label = _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__cell__at(row, label_index);
+        const label = _M0MPC16string6String9is__empty(_M0FP27clhhhhh17moon_2dcsv_2dlite18chart__trim__ascii(raw_label)) ? "(blank)" : raw_label;
         let index;
         _L$2: {
           _L$3: {
-            const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__index__of(labels, label);
+            const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__index__of(labels, label);
             if (_bind$3 === undefined) {
-              _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(labels, label);
+              _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(labels, label);
               _M0MPC15array5Array4pushGdE(values, 1);
               _M0MPC15array5Array4pushGiE(counts, 1);
             } else {
@@ -8505,18 +8505,18 @@
         break;
       }
     }
-    _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, "No numeric column was found; generated a category-count chart.");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__points__from__arrays(points, labels, values, counts, 24);
+    _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, "No numeric column was found; generated a category-count chart.");
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__points__from__arrays(points, labels, values, counts, 24);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(9);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "count by ");
     _M0MPB13StringBuilder13write__objectGsE(_string_builder, label_column);
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, _M0MPB13StringBuilder10to__string(_string_builder), label_column, "count", "count", points, 0, warnings);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, _M0MPB13StringBuilder10to__string(_string_builder), label_column, "count", "count", points, 0, warnings);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__pick__label__column(table) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__pick__label__column(table) {
     if (table.headers.length === 0) {
       return "row";
     }
-    const profiles = _M0FP28clhhhhhh17moon_2dcsv_2dlite14profile__table(table);
+    const profiles = _M0FP27clhhhhh17moon_2dcsv_2dlite14profile__table(table);
     const _bind = profiles.length;
     let _tmp = 0;
     while (true) {
@@ -8573,10 +8573,10 @@
         break;
       }
     }
-    return _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, 0);
+    return _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(table.headers, 0);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__pick__value__column(table) {
-    const profiles = _M0FP28clhhhhhh17moon_2dcsv_2dlite14profile__table(table);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__pick__value__column(table) {
+    const profiles = _M0FP27clhhhhh17moon_2dcsv_2dlite14profile__table(table);
     const _bind = profiles.length;
     let _tmp = 0;
     while (true) {
@@ -8608,10 +8608,10 @@
     }
     return undefined;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite20chart__parse__double(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite20chart__parse__double(value) {
     let _try_err;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__trim__ascii(value);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__trim__ascii(value);
       const _bind$2 = _M0FPC28internal7strconv13parse__double(new _M0TPC16string10StringView(_bind, 0, _bind.length));
       let _bind$3;
       if (_bind$2.$tag === 1) {
@@ -8627,22 +8627,22 @@
     }
     return _M0DTPC16option6OptionGdE4None__;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__table__spec(table, kind, label_column, value_column) {
-    const normalized = _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__normalize__kind(kind);
-    const warnings = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
-    const points = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__table__spec(table, kind, label_column, value_column) {
+    const normalized = _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__normalize__kind(kind);
+    const warnings = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const points = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     let label_index;
     let value_index;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite20chart__column__index(table.headers, label_column);
-      const _bind$2 = _M0FP28clhhhhhh17moon_2dcsv_2dlite20chart__column__index(table.headers, value_column);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite20chart__column__index(table.headers, label_column);
+      const _bind$2 = _M0FP27clhhhhh17moon_2dcsv_2dlite20chart__column__index(table.headers, value_column);
       if (_bind === undefined) {
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(30);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Label column `");
         _M0MPB13StringBuilder13write__objectGsE(_string_builder, label_column);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` was not found.");
-        _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, _M0MPB13StringBuilder10to__string(_string_builder));
-        return new _M0TP28clhhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, "chart preview", label_column, value_column, "sum", points, table.rows.length, warnings);
+        _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, _M0MPB13StringBuilder10to__string(_string_builder));
+        return new _M0TP27clhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, "chart preview", label_column, value_column, "sum", points, table.rows.length, warnings);
       } else {
         const _Some = _bind;
         const _label_index = _Some;
@@ -8651,8 +8651,8 @@
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Value column `");
           _M0MPB13StringBuilder13write__objectGsE(_string_builder, value_column);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` was not found.");
-          _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, _M0MPB13StringBuilder10to__string(_string_builder));
-          return new _M0TP28clhhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, "chart preview", label_column, value_column, "sum", points, table.rows.length, warnings);
+          _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, _M0MPB13StringBuilder10to__string(_string_builder));
+          return new _M0TP27clhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, "chart preview", label_column, value_column, "sum", points, table.rows.length, warnings);
         } else {
           const _Some$2 = _bind$2;
           const _value_index = _Some$2;
@@ -8662,7 +8662,7 @@
         }
       }
     }
-    const labels = _M0MPC15array5Array11new_2einnerGRP28clhhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
+    const labels = _M0MPC15array5Array11new_2einnerGRP27clhhhhh17moon_2dcsv_2dlite13CsvDriftIssueE(0);
     const values = _M0MPC15array5Array11new_2einnerGdE(0);
     const counts = _M0MPC15array5Array11new_2einnerGiE(0);
     const skipped_rows = new _M0TPB8MutLocalGiE(0);
@@ -8673,12 +8673,12 @@
       const _ = _tmp;
       if (_ < _bind$2) {
         const row = _bind[_];
-        const raw_label = _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__cell__at(row, label_index);
-        const label = _M0MPC16string6String9is__empty(_M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__trim__ascii(raw_label)) ? "(blank)" : raw_label;
+        const raw_label = _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__cell__at(row, label_index);
+        const label = _M0MPC16string6String9is__empty(_M0FP27clhhhhh17moon_2dcsv_2dlite18chart__trim__ascii(raw_label)) ? "(blank)" : raw_label;
         let value;
         _L$2: {
           _L$3: {
-            const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite20chart__parse__double(_M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__cell__at(row, value_index));
+            const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite20chart__parse__double(_M0FP27clhhhhh17moon_2dcsv_2dlite15chart__cell__at(row, value_index));
             if (_bind$3.$tag === 1) {
               const _Some = _bind$3;
               const _value = _Some._0;
@@ -8692,9 +8692,9 @@
           let index;
           _L$4: {
             _L$5: {
-              const _bind$3 = _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__index__of(labels, label);
+              const _bind$3 = _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__index__of(labels, label);
               if (_bind$3 === undefined) {
-                _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(labels, label);
+                _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(labels, label);
                 _M0MPC15array5Array4pushGdE(values, value);
                 _M0MPC15array5Array4pushGiE(counts, 1);
               } else {
@@ -8725,24 +8725,24 @@
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " row(s) were skipped because `");
       _M0MPB13StringBuilder13write__objectGsE(_string_builder, value_column);
       _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "` was empty or non-numeric.");
-      _M0MPC15array5Array4pushGRP28clhhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, _M0MPB13StringBuilder10to__string(_string_builder));
+      _M0MPC15array5Array4pushGRP27clhhhhh17moon_2dcsv_2dlite24CsvContractUniqueKeyRuleE(warnings, _M0MPB13StringBuilder10to__string(_string_builder));
     }
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__points__from__arrays(points, labels, values, counts, 24);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__points__from__arrays(points, labels, values, counts, 24);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(11);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "sum of ");
     _M0MPB13StringBuilder13write__objectGsE(_string_builder, value_column);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " by ");
     _M0MPB13StringBuilder13write__objectGsE(_string_builder, label_column);
-    return new _M0TP28clhhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, _M0MPB13StringBuilder10to__string(_string_builder), label_column, value_column, "sum", points, skipped_rows.val, warnings);
+    return new _M0TP27clhhhhh17moon_2dcsv_2dlite12CsvChartSpec(normalized, _M0MPB13StringBuilder10to__string(_string_builder), label_column, value_column, "sum", points, skipped_rows.val, warnings);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__auto__spec(table, kind) {
-    const normalized = _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__normalize__kind(kind);
-    const label_column = _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__pick__label__column(table);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17chart__auto__spec(table, kind) {
+    const normalized = _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__normalize__kind(kind);
+    const label_column = _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__pick__label__column(table);
     let value_column;
     _L: {
-      const _bind = _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__pick__value__column(table);
+      const _bind = _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__pick__value__column(table);
       if (_bind === undefined) {
-        return _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__count__spec(table, normalized, label_column);
+        return _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__count__spec(table, normalized, label_column);
       } else {
         const _Some = _bind;
         const _value_column = _Some;
@@ -8750,12 +8750,12 @@
         break _L;
       }
     }
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__table__spec(table, normalized, label_column, value_column);
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__table__spec(table, normalized, label_column, value_column);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__csv__spec__kind(input, kind) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__auto__spec(_M0FP28clhhhhhh17moon_2dcsv_2dlite18parse__table__auto(input), kind);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__csv__spec__kind(input, kind) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite17chart__auto__spec(_M0FP27clhhhhh17moon_2dcsv_2dlite18parse__table__auto(input), kind);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__json__escaped(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__json__escaped(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -8794,12 +8794,12 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, value) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__json__escaped(out, value);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__json__escaped(out, value);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__points__json(out, points) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__points__json(out, points) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = points.length;
@@ -8810,10 +8810,10 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const point = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i);
+        const point = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"label\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, point.label);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, point.label);
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(9);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ",\"value\":");
         _M0MPB13StringBuilder13write__objectGdE(_string_builder, point.value);
@@ -8831,7 +8831,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite33chart__write__string__array__json(out, values) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite33chart__write__string__array__json(out, values) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = values.length;
@@ -8842,7 +8842,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -8851,60 +8851,60 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__spec__json(spec) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17chart__spec__json(spec) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\"kind\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.kind);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.kind);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"title\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.title);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.title);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"label_column\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.label_column);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.label_column);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"value_column\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.value_column);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.value_column);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"measure\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.measure);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__json__string(out, spec.measure);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(16);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ",\"skipped_rows\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder, spec.skipped_rows);
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"points\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__points__json(out, spec.points);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__points__json(out, spec.points);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"warnings\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite33chart__write__string__array__json(out, spec.warnings);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite33chart__write__string__array__json(out, spec.warnings);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__csv__json(input, kind) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__spec__json(_M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__csv__spec__kind(input, kind));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__csv__json(input, kind) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite17chart__spec__json(_M0FP27clhhhhh17moon_2dcsv_2dlite22chart__csv__spec__kind(input, kind));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__abs__double(value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__abs__double(value) {
     return value < 0 ? -value : value;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite12chart__color(index) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite12chart__color(index) {
     const colors = ["#2563eb", "#0f766e", "#b45309", "#b91c1c", "#7c3aed", "#0369a1", "#15803d", "#c2410c", "#be123c", "#4338ca"];
     const _tmp = colors.length;
     if (_tmp === 0) {
       $panic();
     }
-    return _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(colors, index % _tmp | 0);
+    return _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(colors, index % _tmp | 0);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__max__double(left, right) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__max__double(left, right) {
     return left > right ? left : right;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__max__value(points) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17chart__max__value(points) {
     if (points.length === 0) {
       return _M0DTPC16option6OptionGdE4None__;
     }
-    const value = new _M0TPB8MutLocalGdE(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, 0).value);
+    const value = new _M0TPB8MutLocalGdE(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, 0).value);
     const _bind = 1;
     const _bind$2 = points.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i).value > value.val) {
-          value.val = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i).value;
+        if (_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i).value > value.val) {
+          value.val = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i).value;
         }
         _tmp = i + 1 | 0;
         continue;
@@ -8914,19 +8914,19 @@
     }
     return new _M0DTPC16option6OptionGdE4Some(value.val);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__min__value(points) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17chart__min__value(points) {
     if (points.length === 0) {
       return _M0DTPC16option6OptionGdE4None__;
     }
-    const value = new _M0TPB8MutLocalGdE(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, 0).value);
+    const value = new _M0TPB8MutLocalGdE(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, 0).value);
     const _bind = 1;
     const _bind$2 = points.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        if (_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i).value < value.val) {
-          value.val = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i).value;
+        if (_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i).value < value.val) {
+          value.val = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(points, i).value;
         }
         _tmp = i + 1 | 0;
         continue;
@@ -8936,10 +8936,10 @@
     }
     return new _M0DTPC16option6OptionGdE4Some(value.val);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__scale__y(value, min_value, max_value, top, height) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__scale__y(value, min_value, max_value, top, height) {
     return max_value === min_value ? top + height / 2 : top + (max_value - value) / (max_value - min_value) * height;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -8978,42 +8978,42 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, value) {
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, value);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, value) {
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, value);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__axis__labels(out, spec, y_min, y_max, left, top, plot_height) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__axis__labels(out, spec, y_min, y_max, left, top, plot_height) {
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(48);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "<text x=\"28\" y=\"");
     _M0MPB13StringBuilder13write__objectGdE(_string_builder, top + 5);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\" font-size=\"11\" fill=\"#64748b\">");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, String(y_max));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, String(y_max));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</text>");
     const _string_builder$2 = _M0MPB13StringBuilder21StringBuilder_2einner(48);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "<text x=\"28\" y=\"");
     _M0MPB13StringBuilder13write__objectGdE(_string_builder$2, top + plot_height);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "\" font-size=\"11\" fill=\"#64748b\">");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$2));
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, String(y_min));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, String(y_min));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</text>");
     const _string_builder$3 = _M0MPB13StringBuilder21StringBuilder_2einner(49);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "<text x=\"");
     _M0MPB13StringBuilder13write__objectGdE(_string_builder$3, left);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "\" y=\"356\" font-size=\"11\" fill=\"#64748b\">");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, spec.label_column);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, spec.label_column);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</text>");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite24chart__write__empty__svg(out) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite24chart__write__empty__svg(out) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<text x=\"380\" y=\"190\" text-anchor=\"middle\" font-size=\"16\" fill=\"#64748b\">No chartable data</text>");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite24chart__write__svg__start(out, spec) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite24chart__write__svg__start(out, spec) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 380\" role=\"img\" aria-label=\"");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, spec.title);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, spec.title);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\">");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<rect width=\"760\" height=\"380\" fill=\"#ffffff\"/>");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<text x=\"28\" y=\"30\" font-size=\"18\" font-weight=\"700\" fill=\"#172033\">");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, spec.title);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, spec.title);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</text>");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<text x=\"28\" y=\"50\" font-size=\"12\" fill=\"#64748b\">");
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(15);
@@ -9023,10 +9023,10 @@
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " / ");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder, spec.points.length);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, " point(s)");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</text>");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19chart__label__short(value, limit) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19chart__label__short(value, limit) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     const count = new _M0TPB8MutLocalGiE(0);
     const _it = _M0MPC16string6String4iter(value);
@@ -9053,7 +9053,7 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__write__x__label(out, label, x, y) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__write__x__label(out, label, x, y) {
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(67);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "<text x=\"");
     _M0MPB13StringBuilder13write__objectGdE(_string_builder, x);
@@ -9061,14 +9061,14 @@
     _M0MPB13StringBuilder13write__objectGdE(_string_builder, y);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite19chart__label__short(label, 12));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0FP27clhhhhh17moon_2dcsv_2dlite19chart__label__short(label, 12));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</text>");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__bar__svg(spec) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__bar__svg(spec) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite24chart__write__svg__start(out, spec);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite24chart__write__svg__start(out, spec);
     if (spec.points.length === 0) {
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite24chart__write__empty__svg(out);
+      _M0FP27clhhhhh17moon_2dcsv_2dlite24chart__write__empty__svg(out);
       _M0IPB13StringBuilderPB6Logger13write__string(out, "</svg>");
       return _M0MPB13StringBuilder10to__string(out);
     }
@@ -9077,13 +9077,13 @@
     const plot_width = 660;
     const plot_height = 250;
     const bottom = top + plot_height;
-    const min_value = _M0MPC16option6Option10unwrap__orGdE(_M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__min__value(spec.points), 0);
-    const max_value = _M0MPC16option6Option10unwrap__orGdE(_M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__max__value(spec.points), 0);
+    const min_value = _M0MPC16option6Option10unwrap__orGdE(_M0FP27clhhhhh17moon_2dcsv_2dlite17chart__min__value(spec.points), 0);
+    const max_value = _M0MPC16option6Option10unwrap__orGdE(_M0FP27clhhhhh17moon_2dcsv_2dlite17chart__max__value(spec.points), 0);
     const y_min = min_value > 0 ? 0 : min_value;
     const y_max = max_value < 0 ? 0 : max_value;
-    const zero_y = _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__scale__y(0, y_min, y_max, top, plot_height);
+    const zero_y = _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__scale__y(0, y_min, y_max, top, plot_height);
     const slot = plot_width / (spec.points.length + 0);
-    const bar_width = _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__max__double(8, slot * 0.62);
+    const bar_width = _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__max__double(8, slot * 0.62);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(48);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "<line x1=\"");
     _M0MPB13StringBuilder13write__objectGdE(_string_builder, left);
@@ -9106,18 +9106,18 @@
     _M0MPB13StringBuilder13write__objectGdE(_string_builder$2, zero_y);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "\" stroke=\"#94a3b8\"/>");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$2));
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__axis__labels(out, spec, y_min, y_max, left, top, plot_height);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__axis__labels(out, spec, y_min, y_max, left, top, plot_height);
     const _bind = 0;
     const _bind$2 = spec.points.length;
     let _tmp = _bind;
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        const point = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i);
+        const point = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i);
         const x = left + (i + 0) * slot + (slot - bar_width) / 2;
-        const y = _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__scale__y(point.value, y_min, y_max, top, plot_height);
+        const y = _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__scale__y(point.value, y_min, y_max, top, plot_height);
         const rect_y = y < zero_y ? y : zero_y;
-        const height = _M0FP28clhhhhhh17moon_2dcsv_2dlite18chart__abs__double(zero_y - y);
+        const height = _M0FP27clhhhhh17moon_2dcsv_2dlite18chart__abs__double(zero_y - y);
         const _string_builder$3 = _M0MPB13StringBuilder21StringBuilder_2einner(48);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "<rect x=\"");
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$3, x);
@@ -9129,15 +9129,15 @@
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$3, height);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "\" rx=\"4\" fill=\"");
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite12chart__color(i));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite12chart__color(i));
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"><title>");
         const _string_builder$4 = _M0MPB13StringBuilder21StringBuilder_2einner(2);
         _M0MPB13StringBuilder13write__objectGsE(_string_builder$4, point.label);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$4, ": ");
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$4, point.value);
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</title></rect>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__write__x__label(out, point.label, x + bar_width / 2, bottom + 18);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__write__x__label(out, point.label, x + bar_width / 2, bottom + 18);
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -9147,14 +9147,14 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</svg>");
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite14chart__line__x(index, count, left, width) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite14chart__line__x(index, count, left, width) {
     return count <= 1 ? left + width / 2 : left + (index + 0) * width / ((count - 1 | 0) + 0);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__line__svg(spec) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__line__svg(spec) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite24chart__write__svg__start(out, spec);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite24chart__write__svg__start(out, spec);
     if (spec.points.length === 0) {
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite24chart__write__empty__svg(out);
+      _M0FP27clhhhhh17moon_2dcsv_2dlite24chart__write__empty__svg(out);
       _M0IPB13StringBuilderPB6Logger13write__string(out, "</svg>");
       return _M0MPB13StringBuilder10to__string(out);
     }
@@ -9163,8 +9163,8 @@
     const plot_width = 660;
     const plot_height = 250;
     const bottom = top + plot_height;
-    const min_value = _M0MPC16option6Option10unwrap__orGdE(_M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__min__value(spec.points), 0);
-    const max_value = _M0MPC16option6Option10unwrap__orGdE(_M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__max__value(spec.points), 0);
+    const min_value = _M0MPC16option6Option10unwrap__orGdE(_M0FP27clhhhhh17moon_2dcsv_2dlite17chart__min__value(spec.points), 0);
+    const max_value = _M0MPC16option6Option10unwrap__orGdE(_M0FP27clhhhhh17moon_2dcsv_2dlite17chart__max__value(spec.points), 0);
     const y_min = min_value === max_value ? min_value - 1 : min_value;
     const y_max = min_value === max_value ? max_value + 1 : max_value;
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(48);
@@ -9189,7 +9189,7 @@
     _M0MPB13StringBuilder13write__objectGdE(_string_builder$2, bottom);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "\" stroke=\"#94a3b8\"/>");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$2));
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__axis__labels(out, spec, y_min, y_max, left, top, plot_height);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__axis__labels(out, spec, y_min, y_max, left, top, plot_height);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<polyline fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\" points=\"");
     const _bind = 0;
     const _bind$2 = spec.points.length;
@@ -9200,8 +9200,8 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 32);
         }
-        const x = _M0FP28clhhhhhh17moon_2dcsv_2dlite14chart__line__x(i, spec.points.length, left, plot_width);
-        const y = _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__scale__y(_M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i).value, y_min, y_max, top, plot_height);
+        const x = _M0FP27clhhhhh17moon_2dcsv_2dlite14chart__line__x(i, spec.points.length, left, plot_width);
+        const y = _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__scale__y(_M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i).value, y_min, y_max, top, plot_height);
         const _string_builder$3 = _M0MPB13StringBuilder21StringBuilder_2einner(1);
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$3, x);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, ",");
@@ -9220,9 +9220,9 @@
     while (true) {
       const i = _tmp$2;
       if (i < _bind$4) {
-        const point = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i);
-        const x = _M0FP28clhhhhhh17moon_2dcsv_2dlite14chart__line__x(i, spec.points.length, left, plot_width);
-        const y = _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__scale__y(point.value, y_min, y_max, top, plot_height);
+        const point = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i);
+        const x = _M0FP27clhhhhh17moon_2dcsv_2dlite14chart__line__x(i, spec.points.length, left, plot_width);
+        const y = _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__scale__y(point.value, y_min, y_max, top, plot_height);
         const _string_builder$3 = _M0MPB13StringBuilder21StringBuilder_2einner(32);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "<circle cx=\"");
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$3, x);
@@ -9230,15 +9230,15 @@
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$3, y);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "\" r=\"5\" fill=\"");
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite12chart__color(i));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite12chart__color(i));
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"><title>");
         const _string_builder$4 = _M0MPB13StringBuilder21StringBuilder_2einner(2);
         _M0MPB13StringBuilder13write__objectGsE(_string_builder$4, point.label);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$4, ": ");
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$4, point.value);
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</title></circle>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__write__x__label(out, point.label, x, bottom + 18);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__write__x__label(out, point.label, x, bottom + 18);
         _tmp$2 = i + 1 | 0;
         continue;
       } else {
@@ -9248,7 +9248,7 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</svg>");
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__positive__total(points) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__positive__total(points) {
     const total = new _M0TPB8MutLocalGdE(0);
     const _bind = points.length;
     let _tmp = 0;
@@ -9267,12 +9267,12 @@
     }
     return total.val;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__pie__svg(spec) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__pie__svg(spec) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite24chart__write__svg__start(out, spec);
-    const total = _M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__positive__total(spec.points);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite24chart__write__svg__start(out, spec);
+    const total = _M0FP27clhhhhh17moon_2dcsv_2dlite22chart__positive__total(spec.points);
     if (spec.points.length === 0 || total <= 0) {
-      _M0FP28clhhhhhh17moon_2dcsv_2dlite24chart__write__empty__svg(out);
+      _M0FP27clhhhhh17moon_2dcsv_2dlite24chart__write__empty__svg(out);
       _M0IPB13StringBuilderPB6Logger13write__string(out, "</svg>");
       return _M0MPB13StringBuilder10to__string(out);
     }
@@ -9296,7 +9296,7 @@
     while (true) {
       const i = _tmp;
       if (i < _bind$2) {
-        const point = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i);
+        const point = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i);
         if (point.value > 0) {
           const dash = point.value / total * circumference;
           const rest = circumference - dash;
@@ -9309,7 +9309,7 @@
           _M0MPB13StringBuilder13write__objectGdE(_string_builder$2, radius);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "\" fill=\"none\" stroke=\"");
           _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$2));
-          _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite12chart__color(i));
+          _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite12chart__color(i));
           const _string_builder$3 = _M0MPB13StringBuilder21StringBuilder_2einner(96);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "\" stroke-width=\"34\" stroke-dasharray=\"");
           _M0MPB13StringBuilder13write__objectGdE(_string_builder$3, dash);
@@ -9327,7 +9327,7 @@
           _M0MPB13StringBuilder13write__objectGsE(_string_builder$4, point.label);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$4, ": ");
           _M0MPB13StringBuilder13write__objectGdE(_string_builder$4, point.value);
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
+          _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
           _M0IPB13StringBuilderPB6Logger13write__string(out, "</title></circle>");
           offset.val = offset.val + dash;
         }
@@ -9351,7 +9351,7 @@
     _M0MPB13StringBuilder13write__objectGdE(_string_builder$3, cy - 4);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$3, "\" text-anchor=\"middle\" font-size=\"20\" font-weight=\"700\" fill=\"#172033\">");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, spec.measure);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, spec.measure);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</text>");
     const _string_builder$4 = _M0MPB13StringBuilder21StringBuilder_2einner(80);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$4, "<text x=\"");
@@ -9370,7 +9370,7 @@
     while (true) {
       const i = _tmp$2;
       if (i < _bind$4) {
-        const point = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i);
+        const point = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(spec.points, i);
         const _string_builder$5 = _M0MPB13StringBuilder21StringBuilder_2einner(52);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$5, "<rect x=\"");
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$5, legend_x);
@@ -9378,7 +9378,7 @@
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$5, legend_y.val - 10);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$5, "\" width=\"12\" height=\"12\" rx=\"3\" fill=\"");
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$5));
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite12chart__color(i));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite12chart__color(i));
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"/>");
         const _string_builder$6 = _M0MPB13StringBuilder21StringBuilder_2einner(46);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$6, "<text x=\"");
@@ -9391,7 +9391,7 @@
         _M0MPB13StringBuilder13write__objectGsE(_string_builder$7, point.label);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$7, ": ");
         _M0MPB13StringBuilder13write__objectGdE(_string_builder$7, point.value);
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder$7));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26chart__write__xml__escaped(out, _M0MPB13StringBuilder10to__string(_string_builder$7));
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</text>");
         legend_y.val = legend_y.val + 22;
         _tmp$2 = i + 1 | 0;
@@ -9403,33 +9403,33 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</svg>");
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__spec__svg(spec) {
-    return spec.kind === "line" ? _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__line__svg(spec) : spec.kind === "pie" ? _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__pie__svg(spec) : _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__bar__svg(spec);
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__spec__svg(spec) {
+    return spec.kind === "line" ? _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__line__svg(spec) : spec.kind === "pie" ? _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__pie__svg(spec) : _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__bar__svg(spec);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__csv__svg(input, kind) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__spec__svg(_M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__csv__spec__kind(input, kind));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__csv__svg(input, kind) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__spec__svg(_M0FP27clhhhhh17moon_2dcsv_2dlite22chart__csv__spec__kind(input, kind));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__spec__html(spec) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17chart__spec__html(spec) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<!doctype html>\n<html>\n<head>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <meta charset=\"utf-8\">\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <title>");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.title);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.title);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</title>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <style>");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "body{font-family:Arial,sans-serif;margin:24px;color:#172033;line-height:1.45}svg{max-width:100%;height:auto;border:1px solid #d7dee8;border-radius:8px;background:#fff}table{border-collapse:collapse;margin-top:18px}th,td{border:1px solid #d7dee8;padding:6px 8px}th{background:#f4f6fa;text-align:left}.warn{color:#9a5b00}");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</style>\n</head>\n<body>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h1>");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.title);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.title);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</h1>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <p>Kind: ");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.kind);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.kind);
     _M0IPB13StringBuilderPB6Logger13write__string(out, " &middot; Label: ");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.label_column);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.label_column);
     _M0IPB13StringBuilderPB6Logger13write__string(out, " &middot; Value: ");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.value_column);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.value_column);
     _M0IPB13StringBuilderPB6Logger13write__string(out, " &middot; Measure: ");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.measure);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, spec.measure);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</p>\n");
     const _bind = spec.warnings;
     const _bind$2 = _bind.length;
@@ -9439,7 +9439,7 @@
       if (_ < _bind$2) {
         const warning = _bind[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "  <p class=\"warn\">");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, warning);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, warning);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</p>\n");
         _tmp = _ + 1 | 0;
         continue;
@@ -9447,7 +9447,7 @@
         break;
       }
     }
-    _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__spec__svg(spec));
+    _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__spec__svg(spec));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\n  <table>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><th>Label</th><th>Value</th><th>Rows</th></tr>\n");
     const _bind$3 = spec.points;
@@ -9458,7 +9458,7 @@
       if (_ < _bind$4) {
         const point = _bind$3[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><td>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, point.label);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27chart__write__html__escaped(out, point.label);
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(29);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "</td><td>");
         _M0MPB13StringBuilder13write__objectGdE(_string_builder, point.value);
@@ -9476,13 +9476,13 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</body>\n</html>");
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__csv__html(input, kind) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite17chart__spec__html(_M0FP28clhhhhhh17moon_2dcsv_2dlite22chart__csv__spec__kind(input, kind));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__csv__html(input, kind) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite17chart__spec__html(_M0FP27clhhhhh17moon_2dcsv_2dlite22chart__csv__spec__kind(input, kind));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite17audit__report__ok(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite17audit__report__ok(report) {
     return report.parse_issues.length === 0 && report.quality_issues.length === 0;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__write__optional__double(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__write__optional__double(out, value) {
     let number;
     _L: {
       if (value.$tag === 1) {
@@ -9496,7 +9496,7 @@
     }
     _M0IPB13StringBuilderPB6Logger13write__string(out, String(number));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite23audit__delimiter__label(delimiter) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite23audit__delimiter__label(delimiter) {
     if (delimiter === 9) {
       return "\\t";
     } else {
@@ -9505,7 +9505,7 @@
       return _M0MPB13StringBuilder10to__string(out);
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -9544,7 +9544,7 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite33audit__write__parse__issues__html(out, issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite33audit__write__parse__issues__html(out, issues) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h2>Parse Issues</h2>\n");
     if (issues.length === 0) {
       _M0IPB13StringBuilderPB6Logger13write__string(out, "  <p class=\"ok\">No parse issues.</p>\n");
@@ -9565,7 +9565,7 @@
           _M0MPB13StringBuilder13write__objectGiE(_string_builder, issue.column);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "</td><td>");
           _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, issue.message);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, issue.message);
           _M0IPB13StringBuilderPB6Logger13write__string(out, "</td></tr>\n");
           _tmp = _ + 1 | 0;
           continue;
@@ -9577,7 +9577,7 @@
       return;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__profile__html(out, profiles) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__profile__html(out, profiles) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h2>Column Profile</h2>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <table>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><th>Column</th><th>Type</th><th>Empty</th><th>Non-empty</th><th>Unique</th><th>Min</th><th>Max</th><th>Average</th></tr>\n");
@@ -9588,9 +9588,9 @@
       if (_ < _bind) {
         const profile = profiles[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><td>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, profile.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, profile.name);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</td><td>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite20inferred__type__name(profile.inferred));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP27clhhhhh17moon_2dcsv_2dlite20inferred__type__name(profile.inferred));
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(36);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "</td><td>");
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, profile.empty);
@@ -9600,11 +9600,11 @@
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, profile.unique);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "</td><td>");
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__write__optional__double(out, profile.min);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__write__optional__double(out, profile.min);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</td><td>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__write__optional__double(out, profile.max);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__write__optional__double(out, profile.max);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</td><td>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__write__optional__double(out, profile.average);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__write__optional__double(out, profile.average);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</td></tr>\n");
         _tmp = _ + 1 | 0;
         continue;
@@ -9614,7 +9614,7 @@
     }
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  </table>\n");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite35audit__write__quality__issues__html(out, issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite35audit__write__quality__issues__html(out, issues) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h2>Quality Issues</h2>\n");
     if (issues.length === 0) {
       _M0IPB13StringBuilderPB6Logger13write__string(out, "  <p class=\"ok\">No table quality issues.</p>\n");
@@ -9629,15 +9629,15 @@
         if (_ < _bind) {
           const issue = issues[_];
           _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><td>");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, issue.severity);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, issue.severity);
           const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(18);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "</td><td>");
           _M0MPB13StringBuilder13write__objectGiE(_string_builder, issue.row);
           _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "</td><td>");
           _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, issue.column);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, issue.column);
           _M0IPB13StringBuilderPB6Logger13write__string(out, "</td><td>");
-          _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, issue.message);
+          _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, issue.message);
           _M0IPB13StringBuilderPB6Logger13write__string(out, "</td></tr>\n");
           _tmp = _ + 1 | 0;
           continue;
@@ -9649,7 +9649,7 @@
       return;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite35audit__write__recommendations__html(out, recommendations) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite35audit__write__recommendations__html(out, recommendations) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h2>Recommendations</h2>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <ul>\n");
     const _bind = recommendations.length;
@@ -9659,9 +9659,9 @@
       if (_ < _bind) {
         const item = recommendations[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "    <li><strong>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, item.severity);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, item.severity);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ":</strong> ");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, item.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, item.message);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</li>\n");
         _tmp = _ + 1 | 0;
         continue;
@@ -9671,7 +9671,7 @@
     }
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  </ul>\n");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__column__type__name(kind) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__column__type__name(kind) {
     switch (kind) {
       case 0: {
         return "text";
@@ -9687,7 +9687,7 @@
       }
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite11audit__join(values, separator) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite11audit__join(values, separator) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     const _bind = 0;
     const _bind$2 = values.length;
@@ -9698,7 +9698,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger13write__string(out, separator);
         }
-        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
+        _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -9707,7 +9707,7 @@
     }
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__schema__html(out, rules) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__schema__html(out, rules) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h2>Inferred Schema</h2>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <table>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><th>Column</th><th>Type</th><th>Required</th><th>Empty</th><th>Unique</th><th>Examples</th></tr>\n");
@@ -9718,9 +9718,9 @@
       if (_ < _bind) {
         const rule = rules[_];
         _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><td>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, rule.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, rule.name);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</td><td>");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__column__type__name(rule.kind));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__column__type__name(rule.kind));
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</td><td>");
         _M0IPB13StringBuilderPB6Logger13write__string(out, rule.required ? "yes" : "no");
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(28);
@@ -9732,7 +9732,7 @@
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, rule.unique);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "</td><td>");
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite11audit__join(rule.examples, ", "));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP27clhhhhh17moon_2dcsv_2dlite11audit__join(rule.examples, ", "));
         _M0IPB13StringBuilderPB6Logger13write__string(out, "</td></tr>\n");
         _tmp = _ + 1 | 0;
         continue;
@@ -9742,7 +9742,7 @@
     }
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  </table>\n");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__write__score__html(out, score) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__write__score__html(out, score) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h2>Quality Score</h2>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <table>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><th>Metric</th><th>Value</th></tr>\n");
@@ -9754,7 +9754,7 @@
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ")</td></tr>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "    <tr><td>Risk</td><td>");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, score.risk);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, score.risk);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</td></tr>\n");
     const _string_builder$2 = _M0MPB13StringBuilder21StringBuilder_2einner(41);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "    <tr><td>Structure</td><td>");
@@ -9785,7 +9785,7 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$6));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  </table>\n");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__report__html(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__report__html(report) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "<!doctype html>\n<html>\n<head>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <meta charset=\"utf-8\">\n");
@@ -9796,9 +9796,9 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h1>CSV Audit Report</h1>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <div class=\"meta\">\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "    <p><strong>Status:</strong> ");
-    _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite17audit__report__ok(report) ? "ok" : "issues");
+    _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite17audit__report__ok(report) ? "ok" : "issues");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "</p>\n");
-    const score = _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__quality__score(report);
+    const score = _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__quality__score(report);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(80);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "    <p><strong>Quality score:</strong> ");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder, score.score);
@@ -9809,9 +9809,9 @@
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "</p>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "    <p><strong>Dialect:</strong> ");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite13dialect__name(report.dialect));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP27clhhhhh17moon_2dcsv_2dlite13dialect__name(report.dialect));
     _M0IPB13StringBuilderPB6Logger13write__string(out, " (");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite23audit__delimiter__label(report.dialect.delimiter));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__html__escaped(out, _M0FP27clhhhhh17moon_2dcsv_2dlite23audit__delimiter__label(report.dialect.delimiter));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ")</p>\n");
     const _string_builder$2 = _M0MPB13StringBuilder21StringBuilder_2einner(155);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "    <p><strong>Rows:</strong> ");
@@ -9825,25 +9825,25 @@
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, "</p>\n");
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$2));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  </div>\n");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__write__score__html(out, score);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite33audit__write__parse__issues__html(out, report.parse_issues);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite35audit__write__quality__issues__html(out, report.quality_issues);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__schema__html(out, report.inferred_schema);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__write__score__html(out, score);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite33audit__write__parse__issues__html(out, report.parse_issues);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite35audit__write__quality__issues__html(out, report.quality_issues);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__schema__html(out, report.inferred_schema);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "  <h2>Missing Values</h2>\n");
-    _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite15table__to__html(report.missing_summary));
+    _M0IPB13StringBuilderPB6Logger13write__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite15table__to__html(report.missing_summary));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 10);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__profile__html(out, report.profiles);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite35audit__write__recommendations__html(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite22audit__recommendations(report));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__profile__html(out, report.profiles);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite35audit__write__recommendations__html(out, _M0FP27clhhhhh17moon_2dcsv_2dlite22audit__recommendations(report));
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\n</body>\n</html>");
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite34audit__delimiter__label__for__json(newline) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite34audit__delimiter__label__for__json(newline) {
     return newline === "\n" ? "\\n" : newline === "\r\n" ? "\\r\\n" : newline;
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite24audit__write__json__bool(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite24audit__write__json__bool(out, value) {
     _M0IPB13StringBuilderPB6Logger13write__string(out, value ? "true" : "false");
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__json__escaped(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__json__escaped(out, value) {
     const _it = _M0MPC16string6String4iter(value);
     while (true) {
       let ch;
@@ -9882,24 +9882,24 @@
       continue;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, value) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__json__escaped(out, value);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__json__escaped(out, value);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 34);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__dialect__json(out, dialect) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__dialect__json(out, dialect) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\"name\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite13dialect__name(dialect));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite13dialect__name(dialect));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"delimiter\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite23audit__delimiter__label(dialect.delimiter));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite23audit__delimiter__label(dialect.delimiter));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"newline\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite34audit__delimiter__label__for__json(dialect.newline));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite34audit__delimiter__label__for__json(dialect.newline));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"skip_empty_lines\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite24audit__write__json__bool(out, dialect.skip_empty_lines);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite24audit__write__json__bool(out, dialect.skip_empty_lines);
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite31audit__write__json__int__string(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite31audit__write__json__int__string(out, value) {
     if (_M0MPC16string6String9is__empty(value)) {
       _M0IPB13StringBuilderPB6Logger13write__string(out, "0");
       return;
@@ -9908,7 +9908,7 @@
       return;
     }
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__missing__json(out, table) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__missing__json(out, table) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = table.rows.length;
@@ -9922,11 +9922,11 @@
         const row = _M0MPC15array5Array2atGRPB5ArrayGsEE(table.rows, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, 0));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, 0));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"missing\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite31audit__write__json__int__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, 1));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite31audit__write__json__int__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, 1));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"present\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite31audit__write__json__int__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, 2));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite31audit__write__json__int__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite15audit__cell__at(row, 2));
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -9936,7 +9936,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite33audit__write__parse__issues__json(out, issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite33audit__write__parse__issues__json(out, issues) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = issues.length;
@@ -9947,7 +9947,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const issue = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
+        const issue = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(7);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\"line\":");
@@ -9958,7 +9958,7 @@
         _M0MPB13StringBuilder13write__objectGiE(_string_builder$2, issue.column);
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$2));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"message\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, issue.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, issue.message);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -9968,7 +9968,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite36audit__write__optional__double__json(out, value) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite36audit__write__optional__double__json(out, value) {
     let number;
     _L: {
       if (value.$tag === 1) {
@@ -9983,7 +9983,7 @@
     }
     _M0IPB13StringBuilderPB6Logger13write__string(out, String(number));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite28audit__write__profiles__json(out, profiles) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite28audit__write__profiles__json(out, profiles) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = profiles.length;
@@ -9994,12 +9994,12 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const profile = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(profiles, i);
+        const profile = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(profiles, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, profile.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, profile.name);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"type\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite20inferred__type__name(profile.inferred));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite20inferred__type__name(profile.inferred));
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(9);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ",\"total\":");
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, profile.total);
@@ -10017,11 +10017,11 @@
         _M0MPB13StringBuilder13write__objectGiE(_string_builder$4, profile.unique);
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"min\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite36audit__write__optional__double__json(out, profile.min);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite36audit__write__optional__double__json(out, profile.min);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"max\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite36audit__write__optional__double__json(out, profile.max);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite36audit__write__optional__double__json(out, profile.max);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"average\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite36audit__write__optional__double__json(out, profile.average);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite36audit__write__optional__double__json(out, profile.average);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -10031,7 +10031,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite35audit__write__quality__issues__json(out, issues) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite35audit__write__quality__issues__json(out, issues) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = issues.length;
@@ -10042,18 +10042,18 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const issue = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
+        const issue = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(issues, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"severity\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, issue.severity);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, issue.severity);
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(7);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ",\"row\":");
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, issue.row);
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, issue.column);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, issue.column);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"message\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, issue.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, issue.message);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -10063,7 +10063,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite35audit__write__recommendations__json(out, recommendations) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite35audit__write__recommendations__json(out, recommendations) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = recommendations.length;
@@ -10074,12 +10074,12 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const item = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(recommendations, i);
+        const item = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(recommendations, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"severity\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, item.severity);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, item.severity);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"message\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, item.message);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, item.message);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -10089,7 +10089,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite33audit__write__string__array__json(out, values) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite33audit__write__string__array__json(out, values) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = values.length;
@@ -10100,7 +10100,7 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(values, i));
         _tmp = i + 1 | 0;
         continue;
       } else {
@@ -10109,7 +10109,7 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__schema__json(out, rules) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__schema__json(out, rules) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 91);
     const _bind = 0;
     const _bind$2 = rules.length;
@@ -10120,14 +10120,14 @@
         if (i > 0) {
           _M0IPB13StringBuilderPB6Logger11write__char(out, 44);
         }
-        const rule = _M0MPC15array5Array2atGRP28clhhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(rules, i);
+        const rule = _M0MPC15array5Array2atGRP27clhhhhh17moon_2dcsv_2dlite13CsvParseErrorE(rules, i);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
         _M0IPB13StringBuilderPB6Logger13write__string(out, "\"column\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, rule.name);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, rule.name);
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"type\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__column__type__name(rule.kind));
+        _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__column__type__name(rule.kind));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"required\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite24audit__write__json__bool(out, rule.required);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite24audit__write__json__bool(out, rule.required);
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(9);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ",\"total\":");
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, rule.total);
@@ -10141,7 +10141,7 @@
         _M0MPB13StringBuilder13write__objectGiE(_string_builder$3, rule.unique);
         _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$3));
         _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"examples\":");
-        _M0FP28clhhhhhh17moon_2dcsv_2dlite33audit__write__string__array__json(out, rule.examples);
+        _M0FP27clhhhhh17moon_2dcsv_2dlite33audit__write__string__array__json(out, rule.examples);
         _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
         _tmp = i + 1 | 0;
         continue;
@@ -10151,16 +10151,16 @@
     }
     _M0IPB13StringBuilderPB6Logger11write__char(out, 93);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__write__score__json(out, score) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__write__score__json(out, score) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(8);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\"score\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder, score.score);
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"grade\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, score.grade);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, score.grade);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"risk\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, score.risk);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, score.risk);
     const _string_builder$2 = _M0MPB13StringBuilder21StringBuilder_2einner(19);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder$2, ",\"structure_score\":");
     _M0MPB13StringBuilder13write__objectGiE(_string_builder$2, score.structure_score);
@@ -10191,7 +10191,7 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$8));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__summary__json(out, report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__summary__json(out, report) {
     _M0IPB13StringBuilderPB6Logger11write__char(out, 123);
     const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(7);
     _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "\"rows\":");
@@ -10211,98 +10211,98 @@
     _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(_string_builder$4));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__report__json(report) {
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__report__json(report) {
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     _M0IPB13StringBuilderPB6Logger13write__string(out, "{");
     _M0IPB13StringBuilderPB6Logger13write__string(out, "\"status\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite17audit__report__ok(report) ? "ok" : "issues");
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__json__string(out, _M0FP27clhhhhh17moon_2dcsv_2dlite17audit__report__ok(report) ? "ok" : "issues");
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"dialect\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__dialect__json(out, report.dialect);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__dialect__json(out, report.dialect);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"summary\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__summary__json(out, report);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__summary__json(out, report);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"score\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite25audit__write__score__json(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite21audit__quality__score(report));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite25audit__write__score__json(out, _M0FP27clhhhhh17moon_2dcsv_2dlite21audit__quality__score(report));
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"parse_issues\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite33audit__write__parse__issues__json(out, report.parse_issues);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite33audit__write__parse__issues__json(out, report.parse_issues);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"quality_issues\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite35audit__write__quality__issues__json(out, report.quality_issues);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite35audit__write__quality__issues__json(out, report.quality_issues);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"schema\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__write__schema__json(out, report.inferred_schema);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__write__schema__json(out, report.inferred_schema);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"missing\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite27audit__write__missing__json(out, report.missing_summary);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite27audit__write__missing__json(out, report.missing_summary);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"profiles\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite28audit__write__profiles__json(out, report.profiles);
+    _M0FP27clhhhhh17moon_2dcsv_2dlite28audit__write__profiles__json(out, report.profiles);
     _M0IPB13StringBuilderPB6Logger13write__string(out, ",\"recommendations\":");
-    _M0FP28clhhhhhh17moon_2dcsv_2dlite35audit__write__recommendations__json(out, _M0FP28clhhhhhh17moon_2dcsv_2dlite22audit__recommendations(report));
+    _M0FP27clhhhhh17moon_2dcsv_2dlite35audit__write__recommendations__json(out, _M0FP27clhhhhh17moon_2dcsv_2dlite22audit__recommendations(report));
     _M0IPB13StringBuilderPB6Logger11write__char(out, 125);
     return _M0MPB13StringBuilder10to__string(out);
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16audit__csv__html(input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__report__html(_M0FP28clhhhhhh17moon_2dcsv_2dlite10audit__csv(input));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16audit__csv__html(input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__report__html(_M0FP27clhhhhh17moon_2dcsv_2dlite10audit__csv(input));
   }
-  function _M0FP28clhhhhhh17moon_2dcsv_2dlite16audit__csv__json(input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite19audit__report__json(_M0FP28clhhhhhh17moon_2dcsv_2dlite10audit__csv(input));
+  function _M0FP27clhhhhh17moon_2dcsv_2dlite16audit__csv__json(input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite19audit__report__json(_M0FP27clhhhhh17moon_2dcsv_2dlite10audit__csv(input));
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web12engine__name() {
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web12engine__name() {
     return "MoonBit JS backend";
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web16audit__csv__json(input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite16audit__csv__json(input);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web16audit__csv__json(input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite16audit__csv__json(input);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web16audit__csv__html(input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite16audit__csv__html(input);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web16audit__csv__html(input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite16audit__csv__html(input);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web29csv__data__passport__markdown(input, name) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite29csv__data__passport__markdown(input, name);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web29csv__data__passport__markdown(input, name) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite29csv__data__passport__markdown(input, name);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web25csv__data__passport__json(input, name) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite25csv__data__passport__json(input, name);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web25csv__data__passport__json(input, name) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite25csv__data__passport__json(input, name);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web18audit__drift__json(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite18audit__drift__json(baseline_input, candidate_input);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web18audit__drift__json(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite18audit__drift__json(baseline_input, candidate_input);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web22audit__drift__markdown(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite22audit__drift__markdown(baseline_input, candidate_input);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web22audit__drift__markdown(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite22audit__drift__markdown(baseline_input, candidate_input);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web26audit__quality__gate__json(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite26audit__quality__gate__json(baseline_input, candidate_input);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web26audit__quality__gate__json(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite26audit__quality__gate__json(baseline_input, candidate_input);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web30audit__quality__gate__markdown(baseline_input, candidate_input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__quality__gate__markdown(baseline_input, candidate_input);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web30audit__quality__gate__markdown(baseline_input, candidate_input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__quality__gate__markdown(baseline_input, candidate_input);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web29quality__contract__infer__csv(input) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite29quality__contract__infer__csv(input);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web29quality__contract__infer__csv(input) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite29quality__contract__infer__csv(input);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web30audit__quality__contract__json(input, contract_csv) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite30audit__quality__contract__json(input, contract_csv);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web30audit__quality__contract__json(input, contract_csv) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite30audit__quality__contract__json(input, contract_csv);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web34audit__quality__contract__markdown(input, contract_csv) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite34audit__quality__contract__markdown(input, contract_csv);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web34audit__quality__contract__markdown(input, contract_csv) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite34audit__quality__contract__markdown(input, contract_csv);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web16chart__csv__json(input, kind) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__csv__json(input, kind);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web16chart__csv__json(input, kind) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__csv__json(input, kind);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web15chart__csv__svg(input, kind) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite15chart__csv__svg(input, kind);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web15chart__csv__svg(input, kind) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite15chart__csv__svg(input, kind);
   }
-  function _M0FP38clhhhhhh17moon_2dcsv_2dlite3web16chart__csv__html(input, kind) {
-    return _M0FP28clhhhhhh17moon_2dcsv_2dlite16chart__csv__html(input, kind);
+  function _M0FP37clhhhhh17moon_2dcsv_2dlite3web16chart__csv__html(input, kind) {
+    return _M0FP27clhhhhh17moon_2dcsv_2dlite16chart__csv__html(input, kind);
   }
-  globalThis.engineName = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web12engine__name;
-  globalThis.auditCsvJson = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web16audit__csv__json;
-  globalThis.auditCsvHtml = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web16audit__csv__html;
-  globalThis.csvDataPassportMarkdown = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web29csv__data__passport__markdown;
-  globalThis.csvDataPassportJson = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web25csv__data__passport__json;
-  globalThis.auditDriftJson = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web18audit__drift__json;
-  globalThis.auditDriftMarkdown = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web22audit__drift__markdown;
-  globalThis.auditQualityGateJson = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web26audit__quality__gate__json;
-  globalThis.auditQualityGateMarkdown = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web30audit__quality__gate__markdown;
-  globalThis.qualityContractInferCsv = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web29quality__contract__infer__csv;
-  globalThis.auditQualityContractJson = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web30audit__quality__contract__json;
-  globalThis.auditQualityContractMarkdown = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web34audit__quality__contract__markdown;
-  globalThis.chartCsvJson = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web16chart__csv__json;
-  globalThis.chartCsvSvg = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web15chart__csv__svg;
-  globalThis.chartCsvHtml = _M0FP38clhhhhhh17moon_2dcsv_2dlite3web16chart__csv__html;
+  globalThis.engineName = _M0FP37clhhhhh17moon_2dcsv_2dlite3web12engine__name;
+  globalThis.auditCsvJson = _M0FP37clhhhhh17moon_2dcsv_2dlite3web16audit__csv__json;
+  globalThis.auditCsvHtml = _M0FP37clhhhhh17moon_2dcsv_2dlite3web16audit__csv__html;
+  globalThis.csvDataPassportMarkdown = _M0FP37clhhhhh17moon_2dcsv_2dlite3web29csv__data__passport__markdown;
+  globalThis.csvDataPassportJson = _M0FP37clhhhhh17moon_2dcsv_2dlite3web25csv__data__passport__json;
+  globalThis.auditDriftJson = _M0FP37clhhhhh17moon_2dcsv_2dlite3web18audit__drift__json;
+  globalThis.auditDriftMarkdown = _M0FP37clhhhhh17moon_2dcsv_2dlite3web22audit__drift__markdown;
+  globalThis.auditQualityGateJson = _M0FP37clhhhhh17moon_2dcsv_2dlite3web26audit__quality__gate__json;
+  globalThis.auditQualityGateMarkdown = _M0FP37clhhhhh17moon_2dcsv_2dlite3web30audit__quality__gate__markdown;
+  globalThis.qualityContractInferCsv = _M0FP37clhhhhh17moon_2dcsv_2dlite3web29quality__contract__infer__csv;
+  globalThis.auditQualityContractJson = _M0FP37clhhhhh17moon_2dcsv_2dlite3web30audit__quality__contract__json;
+  globalThis.auditQualityContractMarkdown = _M0FP37clhhhhh17moon_2dcsv_2dlite3web34audit__quality__contract__markdown;
+  globalThis.chartCsvJson = _M0FP37clhhhhh17moon_2dcsv_2dlite3web16chart__csv__json;
+  globalThis.chartCsvSvg = _M0FP37clhhhhh17moon_2dcsv_2dlite3web15chart__csv__svg;
+  globalThis.chartCsvHtml = _M0FP37clhhhhh17moon_2dcsv_2dlite3web16chart__csv__html;
 })();
 
 

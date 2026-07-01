@@ -35,7 +35,7 @@ Confirm `moon.mod` has the correct owner, repository, license, version, and
 description:
 
 ```text
-name = "clhhhhhh/moon-csv-lite"
+name = "clhhhhh/moon-csv-lite"
 version = "0.1.0"
 repository = "https://github.com/clhhhhhh/moon-csv-lite"
 license = "MIT"
@@ -85,6 +85,12 @@ moon publish --dry-run
 moon publish
 ```
 
+The `0.1.0` package is published at:
+
+```text
+https://mooncakes.io/docs/clhhhhh/moon-csv-lite
+```
+
 If `moon publish --dry-run` reports missing credentials, run `moon login` again
 and retry.
 
@@ -93,7 +99,8 @@ and retry.
 After publishing:
 
 - Add the GitHub repository URL to the online submission form.
-- Add the mooncakes.io package URL to the online submission form.
+- Add the mooncakes.io package URL to the online submission form:
+  `https://mooncakes.io/docs/clhhhhh/moon-csv-lite`.
 - Update `docs/osc2026-application.md` and regenerate
   `docs/osc2026-application.pdf` if the PDF needs the final package URL.
 - Confirm README, API guide, fixture docs, roadmap, license, CI, and examples

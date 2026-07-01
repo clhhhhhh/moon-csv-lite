@@ -322,7 +322,7 @@ table_missing_summary(table : CsvTable) -> CsvTable
 
 ```mbt
 import {
-  "clhhhhhh/moon-csv-lite" @csv,
+  "clhhhhh/moon-csv-lite" @csv,
 }
 
 fn main {
@@ -749,8 +749,13 @@ On Windows, the same verification flow is available as:
 
 ## Publishing
 
-The package is designed to be published to mooncakes.io with MoonBit's built-in
-package manager:
+The package is published on mooncakes.io:
+
+```text
+https://mooncakes.io/docs/clhhhhh/moon-csv-lite
+```
+
+To publish a new version with MoonBit's built-in package manager:
 
 ```powershell
 moon login

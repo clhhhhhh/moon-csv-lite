@@ -1,5 +1,5 @@
 import {
-  "clhhhhhh/moon-csv-lite" @csv,
+  "clhhhhh/moon-csv-lite" @csv,
   "moonbitlang/core/string",
 }
 

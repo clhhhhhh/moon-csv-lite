@@ -96,13 +96,13 @@ moon login
 moon whoami
 ```
 
-2. Register or log in with the mooncakes username `clhhhhhh` if possible. The module name is already set to:
+2. Register or log in with the mooncakes username `clhhhhh`. The module name is already set to:
 
 ```text
-name = "clhhhhhh/moon-csv-lite"
+name = "clhhhhh/moon-csv-lite"
 ```
 
-If `clhhhhhh` is unavailable on mooncakes.io, change the owner part in `moon.mod` before publishing.
+If the Mooncakes account changes, update the owner part in `moon.mod` before publishing.
 
 3. Run publish checks:
 
@@ -111,7 +111,11 @@ moon publish --dry-run
 moon publish
 ```
 
-4. Add the published mooncakes.io package URL to the application PDF or the online submission form.
+4. Use this published mooncakes.io package URL in the application PDF or online submission form:
+
+```text
+https://mooncakes.io/docs/clhhhhh/moon-csv-lite
+```
 
 ## Base Reward Readiness
 
@@ -119,7 +123,7 @@ Before submitting for the base support reward, confirm these items are done:
 
 - Public GitHub repository is reachable.
 - CI has passed on GitHub Actions.
-- Package has been published or at least passes `moon publish --dry-run` after login.
+- Package has been published to mooncakes.io.
 - README includes usage, features, examples, development commands, publishing notes, and license.
 - Application material includes repository URL, Mooncakes package URL, test count, examples, and license.
 - Local verification output is saved or can be reproduced with `.\scripts\verify.ps1`.

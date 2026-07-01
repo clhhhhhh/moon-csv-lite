@@ -9,7 +9,7 @@
 //   "moonbitlang/x@0.4.6",
 // }
 
-name = "clhhhhhh/moon-csv-lite"
+name = "clhhhhh/moon-csv-lite"
 
 version = "0.1.0"
 

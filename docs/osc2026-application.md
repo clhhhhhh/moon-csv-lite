@@ -7,6 +7,7 @@
 - 联系方式：18777223904@163.com
 - GitHub 仓库链接：https://github.com/clhhhhhh/moon-csv-lite
 - Gitlink 仓库链接：https://www.gitlink.org.cn/clhhhhh/moon-csv-lite
+- Mooncakes 包链接：https://mooncakes.io/docs/clhhhhh/moon-csv-lite
 - 项目方向：应用生态 / 工程基础设施 / 面向特定格式的数据质量工具
 - 是否为移植项目：否，原创项目；参考成熟 CSV、数据质量和 CI 数据校验工具的通用设计思路
 - 开源许可证：MIT License
@@ -46,4 +47,4 @@ moon run cmd/csvlite -- contract-json "order_id,region,amount\nSO-1,east,10\nSO-
 .\scripts\verify.ps1
 ```
 
-当前已完成 GitHub 与 Gitlink 双仓库同步，仓库历史整理为 17 个真实有效提交，每个提交对应明确功能、测试、文档或工程化改进。后续将按验收要求完成 mooncakes.io 发布与版本 Release。
+当前已完成 GitHub 与 Gitlink 双仓库同步、mooncakes.io 发布，仓库历史整理为 19 个真实有效提交，每个提交对应明确功能、测试、文档或工程化改进。后续将按验收要求补充版本 Release。
